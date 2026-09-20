@@ -1,0 +1,23 @@
+#VRML V2.0 utf8
+# Dimensions in mm; KiCad model scale is 1/2.54. Mechanical review envelope.
+# PCB XY is manufacturer 25.4 x 34.3. Z assumes minimum 8.51mm socket seating.
+# USB 11mm receptacle / 14 x 8mm cable boot are declared conservative envelopes,
+# not a vendor STEP model or a qualification of male-header insertion depth.
+Transform { translation 2.54 -16.59 4.255 children [
+  Shape { appearance Appearance { material Material { diffuseColor 0.05 0.05 0.055 } }
+    geometry Box { size 4.95 20.83 8.51 } } ] }
+Transform { translation 22.86 -16.59 4.255 children [
+  Shape { appearance Appearance { material Material { diffuseColor 0.05 0.05 0.055 } }
+    geometry Box { size 4.95 20.83 8.51 } } ] }
+Transform { translation 12.7 -17.15 9.31 children [
+  Shape { appearance Appearance { material Material { diffuseColor 0.38 0.08 0.55 } }
+    geometry Box { size 25.4 34.3 1.6 } } ] }
+Transform { translation 12.7 -29.65 11.86 children [
+  Shape { appearance Appearance { material Material { diffuseColor 0.72 0.74 0.76 } }
+    geometry Box { size 11 9.3 3.5 } } ] }
+Transform { translation 12.7 -34.34 11.86 children [
+  Shape { appearance Appearance { material Material { diffuseColor 0.025 0.025 0.03 } }
+    geometry Box { size 8.5 0.1 2.4 } } ] }
+Transform { translation 12.7 -45.3 11.86 children [
+  Shape { appearance Appearance { material Material { diffuseColor 0.1 0.7 1 transparency 0.68 } }
+    geometry Box { size 14 22 8 } } ] }

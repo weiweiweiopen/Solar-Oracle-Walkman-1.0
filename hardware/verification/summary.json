@@ -1,0 +1,39 @@
+{
+  "board": "hardware/solar-oracle-walkman-relay.kicad_pcb",
+  "pcb_sha256": "0d39945e229298f9c8c91895e656606eb1b78e3f11e4bd347c1d38514cfe75b2",
+  "kicad_version": "10.0.5",
+  "unrouted": 0,
+  "DRC_errors": 0,
+  "warnings": {
+    "silk_over_copper": 6
+  },
+  "schematic_parity_items": 0,
+  "ERC_items": 0,
+  "ignored_DRC_checks": [
+    {
+      "description": "Footprint has no courtyard defined",
+      "key": "missing_courtyard"
+    },
+    {
+      "description": "Track endpoint not centered on via",
+      "key": "track_not_centered_on_via"
+    },
+    {
+      "description": "Tuning profile track geometries",
+      "key": "tuning_profile_track_geometries"
+    },
+    {
+      "description": "Footprint doesn't match symbol's footprint filters",
+      "key": "footprint_filters_mismatch"
+    },
+    {
+      "description": "Footprint component type doesn't match footprint pads",
+      "key": "footprint_type_mismatch"
+    }
+  ],
+  "exclusions": [],
+  "firmware_host_tests": "passed",
+  "hardware_function": "NOT_TESTED",
+  "firmware_scope": "GPIO and startup layer only; complete measurement application not included",
+  "published_source_files_byte_identical": true
+}

@@ -1,0 +1,67 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-20T14:08:53",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ca43d17f-5fbd-5c25-9237-213d894d4d8a",
+            "violations": []
+        },
+        {
+            "path": "/POWER/",
+            "uuid_path": "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/dea721cc-7b68-52bb-9917-cc138deff471",
+            "violations": []
+        },
+        {
+            "path": "/CONTROL/",
+            "uuid_path": "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/e6b83cc4-87a3-5da2-a93a-ac2cc43ba997",
+            "violations": []
+        },
+        {
+            "path": "/MEASUREMENT/",
+            "uuid_path": "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/f426b321-d5a1-5ed3-9fe1-be333e71fd3a",
+            "violations": []
+        },
+        {
+            "path": "/LOADS/",
+            "uuid_path": "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956",
+            "violations": []
+        },
+        {
+            "path": "/ALWAYS_ON/",
+            "uuid_path": "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/bd70ceff-8950-50fe-9980-ab94b0403adc",
+            "violations": []
+        },
+        {
+            "path": "/SWITCHING/",
+            "uuid_path": "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/3d69ab76-44a0-5a22-b687-ccf22464cf0e",
+            "violations": []
+        }
+    ],
+    "source": "solar-oracle-walkman-relay.kicad_sch"
+}

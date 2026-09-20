@@ -1,0 +1,16 @@
+name: Verify GPIO initialization
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  host-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check native-exported netlist and host startup logic
+        run: python -B firmware/tests/check_board_io.py . --live

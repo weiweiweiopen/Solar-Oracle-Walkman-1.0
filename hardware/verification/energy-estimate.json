@@ -1,0 +1,42 @@
+{
+  "basis": "Calculated, not measured. Charge efficiency and cycle energy are assumptions.",
+  "capacitance_F": 4.5,
+  "nominal_threshold_V": {
+    "full": 4.446830601092896,
+    "ready": 4.372678261181064,
+    "cutoff": 3.4810711382983275
+  },
+  "full_energy_J": 44.492180388336465,
+  "cutoff_to_full_energy_J": 17.22700378107583,
+  "conservative_cycle_budget_J": 11.343983427577179,
+  "assumed_loaded_input_W": 0.020999999999999998,
+  "assumed_net_charge_efficiency": [
+    0.6,
+    0.8
+  ],
+  "empty_to_full_minutes": [
+    44.13906784557188,
+    58.85209046076252
+  ],
+  "cutoff_to_full_minutes": [
+    17.09028152884507,
+    22.78704203846009
+  ],
+  "assumed_fill_factor_if_Voc_Isc": [
+    0.5,
+    0.7
+  ],
+  "empty_to_full_minutes_if_Voc_Isc": [
+    63.05581120795985,
+    117.70418092152504
+  ],
+  "assumed_cycle_energy_J": [
+    2,
+    5
+  ],
+  "cycles_for_assumed_energy": [
+    5,
+    2
+  ],
+  "relay_nominal_coil_W": 0.10548523206751055
+}

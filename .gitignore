@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+.history/
+*.kicad_prl
+*.lck
+*-backups/
+_autosave-*
+~*
+fp-info-cache
+.pio/
+build/
+dist/
+board_io_host_test
+FIRMWARE_VERIFIED.json

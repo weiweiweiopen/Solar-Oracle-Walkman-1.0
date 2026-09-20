@@ -1,0 +1,16 @@
+{
+  "hardware/solar-oracle-walkman-relay.kicad_sch": "c6f8838650c5e2d3021c0677ba93a1e9ddc46c4c99a9fa91c149a03698eddc77",
+  "hardware/always_on.kicad_sch": "3ce01338baba6a2dc1ffe1eb2483aaeb1adb06c502483a639c1e8cd680a83f06",
+  "hardware/BOM.csv": "6464267df20ba5a86504e7dd6dacd1534875d3044d354820916ff3a8731f6dc2",
+  "hardware/fp-lib-table": "c3c2412d1bf9da1824da6138d153758a807f7f3fed4ded247c7c5ada0a56ae9e",
+  "hardware/switching.kicad_sch": "98fba84fa90b8042ebfd202600c62ff4831e0b4fdd0f0ac991c2c9bbcf6c0485",
+  "hardware/power.kicad_sch": "a17e5d9ad66733043e646bdec133040ee81dc67cfbe8271a05cf9fd75c3eb038",
+  "hardware/solar-oracle-walkman-relay.kicad_pro": "b2cb07e08575f35ccaf5412584ac6b3f79f2e48a6d81e321ed4ace704cf3d67b",
+  "hardware/solar_oracle.kicad_sym": "675f2f3dbda7cd33b24d0571c426c005d29f3159c6c0a0fcaaf418c5361d8e2a",
+  "hardware/measurement.kicad_sch": "e56e0b7acecdc939cec8cde16a5b9fd6943fd26ae3745f64d31eb18fc138b50a",
+  "hardware/solar-oracle-walkman-final.kicad_dru": "ea6b28e89f19adb54ab2bf5f0d728e6d423e32233bf7a1118be7c06b8bf3c100",
+  "hardware/sym-lib-table": "75e44f7d801b71c65779c38a62d4f7214e86469546818eab4c17e4a78bdb84a5",
+  "hardware/solar-oracle-walkman-relay.kicad_pcb": "0d39945e229298f9c8c91895e656606eb1b78e3f11e4bd347c1d38514cfe75b2",
+  "hardware/control.kicad_sch": "93a9102a7332d8fe69980aa244a12e726d369d0802204721e05cd3326c50ff52",
+  "hardware/loads.kicad_sch": "3b2b52e7e56cf62ffcac30b9deb1cef3fd8b46daa7aa53d013971f1e78f52553"
+}

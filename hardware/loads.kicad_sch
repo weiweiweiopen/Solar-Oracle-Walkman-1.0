@@ -1,0 +1,9994 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0991e40b-c2c5-58f6-818f-85dec9a3f718")
+	(paper "A3")
+	(title_block
+		(title "LOADS: 16 fixed resistor channels / explicit wiring")
+		(rev "L20260913")
+		(company "Solar Oracle Walkman")
+	)
+	(lib_symbols
+		(symbol "solar_oracle:AO3400A_CS"
+			(pin_names
+				(offset 0.5)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 10 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Value" "AO3400A_CS"
+				(at 0 -10 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.9 0.9)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "AO3400A_CS_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -2.54 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.635) (xy 0 0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1) (xy 5.08 1)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -1) (xy 5.08 -1)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 1)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1) (xy 2.54 -1)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 3.81 -1)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1) (xy 3.81 1)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "AO3400A_CS_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 0.85 0.85)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 0.85 0.85)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.85 0.85)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 0.85 0.85)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 0.85 0.85)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "solar_oracle:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -2.54 1.016)
+					(end 2.54 -1.016)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.889 0.889)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(polyline
+		(pts
+			(xy 210.82 76.2) (xy 304.8 76.2) (xy 304.8 129.54) (xy 210.82 129.54) (xy 210.82 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "054ade6f-a51d-542e-8242-4fed353ab46f")
+	)
+	(polyline
+		(pts
+			(xy 111.76 193.04) (xy 205.74 193.04) (xy 205.74 246.38) (xy 111.76 246.38) (xy 111.76 193.04)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "092b9c19-0cb5-57fd-bb13-c7739474ee9b")
+	)
+	(polyline
+		(pts
+			(xy 210.82 134.62) (xy 304.8 134.62) (xy 304.8 187.96) (xy 210.82 187.96) (xy 210.82 134.62)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "18faaccb-431b-5c10-ba61-6e00cfe8db1c")
+	)
+	(polyline
+		(pts
+			(xy 111.76 134.62) (xy 205.74 134.62) (xy 205.74 187.96) (xy 111.76 187.96) (xy 111.76 134.62)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "272f824b-4ee5-567e-be7c-b76ab9861ae3")
+	)
+	(polyline
+		(pts
+			(xy 309.88 134.62) (xy 403.86 134.62) (xy 403.86 187.96) (xy 309.88 187.96) (xy 309.88 134.62)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2a21e9dc-4dc3-5210-9822-5c1ef92e4d3c")
+	)
+	(polyline
+		(pts
+			(xy 12.7 76.2) (xy 106.68 76.2) (xy 106.68 129.54) (xy 12.7 129.54) (xy 12.7 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3136a912-aeed-5984-b544-3c296b53e8a4")
+	)
+	(polyline
+		(pts
+			(xy 210.82 17.78) (xy 304.8 17.78) (xy 304.8 71.12) (xy 210.82 71.12) (xy 210.82 17.78)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "33a19e47-b032-5eed-a495-e1f4a51918a4")
+	)
+	(polyline
+		(pts
+			(xy 210.82 193.04) (xy 304.8 193.04) (xy 304.8 246.38) (xy 210.82 246.38) (xy 210.82 193.04)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7f705668-22c1-5e95-8d5f-3cbba52f9b6c")
+	)
+	(polyline
+		(pts
+			(xy 12.7 17.78) (xy 106.68 17.78) (xy 106.68 71.12) (xy 12.7 71.12) (xy 12.7 17.78)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "8e59055f-6a57-5ca1-955a-dba479ffd180")
+	)
+	(polyline
+		(pts
+			(xy 12.7 134.62) (xy 106.68 134.62) (xy 106.68 187.96) (xy 12.7 187.96) (xy 12.7 134.62)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "986dd798-a37e-5659-8041-6670f4911e53")
+	)
+	(polyline
+		(pts
+			(xy 111.76 17.78) (xy 205.74 17.78) (xy 205.74 71.12) (xy 111.76 71.12) (xy 111.76 17.78)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "9fa1b1b8-e3cc-50f7-a503-68c9fca316fa")
+	)
+	(polyline
+		(pts
+			(xy 309.88 17.78) (xy 403.86 17.78) (xy 403.86 71.12) (xy 309.88 71.12) (xy 309.88 17.78)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "aac5d75f-3fb8-5d26-8269-6f668ba717aa")
+	)
+	(polyline
+		(pts
+			(xy 309.88 193.04) (xy 403.86 193.04) (xy 403.86 246.38) (xy 309.88 246.38) (xy 309.88 193.04)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c1e72346-b8a0-5677-adc0-4f1abdb8078e")
+	)
+	(polyline
+		(pts
+			(xy 12.7 193.04) (xy 106.68 193.04) (xy 106.68 246.38) (xy 12.7 246.38) (xy 12.7 193.04)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "d73778dd-2c3f-55d6-8340-76a3cbaac2b6")
+	)
+	(polyline
+		(pts
+			(xy 111.76 76.2) (xy 205.74 76.2) (xy 205.74 129.54) (xy 111.76 129.54) (xy 111.76 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "db004881-a89e-5102-b957-4b58ac7a0963")
+	)
+	(polyline
+		(pts
+			(xy 309.88 76.2) (xy 403.86 76.2) (xy 403.86 129.54) (xy 309.88 129.54) (xy 309.88 76.2)
+		)
+		(stroke
+			(width 0.254)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f834c648-1dcb-5302-915c-e9124d172c4e")
+	)
+	(text "CH07  U1.QG / pin6"
+		(exclude_from_sim no)
+		(at 215.9 81.28 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "054ade6f-a51d-542e-8242-4fed353ab470")
+	)
+	(text "CH14  U2.QF / pin5"
+		(exclude_from_sim no)
+		(at 116.84 198.12 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "092b9c19-0cb5-57fd-bb13-c7739474ee9c")
+	)
+	(text "CH11  U2.QC / pin2"
+		(exclude_from_sim no)
+		(at 215.9 139.7 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "18faaccb-431b-5c10-ba61-6e00cfe8db1d")
+	)
+	(text "CH10  U2.QB / pin1"
+		(exclude_from_sim no)
+		(at 116.84 139.7 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "272f824b-4ee5-567e-be7c-b76ab9861ae4")
+	)
+	(text "CH12  U2.QD / pin3"
+		(exclude_from_sim no)
+		(at 314.96 139.7 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "2a21e9dc-4dc3-5210-9822-5c1ef92e4d3d")
+	)
+	(text "CH05  U1.QE / pin4"
+		(exclude_from_sim no)
+		(at 17.78 81.28 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "3136a912-aeed-5984-b544-3c296b53e8a5")
+	)
+	(text "CH03  U1.QC / pin2"
+		(exclude_from_sim no)
+		(at 215.9 22.86 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "33a19e47-b032-5eed-a495-e1f4a51918a5")
+	)
+	(text "MOS sources -> SHUNT_H -> R17 on MEASUREMENT. Gate pull-downs -> GND below R17; do not merge the two return nets."
+		(exclude_from_sim no)
+		(at 15.24 264.16 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "4a321a54-dae2-58b4-b9e4-acd7a92289cb")
+	)
+	(text "One channel = load resistor + AO3400A + 1k gate resistor + 47k pull-down. Select a dashed tile to collect its four symbols."
+		(exclude_from_sim no)
+		(at 15.24 256.54 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "5189d0c0-f488-5c77-84c5-30f105922e66")
+	)
+	(text "Latch all-zero before enabling OE. Zero-hot or one-hot only; no PWM. Lowest-resistance points are near-short, not exact Isc."
+		(exclude_from_sim no)
+		(at 15.24 271.78 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "6c874ce6-69b7-52dc-8b0a-8ea15cbdbcca")
+	)
+	(text "CH15  U2.QG / pin6"
+		(exclude_from_sim no)
+		(at 215.9 198.12 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "7f705668-22c1-5e95-8d5f-3cbba52f9b6d")
+	)
+	(text "CH01  U1.QA / pin15"
+		(exclude_from_sim no)
+		(at 17.78 22.86 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "8e59055f-6a57-5ca1-955a-dba479ffd181")
+	)
+	(text "CH09  U2.QA / pin15"
+		(exclude_from_sim no)
+		(at 17.78 139.7 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "986dd798-a37e-5659-8041-6670f4911e54")
+	)
+	(text "CH02  U1.QB / pin1"
+		(exclude_from_sim no)
+		(at 116.84 22.86 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "9fa1b1b8-e3cc-50f7-a503-68c9fca316fb")
+	)
+	(text "CH04  U1.QD / pin3"
+		(exclude_from_sim no)
+		(at 314.96 22.86 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "aac5d75f-3fb8-5d26-8269-6f668ba717ab")
+	)
+	(text "CH16  U2.QH / pin7"
+		(exclude_from_sim no)
+		(at 314.96 198.12 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "c1e72346-b8a0-5677-adc0-4f1abdb8078f")
+	)
+	(text "CH13  U2.QE / pin4"
+		(exclude_from_sim no)
+		(at 17.78 198.12 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "d73778dd-2c3f-55d6-8340-76a3cbaac2b7")
+	)
+	(text "CH06  U1.QF / pin5"
+		(exclude_from_sim no)
+		(at 116.84 81.28 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "db004881-a89e-5102-b957-4b58ac7a0964")
+	)
+	(text "CH08  U1.QH / pin7"
+		(exclude_from_sim no)
+		(at 314.96 81.28 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "f834c648-1dcb-5302-915c-e9124d172c4f")
+	)
+	(junction
+		(at 58.42 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "045c6a49-963e-5b75-aa8a-48f1be370f8f")
+	)
+	(junction
+		(at 81.28 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11228a9f-f470-5a88-9432-793086537696")
+	)
+	(junction
+		(at 256.54 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11fd2f9c-6c76-59ee-87c2-3812beafb945")
+	)
+	(junction
+		(at 279.4 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "122ba2ac-d1f8-57b2-81dd-d27ee2f8722a")
+	)
+	(junction
+		(at 157.48 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "141f314b-c717-5c67-abc3-b551655de043")
+	)
+	(junction
+		(at 408.94 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b8674dc-8373-52d9-99eb-72425ad7f0db")
+	)
+	(junction
+		(at 180.34 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c103166-17f7-5fe2-a201-93a6ee58b551")
+	)
+	(junction
+		(at 180.34 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "207bef1d-3b17-57a4-8369-b16b096b8813")
+	)
+	(junction
+		(at 355.6 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25fe3f67-5fd1-5945-8161-8216d81015d4")
+	)
+	(junction
+		(at 378.46 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2691b9d4-6c35-5759-a46e-adb0cd1c9dcf")
+	)
+	(junction
+		(at 378.46 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28e40151-36a7-5282-ac6d-b594c3ba77fd")
+	)
+	(junction
+		(at 408.94 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37025a86-940e-5b84-9557-4cd744cb45a7")
+	)
+	(junction
+		(at 180.34 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40c454f5-caf0-5cbd-9a8d-3199beefbd9f")
+	)
+	(junction
+		(at 157.48 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40fa9696-1266-5abb-9094-94c71c84c7fa")
+	)
+	(junction
+		(at 180.34 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4216d600-94d9-501d-804b-a268a48d630f")
+	)
+	(junction
+		(at 279.4 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ce1b175-5179-53b5-9e39-ed85e1cacd37")
+	)
+	(junction
+		(at 157.48 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e5f7a01-a2c0-5afd-a691-1535bdec2612")
+	)
+	(junction
+		(at 58.42 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f1d4cb4-21b8-5790-bac5-b084348c0c08")
+	)
+	(junction
+		(at 81.28 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74d7f7cf-6b0d-555f-a262-668a9fc17c4f")
+	)
+	(junction
+		(at 279.4 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76ecfa16-873e-5d18-90ba-efd739af8513")
+	)
+	(junction
+		(at 11.43 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78ceca6e-42b1-5c7d-9d52-b25689bd08ea")
+	)
+	(junction
+		(at 378.46 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83503a3e-d672-5c92-a0f3-8fed0eb108cf")
+	)
+	(junction
+		(at 157.48 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "884fbcb3-5786-5590-af75-1a48830a2007")
+	)
+	(junction
+		(at 180.34 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91ccde02-c2a7-559a-beb4-7438e55abd47")
+	)
+	(junction
+		(at 58.42 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9481cfd4-c339-5ea2-9c6e-65bcb2d4fe73")
+	)
+	(junction
+		(at 279.4 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94d51624-257a-5f11-a083-5cdfd9c6fd7c")
+	)
+	(junction
+		(at 279.4 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d5a687e-0eb3-579b-bc38-1d54e30761fc")
+	)
+	(junction
+		(at 11.43 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab375f35-c065-5a4d-a5cb-c58217caf9a0")
+	)
+	(junction
+		(at 58.42 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4be5d27-1014-51d2-98e4-be6ce7b9ca34")
+	)
+	(junction
+		(at 355.6 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4dc24f8-8080-5cb2-8e9e-208accdf963b")
+	)
+	(junction
+		(at 81.28 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6d67af2-6bb7-5567-8603-5916ee3f4d67")
+	)
+	(junction
+		(at 355.6 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bec1bdb4-f290-5251-b0e8-246bb6de7268")
+	)
+	(junction
+		(at 279.4 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c391d699-9bfc-581e-8f33-daa57adaae5d")
+	)
+	(junction
+		(at 180.34 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdb9e92f-7638-59a2-b90a-48a02713b156")
+	)
+	(junction
+		(at 180.34 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf049562-f74d-56ad-bc12-fbdd249e9922")
+	)
+	(junction
+		(at 180.34 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d29059f0-b3a2-5bf2-894c-12e07a58faef")
+	)
+	(junction
+		(at 256.54 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da6c6410-89e2-5650-8805-0102b0d3106d")
+	)
+	(junction
+		(at 279.4 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da987cb8-3e8c-5f89-8fd5-159d315343b1")
+	)
+	(junction
+		(at 81.28 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e00bad86-ed18-5d4a-a53e-5ea22386f1ec")
+	)
+	(junction
+		(at 355.6 223.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e52ce22b-f435-5bfd-b4b0-684d4b8d0ed6")
+	)
+	(junction
+		(at 256.54 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9047b93-1e88-5410-bc37-cb722b595960")
+	)
+	(junction
+		(at 378.46 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ed975c8a-2af6-5b0f-964d-234aa2c1b73a")
+	)
+	(junction
+		(at 256.54 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f146fe95-7abf-543f-846f-932d5d2f5cfe")
+	)
+	(junction
+		(at 279.4 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd5f8846-3499-5e45-9468-041e3b1717ea")
+	)
+	(wire
+		(pts
+			(xy 214.63 106.68) (xy 228.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0359bf4c-3029-596a-80b4-08cea2a8b811")
+	)
+	(wire
+		(pts
+			(xy 378.46 154.94) (xy 378.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0373b441-ebe7-5e5b-9ec3-58ac8f39ef3d")
+	)
+	(wire
+		(pts
+			(xy 81.28 114.3) (xy 81.28 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04a370a6-a3f7-5eb5-b93d-558d4df7a0af")
+	)
+	(wire
+		(pts
+			(xy 238.76 48.26) (xy 256.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05714b69-f059-5738-b331-9cf6f30da648")
+	)
+	(wire
+		(pts
+			(xy 180.34 25.4) (xy 279.4 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063e4397-d614-5be8-aa32-3de08815e515")
+	)
+	(wire
+		(pts
+			(xy 81.28 25.4) (xy 81.28 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079752b1-3c6a-5adb-91bb-7f07fe4d0964")
+	)
+	(wire
+		(pts
+			(xy 180.34 96.52) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079b1f72-b9a3-5c09-b3db-3c32247b25fd")
+	)
+	(wire
+		(pts
+			(xy 81.28 96.52) (xy 81.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "083e68a2-0cb8-51b2-bd28-ba5080c0fcfe")
+	)
+	(wire
+		(pts
+			(xy 214.63 165.1) (xy 228.6 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b0cc2d2-4e16-52e5-b542-819bf6ec7787")
+	)
+	(wire
+		(pts
+			(xy 279.4 68.58) (xy 378.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e268d8c-ba19-5cbb-9fa6-258a520b003c")
+	)
+	(wire
+		(pts
+			(xy 157.48 63.5) (xy 157.48 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eae194c-4471-54bd-ab01-030ce5c8c67f")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 73.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe4815b-cf63-535f-af40-b3ce776f1545")
+	)
+	(wire
+		(pts
+			(xy 16.51 165.1) (xy 30.48 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10ac20bc-e1ef-58d4-9991-3dee7825ede9")
+	)
+	(wire
+		(pts
+			(xy 337.82 106.68) (xy 355.6 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112f471a-102f-596d-9f90-65e8a9ea176d")
+	)
+	(wire
+		(pts
+			(xy 11.43 142.24) (xy 11.43 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14b8c3df-9283-5fe7-8ba5-52362a146061")
+	)
+	(wire
+		(pts
+			(xy 11.43 25.4) (xy 81.28 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15363e73-8573-55dd-bbfd-085e0d20dcc6")
+	)
+	(wire
+		(pts
+			(xy 81.28 154.94) (xy 81.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15885499-518f-506d-a722-a5d500664135")
+	)
+	(wire
+		(pts
+			(xy 256.54 63.5) (xy 256.54 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16239264-2987-541c-ab86-6db2891088d5")
+	)
+	(wire
+		(pts
+			(xy 378.46 231.14) (xy 378.46 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "168eaa86-e670-565f-aef0-5387b1168269")
+	)
+	(wire
+		(pts
+			(xy 279.4 200.66) (xy 378.46 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17860404-0636-5435-936f-847c5bae7e74")
+	)
+	(wire
+		(pts
+			(xy 157.48 180.34) (xy 157.48 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ac6d868-4489-5ffd-82fd-0856b77eebfe")
+	)
+	(wire
+		(pts
+			(xy 214.63 48.26) (xy 228.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acfc43f-d6a6-565c-b41c-e1058aee5f96")
+	)
+	(wire
+		(pts
+			(xy 180.34 200.66) (xy 180.34 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c67b3f1-7352-597e-a40a-7c65ed77da63")
+	)
+	(wire
+		(pts
+			(xy 313.69 223.52) (xy 327.66 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d4faed9-fab3-55fb-a25a-9ae99980c756")
+	)
+	(wire
+		(pts
+			(xy 279.4 83.82) (xy 279.4 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1efff7b7-a836-5db9-80c5-6d35d84a6397")
+	)
+	(wire
+		(pts
+			(xy 180.34 25.4) (xy 180.34 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d72bb8-df16-5ca7-9661-4252f2e66591")
+	)
+	(wire
+		(pts
+			(xy 58.42 63.5) (xy 58.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23a60667-9504-5b2a-81a6-824eadb48f74")
+	)
+	(wire
+		(pts
+			(xy 180.34 185.42) (xy 279.4 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253783c0-b568-51e4-8cbc-a8d3bac6b29b")
+	)
+	(wire
+		(pts
+			(xy 180.34 154.94) (xy 180.34 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26a9f3ba-e45d-5b92-9c5c-fa12f09b6c92")
+	)
+	(wire
+		(pts
+			(xy 81.28 200.66) (xy 81.28 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ee93e1-1a2c-5026-a434-cf4146de26e3")
+	)
+	(wire
+		(pts
+			(xy 279.4 25.4) (xy 378.46 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2795bd00-148a-5130-ab5b-cf709faf5332")
+	)
+	(wire
+		(pts
+			(xy 81.28 213.36) (xy 81.28 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29ce68b6-a8b9-55ce-b189-bf66702ba009")
+	)
+	(wire
+		(pts
+			(xy 180.34 83.82) (xy 279.4 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7352f2-3c52-53a3-a324-e5826fa2108b")
+	)
+	(wire
+		(pts
+			(xy 157.48 106.68) (xy 172.72 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d96d875-f5c4-5a29-abd7-20770d920f14")
+	)
+	(wire
+		(pts
+			(xy 279.4 154.94) (xy 279.4 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2eb565a0-0bfe-58d6-a035-27f137cb3551")
+	)
+	(wire
+		(pts
+			(xy 11.43 25.4) (xy 11.43 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30110b8f-29a0-5f98-9c3e-92e71c899292")
+	)
+	(wire
+		(pts
+			(xy 279.4 231.14) (xy 279.4 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308a8001-b282-5444-aae4-d9b1eab7d277")
+	)
+	(wire
+		(pts
+			(xy 157.48 48.26) (xy 157.48 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31162fcc-c557-531b-b18d-22c3ce19f92b")
+	)
+	(wire
+		(pts
+			(xy 238.76 106.68) (xy 256.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "326f2d10-8b75-539d-971a-91e5a5d9c9d4")
+	)
+	(wire
+		(pts
+			(xy 408.94 127) (xy 408.94 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ed6e69-9d8c-5c5c-b10f-dbb8f8e2598d")
+	)
+	(wire
+		(pts
+			(xy 58.42 223.52) (xy 58.42 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33fc91be-2ad3-5fa7-9c18-5720dbd91edb")
+	)
+	(wire
+		(pts
+			(xy 408.94 185.42) (xy 408.94 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3823b06d-0c7d-5d45-80a9-1a7a16012870")
+	)
+	(wire
+		(pts
+			(xy 180.34 172.72) (xy 180.34 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "390c2f7b-83f5-5041-93c1-cd40c0cc919f")
+	)
+	(wire
+		(pts
+			(xy 180.34 243.84) (xy 279.4 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a690a2-9af0-55de-a1ee-83162cf3c01f")
+	)
+	(wire
+		(pts
+			(xy 378.46 83.82) (xy 378.46 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39cfd870-35a3-590d-bdac-ba3d7d4d3868")
+	)
+	(wire
+		(pts
+			(xy 256.54 121.92) (xy 256.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a774aed-325c-564d-b422-3963a7a763a8")
+	)
+	(wire
+		(pts
+			(xy 40.64 48.26) (xy 58.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b8c9567-af64-5018-9019-c5a6d0d2e807")
+	)
+	(wire
+		(pts
+			(xy 180.34 127) (xy 279.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c36268a-040f-5bc9-bce1-e81b4eb6aae2")
+	)
+	(wire
+		(pts
+			(xy 81.28 185.42) (xy 180.34 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d33b993-6f60-5422-9744-9b1ef06f57ff")
+	)
+	(wire
+		(pts
+			(xy 378.46 25.4) (xy 378.46 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e23a7f2-6b31-528c-83c2-1afe89e7dba3")
+	)
+	(wire
+		(pts
+			(xy 157.48 223.52) (xy 157.48 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fee20e0-66d3-571a-b939-9798a41459f7")
+	)
+	(wire
+		(pts
+			(xy 256.54 223.52) (xy 256.54 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "403408f9-fca5-5d7a-a43c-f6e65a9e6930")
+	)
+	(wire
+		(pts
+			(xy 157.48 48.26) (xy 172.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420ee277-2b3a-5899-8f8b-ea1f2e4102be")
+	)
+	(wire
+		(pts
+			(xy 11.43 83.82) (xy 81.28 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42ce1b7b-a6fa-55fb-a02c-7a55faec4dfe")
+	)
+	(wire
+		(pts
+			(xy 378.46 38.1) (xy 378.46 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d566a0-40c3-5378-b8f2-b3deca15c15f")
+	)
+	(wire
+		(pts
+			(xy 238.76 165.1) (xy 256.54 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44810f18-7f46-5c0d-9a71-16c1340c95bc")
+	)
+	(wire
+		(pts
+			(xy 408.94 68.58) (xy 408.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e7c679-b738-5b5e-9032-1cb1a94011d9")
+	)
+	(wire
+		(pts
+			(xy 58.42 238.76) (xy 58.42 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "474e7daf-4c24-51bf-9c77-628208156acf")
+	)
+	(wire
+		(pts
+			(xy 11.43 83.82) (xy 11.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4863e76e-3d27-5ecf-8276-ed030aeef0c7")
+	)
+	(wire
+		(pts
+			(xy 81.28 243.84) (xy 180.34 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "497c92b0-9de5-52ff-a5f8-f78d7fe5a819")
+	)
+	(wire
+		(pts
+			(xy 355.6 63.5) (xy 355.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ee48a63-4f99-5ffd-8d01-2e662201ab26")
+	)
+	(wire
+		(pts
+			(xy 337.82 48.26) (xy 355.6 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f634642-64f1-565f-88db-ab8d0edbf08e")
+	)
+	(wire
+		(pts
+			(xy 58.42 165.1) (xy 58.42 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50ac2f15-9304-5710-844b-a0fd98cd7636")
+	)
+	(wire
+		(pts
+			(xy 40.64 165.1) (xy 58.42 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c084bc-12a3-5394-a664-9b371a3bfb27")
+	)
+	(wire
+		(pts
+			(xy 279.4 114.3) (xy 279.4 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c8fd50-18f0-5daf-8286-0ace7e1d2686")
+	)
+	(wire
+		(pts
+			(xy 355.6 223.52) (xy 355.6 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55cab94d-39ac-5bb0-a575-7151f10c0a02")
+	)
+	(wire
+		(pts
+			(xy 355.6 238.76) (xy 355.6 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56b2ee6b-2ae8-5515-ba87-f4880fb31ade")
+	)
+	(wire
+		(pts
+			(xy 58.42 180.34) (xy 58.42 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571d49c3-69de-5e18-9a4b-fbbaa30c805b")
+	)
+	(wire
+		(pts
+			(xy 279.4 172.72) (xy 279.4 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57ea3d87-7cf5-54fa-8dcb-c70b1a1a8845")
+	)
+	(wire
+		(pts
+			(xy 355.6 48.26) (xy 355.6 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cbd95b9-a9ed-5192-ad33-d702b65d90f6")
+	)
+	(wire
+		(pts
+			(xy 378.46 185.42) (xy 408.94 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d256594-131f-5504-8b39-b2671065f66e")
+	)
+	(wire
+		(pts
+			(xy 256.54 180.34) (xy 256.54 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e338e18-7dd7-599b-9709-dabf60d902a8")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 81.28 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66847cd2-5b99-540a-9371-d08d77fb466e")
+	)
+	(wire
+		(pts
+			(xy 115.57 48.26) (xy 129.54 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669a2321-fd41-5b85-8434-b4c4684ac038")
+	)
+	(wire
+		(pts
+			(xy 355.6 165.1) (xy 370.84 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "678e518f-f8c8-5908-b1d3-5cdac81264d4")
+	)
+	(wire
+		(pts
+			(xy 180.34 200.66) (xy 279.4 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "698cac36-6b0a-5924-9e3a-99de575072eb")
+	)
+	(wire
+		(pts
+			(xy 81.28 172.72) (xy 81.28 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "699de061-7152-5b60-a75f-7369617850ed")
+	)
+	(wire
+		(pts
+			(xy 58.42 121.92) (xy 58.42 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6abeb62c-b45d-51e4-9b78-bbe0a4030f70")
+	)
+	(wire
+		(pts
+			(xy 81.28 68.58) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fdf1ea8-5157-5bf1-b92b-62d134b067dd")
+	)
+	(wire
+		(pts
+			(xy 279.4 200.66) (xy 279.4 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7212606d-8d90-5d63-81d2-7e1866044da8")
+	)
+	(wire
+		(pts
+			(xy 256.54 48.26) (xy 271.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72db0aa3-e9e5-5549-9a42-d9f1bed406aa")
+	)
+	(wire
+		(pts
+			(xy 279.4 83.82) (xy 378.46 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74693d7a-f0be-528b-9ffc-40d059984273")
+	)
+	(wire
+		(pts
+			(xy 115.57 106.68) (xy 129.54 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75cdbb02-e222-57d9-a54e-6a1dd00ac4f3")
+	)
+	(wire
+		(pts
+			(xy 180.34 142.24) (xy 279.4 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "763649ab-fd81-5531-856c-2112e1fae287")
+	)
+	(wire
+		(pts
+			(xy 157.48 165.1) (xy 172.72 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f5d5ea-fa6a-5381-b332-ad786eb8441e")
+	)
+	(wire
+		(pts
+			(xy 378.46 213.36) (xy 378.46 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d83e4cd-1b00-52f0-984a-b0781d51f996")
+	)
+	(wire
+		(pts
+			(xy 115.57 165.1) (xy 129.54 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e9fbed1-0cad-5dde-bb1f-ecbb90a8aa56")
+	)
+	(wire
+		(pts
+			(xy 279.4 96.52) (xy 279.4 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f8433d3-fa0e-5ac1-adaa-632c7e6e9403")
+	)
+	(wire
+		(pts
+			(xy 313.69 48.26) (xy 327.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8391bf7d-c4c4-5a60-8bf1-77239e657145")
+	)
+	(wire
+		(pts
+			(xy 279.4 213.36) (xy 279.4 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84e03e27-bf03-5858-a92e-484d06cc1acc")
+	)
+	(wire
+		(pts
+			(xy 180.34 38.1) (xy 180.34 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86854e98-b182-5e61-9b25-b7e37e4ecf99")
+	)
+	(wire
+		(pts
+			(xy 157.48 223.52) (xy 172.72 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "869b13a4-afca-5b04-97e6-2369544c0f9e")
+	)
+	(wire
+		(pts
+			(xy 40.64 106.68) (xy 58.42 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "894caaec-d243-5424-9e18-79667d20304d")
+	)
+	(wire
+		(pts
+			(xy 378.46 55.88) (xy 378.46 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a372f5c-5aab-5977-acf6-e3fda1fa61e8")
+	)
+	(wire
+		(pts
+			(xy 238.76 223.52) (xy 256.54 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d1f19b0-6304-59f4-9e8a-9217d88af247")
+	)
+	(wire
+		(pts
+			(xy 355.6 223.52) (xy 370.84 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d460aff-340a-5ddb-bbe8-d94e70cdeed6")
+	)
+	(wire
+		(pts
+			(xy 81.28 200.66) (xy 180.34 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d4bb388-bad8-582b-b19c-c42d5e2ae2c4")
+	)
+	(wire
+		(pts
+			(xy 81.28 25.4) (xy 180.34 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e4e8d33-ef36-5a87-abd5-6701ef6334ba")
+	)
+	(wire
+		(pts
+			(xy 378.46 243.84) (xy 408.94 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9305c3-a04f-5c41-b7bb-b3f957cc28cc")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 58.42 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ea46859-4a94-5fe8-92a7-bc9ddd381072")
+	)
+	(wire
+		(pts
+			(xy 378.46 96.52) (xy 378.46 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0eaeb1-b498-513a-95e3-20a7aea7501e")
+	)
+	(wire
+		(pts
+			(xy 256.54 106.68) (xy 271.78 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f1de772-0560-5c66-adf5-317953cc428c")
+	)
+	(wire
+		(pts
+			(xy 16.51 106.68) (xy 30.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9451607f-004a-5fe7-b970-7476d78e6f07")
+	)
+	(wire
+		(pts
+			(xy 256.54 106.68) (xy 256.54 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fc5805-b909-5839-9c10-635f0cfef52c")
+	)
+	(wire
+		(pts
+			(xy 214.63 223.52) (xy 228.6 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "953206f7-51cd-5f69-ba81-7e1c36317f04")
+	)
+	(wire
+		(pts
+			(xy 58.42 165.1) (xy 73.66 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97210b79-6acc-533f-9fb5-5860819c7331")
+	)
+	(wire
+		(pts
+			(xy 81.28 38.1) (xy 81.28 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ce9b5a-c544-5254-b4e3-e4414480d470")
+	)
+	(wire
+		(pts
+			(xy 378.46 142.24) (xy 378.46 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98ca4979-aad6-5fdb-bfc8-e0af34e90ccb")
+	)
+	(wire
+		(pts
+			(xy 11.43 200.66) (xy 81.28 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b516a7-957b-5ce9-b3d3-dd39bcb55079")
+	)
+	(wire
+		(pts
+			(xy 180.34 231.14) (xy 180.34 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bac9467-3a68-520b-a092-d2b1cd67f44b")
+	)
+	(wire
+		(pts
+			(xy 355.6 48.26) (xy 370.84 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd98282-81d7-560b-83eb-3e6d91d20da6")
+	)
+	(wire
+		(pts
+			(xy 81.28 231.14) (xy 81.28 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4f5d05-1528-56c2-b7d8-51d7a873a69c")
+	)
+	(wire
+		(pts
+			(xy 81.28 55.88) (xy 81.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ea17deb-32f4-5562-9537-868bc181c7cc")
+	)
+	(wire
+		(pts
+			(xy 378.46 127) (xy 408.94 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5f2fc2-9221-5adb-98c1-e32d85f4c731")
+	)
+	(wire
+		(pts
+			(xy 16.51 223.52) (xy 30.48 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1018658-509a-59c5-aef0-3d0167db37ef")
+	)
+	(wire
+		(pts
+			(xy 279.4 38.1) (xy 279.4 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2c51657-c217-5781-9b97-1f8a75184770")
+	)
+	(wire
+		(pts
+			(xy 139.7 48.26) (xy 157.48 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8b9e7c6-5161-56c0-b74c-cfdd59cac24d")
+	)
+	(wire
+		(pts
+			(xy 157.48 106.68) (xy 157.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90f715c-3c57-519e-9417-df541e28eb3c")
+	)
+	(wire
+		(pts
+			(xy 157.48 165.1) (xy 157.48 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abb1c053-cacc-5fa7-a789-3cb7232bc8a7")
+	)
+	(wire
+		(pts
+			(xy 337.82 223.52) (xy 355.6 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca5e85f-a765-581f-bbb5-13e107e8fa9a")
+	)
+	(wire
+		(pts
+			(xy 355.6 121.92) (xy 355.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ace69f61-e391-5563-8f00-de23f16f3bed")
+	)
+	(wire
+		(pts
+			(xy 180.34 213.36) (xy 180.34 215.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad1e9c01-921e-59e8-9e4c-16600555001a")
+	)
+	(wire
+		(pts
+			(xy 180.34 83.82) (xy 180.34 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affd87d9-88e1-5cce-8e4e-b1914ee38ae6")
+	)
+	(wire
+		(pts
+			(xy 58.42 223.52) (xy 73.66 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b346bfec-92a0-52bb-be91-c29aa1242423")
+	)
+	(wire
+		(pts
+			(xy 355.6 106.68) (xy 370.84 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9fb3efe-ea78-5e1d-9a8c-e19a55a3b3dd")
+	)
+	(wire
+		(pts
+			(xy 337.82 165.1) (xy 355.6 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "babfde71-3bf1-5760-887e-1ffb74c807de")
+	)
+	(wire
+		(pts
+			(xy 355.6 165.1) (xy 355.6 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbadd1c0-d65c-5241-93f0-38e021bd8cd3")
+	)
+	(wire
+		(pts
+			(xy 279.4 55.88) (xy 279.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd1b38ae-7b43-53d2-9f99-ffb8a2e0f4e1")
+	)
+	(wire
+		(pts
+			(xy 256.54 165.1) (xy 256.54 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becf756d-ab6c-5ae1-95fa-cb61c6027ee7")
+	)
+	(wire
+		(pts
+			(xy 81.28 127) (xy 180.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beffeff4-8aed-5db4-bab1-f52e34c32091")
+	)
+	(wire
+		(pts
+			(xy 313.69 165.1) (xy 327.66 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf121c5d-a253-5827-a821-e668529597ba")
+	)
+	(wire
+		(pts
+			(xy 378.46 172.72) (xy 378.46 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf2c44e9-df15-5a27-8f96-a499683ce216")
+	)
+	(wire
+		(pts
+			(xy 279.4 142.24) (xy 279.4 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf3b4548-465f-5e70-8926-763323ce319d")
+	)
+	(wire
+		(pts
+			(xy 139.7 165.1) (xy 157.48 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf9ad720-867e-5c60-af57-c4082b462ea2")
+	)
+	(wire
+		(pts
+			(xy 16.51 48.26) (xy 30.48 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0123b7d-6477-5a09-88b8-5822ea73d7b7")
+	)
+	(wire
+		(pts
+			(xy 256.54 238.76) (xy 256.54 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2163e9a-d796-52d4-8f2b-9afc501da3a7")
+	)
+	(wire
+		(pts
+			(xy 256.54 48.26) (xy 256.54 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46510bb-16db-563f-b55b-3a74035a5518")
+	)
+	(wire
+		(pts
+			(xy 279.4 25.4) (xy 279.4 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8b31a8a-6851-5b6f-a251-02a31eeff074")
+	)
+	(wire
+		(pts
+			(xy 313.69 106.68) (xy 327.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9263191-52dc-50be-942d-b2dba582b4c6")
+	)
+	(wire
+		(pts
+			(xy 58.42 106.68) (xy 73.66 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5a1315-891d-5afd-8876-f3694d8aaea0")
+	)
+	(wire
+		(pts
+			(xy 58.42 106.68) (xy 58.42 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd8d9451-a4ec-593b-bc2d-30bbf1a0499a")
+	)
+	(wire
+		(pts
+			(xy 115.57 223.52) (xy 129.54 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0528a66-4635-5077-90a4-f6e3863517c2")
+	)
+	(wire
+		(pts
+			(xy 157.48 238.76) (xy 157.48 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d077a8ca-f28f-5d1e-8799-cd7513e98f19")
+	)
+	(wire
+		(pts
+			(xy 180.34 142.24) (xy 180.34 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1d0a5e5-b43b-5769-bd07-78203a3e61bb")
+	)
+	(wire
+		(pts
+			(xy 81.28 83.82) (xy 180.34 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ec34d9-9175-5320-a57b-24cbb4eec182")
+	)
+	(wire
+		(pts
+			(xy 355.6 180.34) (xy 355.6 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9dddd12-6a89-552f-9ea3-7d0e8698d7f5")
+	)
+	(wire
+		(pts
+			(xy 355.6 106.68) (xy 355.6 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1c1c0d-b1c8-505c-86d6-0946a62e4f6c")
+	)
+	(wire
+		(pts
+			(xy 256.54 223.52) (xy 271.78 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc40ad85-2abb-5454-b723-958f85b3f4fc")
+	)
+	(wire
+		(pts
+			(xy 378.46 200.66) (xy 378.46 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc47060a-b230-5be2-bf51-33634901b40a")
+	)
+	(wire
+		(pts
+			(xy 378.46 114.3) (xy 378.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd655ca1-8905-5610-b9f6-574b603e2ca4")
+	)
+	(wire
+		(pts
+			(xy 40.64 223.52) (xy 58.42 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de6b4642-a9db-5e63-9b58-7d20b443ab7e")
+	)
+	(wire
+		(pts
+			(xy 157.48 121.92) (xy 157.48 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e00d87c4-6963-5824-b5f7-20ebeaedb02b")
+	)
+	(wire
+		(pts
+			(xy 139.7 106.68) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e068bd05-8da1-570b-9344-470a33bb2bdd")
+	)
+	(wire
+		(pts
+			(xy 180.34 55.88) (xy 180.34 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08dfbe5-61d1-5cd2-afd6-ef364953dd7f")
+	)
+	(wire
+		(pts
+			(xy 139.7 223.52) (xy 157.48 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e99dba-1af1-5014-962f-409e95518331")
+	)
+	(wire
+		(pts
+			(xy 180.34 68.58) (xy 279.4 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e406cfca-fbbc-5d7c-b742-40441e4c6632")
+	)
+	(wire
+		(pts
+			(xy 378.46 68.58) (xy 408.94 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec7f1b7b-3837-5a20-a970-40551e7f41a9")
+	)
+	(wire
+		(pts
+			(xy 279.4 243.84) (xy 378.46 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed72fdd7-af8e-5438-8763-bec7c975c539")
+	)
+	(wire
+		(pts
+			(xy 11.43 142.24) (xy 81.28 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef77c9b4-c067-5569-869f-267d32e15e5f")
+	)
+	(wire
+		(pts
+			(xy 279.4 127) (xy 378.46 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f39db099-ab2b-5fae-adcb-e4b8efe37541")
+	)
+	(wire
+		(pts
+			(xy 279.4 185.42) (xy 378.46 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f730c35a-74f5-5171-bf9b-41f24a4b7939")
+	)
+	(wire
+		(pts
+			(xy 279.4 142.24) (xy 378.46 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa098541-716a-57f9-9494-2e7eb6e1105b")
+	)
+	(wire
+		(pts
+			(xy 180.34 114.3) (xy 180.34 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbb64286-016e-54d9-af7b-3de2e6e3d46c")
+	)
+	(wire
+		(pts
+			(xy 81.28 142.24) (xy 180.34 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5827a5-8697-5759-90eb-a09fb6acf8d4")
+	)
+	(wire
+		(pts
+			(xy 81.28 142.24) (xy 81.28 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feee4d31-b212-582a-91bd-c19218f039f7")
+	)
+	(wire
+		(pts
+			(xy 256.54 165.1) (xy 271.78 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc3bf29-bcfb-53f3-b569-4a9063430767")
+	)
+	(global_label "DRAIN_1"
+		(shape input)
+		(at 81.28 39.37 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "016416a0-b842-5716-985e-093097ae212b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_3"
+		(shape input)
+		(at 214.63 48.26 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "04707a0f-8774-5638-9fc4-1da913fef833")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 58.42 66.04 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "089407cb-8a6e-580b-ac8b-6a487df068b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_10"
+		(shape input)
+		(at 115.57 165.1 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "090ee93b-bcd0-53e5-842a-08ee73c4986c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_13"
+		(shape input)
+		(at 16.51 223.52 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "0c21beef-4699-5c06-abc3-e958cfc5352d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.51 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_5"
+		(shape input)
+		(at 81.28 97.79 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "0e7e6eeb-e756-58ce-81a9-f59e91b8947f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_7"
+		(shape input)
+		(at 261.62 106.68 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "13ea0747-8284-558a-a01b-919c40b1342a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_2"
+		(shape input)
+		(at 115.57 48.26 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "151b5b63-c652-5f9d-834e-c38898fb470c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 157.48 241.3 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "19c8c1ae-00dc-5cd3-becd-aad809532ee7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_7"
+		(shape input)
+		(at 279.4 97.79 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "1f689f67-9b32-5823-95bd-3f0360ac988f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.4 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_16"
+		(shape input)
+		(at 313.69 223.52 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "2066bd50-194b-533a-b672-2733e243b5fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.69 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_7"
+		(shape input)
+		(at 214.63 106.68 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "28c85c2e-04b5-507f-a88c-2a7a3dbb40e2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_1"
+		(shape input)
+		(at 63.5 48.26 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "2d2ecc2e-55d6-534b-bdd6-ac7b8b815b7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_11"
+		(shape input)
+		(at 214.63 165.1 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "2d54e585-69ac-566c-b433-b49461d13439")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 355.6 124.46 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "369be58f-2034-5327-80f7-6feb9f35b23e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_9"
+		(shape input)
+		(at 63.5 165.1 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "46202afe-a9ca-54c0-b1fd-474af9c10795")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_6"
+		(shape input)
+		(at 162.56 106.68 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "46891c10-026a-58ae-888c-89c44788bfac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_11"
+		(shape input)
+		(at 261.62 165.1 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "49e6d4c1-0f49-5383-863a-733e8e8b6030")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 256.54 182.88 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "4a7b5623-a17e-56dc-9c2c-18d0ed432528")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_4"
+		(shape input)
+		(at 360.68 48.26 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "518645ba-650c-5592-892b-68758a49641d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_6"
+		(shape input)
+		(at 180.34 97.79 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "51aeb4b9-0ee1-5f7c-929b-ec644636965c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_8"
+		(shape input)
+		(at 313.69 106.68 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "543e5666-9d7e-5077-9556-72b4e10ca723")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.69 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_12"
+		(shape input)
+		(at 378.46 156.21 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "5dfdefa5-1de1-5aa8-955f-dfac29b176b5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 378.46 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 355.6 241.3 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "5ffb770c-71d6-546f-90c7-321990087ce6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 157.48 124.46 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "627b6089-a2bc-589d-852d-fecbda970784")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_9"
+		(shape input)
+		(at 16.51 165.1 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "65bd4975-b0ed-5e81-82fe-a8882de891cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.51 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_14"
+		(shape input)
+		(at 180.34 214.63 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "67575aac-ef6e-528d-b6c3-2dad6e9fa3f6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "SHUNT_H"
+		(shape input)
+		(at 383.54 243.84 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "6c273b42-2349-599e-b162-7e51ace09315")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 383.54 243.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 355.6 182.88 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "7ac4b4a4-cdd9-5150-acf3-827a41ce171e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_3"
+		(shape input)
+		(at 261.62 48.26 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "7b6240dc-0b11-572b-9ca5-f2be6c872f39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_11"
+		(shape input)
+		(at 279.4 156.21 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "7cc8dc0a-32aa-5835-a7d4-098fd5b0d745")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.4 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_5"
+		(shape input)
+		(at 16.51 106.68 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "7d68d238-25d6-56c2-9120-6c270f529a61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.51 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_14"
+		(shape input)
+		(at 115.57 223.52 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "7fe506e9-fe0a-5eb6-a44e-66722a6cd506")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_14"
+		(shape input)
+		(at 162.56 223.52 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "846c534e-ff81-5fb8-a84a-251d3f7faf9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_12"
+		(shape input)
+		(at 313.69 165.1 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "8716fbe4-2f87-5778-936e-3346e2466097")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.69 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_15"
+		(shape input)
+		(at 261.62 223.52 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "872636ec-3b0a-5511-99ec-a8660e4cbc88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 261.62 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_8"
+		(shape input)
+		(at 360.68 106.68 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "8edf2604-ffa4-5802-a7c1-e77eea4d06a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 58.42 182.88 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "92c14364-d57b-5557-b694-fcdab5a853c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 157.48 66.04 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "9670aeb9-74ba-5856-8f30-dec5e372fa93")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_16"
+		(shape input)
+		(at 360.68 223.52 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "988e47f2-e006-5224-a83e-ca7b4e952aed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_10"
+		(shape input)
+		(at 162.56 165.1 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "9a18bf5b-c92b-54fe-b2ed-d150571f7688")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_1"
+		(shape input)
+		(at 16.51 48.26 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "9dc9771f-0ce4-5891-a547-6972bbbcfd58")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.51 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_15"
+		(shape input)
+		(at 214.63 223.52 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "a3da43e1-c5f0-5340-9c11-f94e570f4d78")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 214.63 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 355.6 66.04 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "a430a648-bebf-5e9c-93ea-c2547d5864b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 355.6 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_3"
+		(shape input)
+		(at 279.4 39.37 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "a4cc8c82-f5dd-5be7-b495-c1a8883f4a37")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 256.54 124.46 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "afa08d71-739d-5b89-bae7-54ec09a8be4a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_12"
+		(shape input)
+		(at 360.68 165.1 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "b05abcf9-a290-563f-aed8-2b50377e4a7b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 360.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 58.42 241.3 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "b7d4f871-ba8c-54a5-a9e4-c45d6e463b73")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "LOAD_P"
+		(shape input)
+		(at 66.04 25.4 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "c417719d-5983-5552-8703-dd7b4c25d46d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 66.04 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_2"
+		(shape input)
+		(at 162.56 48.26 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "c4f728a1-3746-5073-b23d-2c3f01ea793f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_2"
+		(shape input)
+		(at 180.34 39.37 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "c9fe5b89-a73f-5491-96b9-83ad56501283")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_13"
+		(shape input)
+		(at 63.5 223.52 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "cb5bb3b8-7bcd-5ac8-a8e6-891a0040fe3f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_16"
+		(shape input)
+		(at 378.46 214.63 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "cbd1ba96-04b5-562c-82f2-999ff8a78512")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 378.46 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_5"
+		(shape input)
+		(at 63.5 106.68 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "cc0d206e-c77b-5d6b-935c-47bba295b650")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_15"
+		(shape input)
+		(at 279.4 214.63 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "cdf1db45-ac29-57b3-9815-54fe4820d561")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 279.4 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_4"
+		(shape input)
+		(at 378.46 39.37 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "d292788e-d8fc-5ea2-b3e8-796ed306670b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 378.46 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 58.42 124.46 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "dcfa0e4a-8fcd-546a-834f-75bd33ca507c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.42 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 157.48 182.88 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "de5b222a-d10a-502b-93de-2c7bae419719")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_9"
+		(shape input)
+		(at 81.28 156.21 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "e1280b81-93b4-5045-8447-2c500ead299f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_8"
+		(shape input)
+		(at 378.46 97.79 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "e44fe0c2-1246-5e0a-bdcd-41219fc1ad9d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 378.46 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_13"
+		(shape input)
+		(at 81.28 214.63 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "e61eef0c-55b5-526f-966b-f6c56ed57854")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.28 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 256.54 66.04 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "ec3f964f-23ec-52e2-80b9-c44ca00a3f4b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "DRAIN_10"
+		(shape input)
+		(at 180.34 156.21 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "f671fb4f-bcb0-5372-863a-0112111594eb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.34 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 256.54 241.3 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "f76c00c0-30cf-58f5-ba16-a744b84f6c3b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 256.54 241.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_4"
+		(shape input)
+		(at 313.69 48.26 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "f902307e-ad74-5675-afa5-8f7b1c56a8ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 313.69 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GATE_CMD_6"
+		(shape input)
+		(at 115.57 106.68 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+		)
+		(uuid "fd4ce145-0380-58d2-a13a-42570b98844f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 115.57 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 256.54 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "005db457-20df-5150-8310-e4bda13eda7d")
+		(property "Reference" "R47"
+			(at 265.43 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 265.43 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 256.54 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 256.54 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 256.54 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dfe2507f-de1f-5f3e-a981-61d60803adcb")
+		)
+		(pin "2"
+			(uuid "44c4c15c-6b75-594f-bd3d-dbe9706a0044")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 81.28 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09d6ffc9-4361-5e43-8e59-9b69c8adee78")
+		(property "Reference" "Q9"
+			(at 92.71 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 92.71 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 81.28 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 81.28 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 81.28 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "327f1296-76d7-53b9-946f-a9f0942878c1")
+		)
+		(pin "2"
+			(uuid "6c15982b-756f-50e9-ad23-16ffd3f5bb58")
+		)
+		(pin "3"
+			(uuid "d3f0735e-83c8-5494-b0d6-4298efb966fd")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 279.4 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b10b2dc-f8e9-559c-83ed-a199312585b5")
+		(property "Reference" "Q11"
+			(at 290.83 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 290.83 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 279.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 279.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 279.4 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "655da3cf-8e0f-5e8e-bd8f-4b1c647b81e9")
+		)
+		(pin "2"
+			(uuid "05582d67-e486-5c70-8abe-0ed385d23ef6")
+		)
+		(pin "3"
+			(uuid "4f2c6b2e-9e50-5812-b899-5916468861e0")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 180.34 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bbf6e10-96f6-5dd5-a475-3191d920f537")
+		(property "Reference" "Q2"
+			(at 191.77 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 191.77 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aad38b30-6f5b-53c1-8baa-6f6dd0b4aa78")
+		)
+		(pin "2"
+			(uuid "7d7c065c-91e2-5fc2-bd73-81d74e49901e")
+		)
+		(pin "3"
+			(uuid "78ec21bf-28e1-57db-9234-0688d43ad74e")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 378.46 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0bdf0b78-ac6d-5a1b-b68a-0b8d4d9b873b")
+		(property "Reference" "R12"
+			(at 387.35 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "82"
+			(at 387.35 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 378.46 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 378.46 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD0782RL"
+			(at 378.46 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b33876c-eae9-5acc-82e0-4738c836ba6e")
+		)
+		(pin "2"
+			(uuid "f2f1a1a5-0e0f-5899-b04e-62957cd94ab8")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 157.48 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0cd16411-706d-5962-9796-6ab68399b0d9")
+		(property "Reference" "R50"
+			(at 166.37 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 166.37 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 157.48 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 157.48 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e757002-cbd1-5bde-bf32-7a37648d9903")
+		)
+		(pin "2"
+			(uuid "bc85b049-e176-5312-a6f5-9d95be7bea3d")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 279.4 208.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11482bbf-91f6-5ef1-aac5-a36ab6c17c3f")
+		(property "Reference" "R15"
+			(at 288.29 205.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "330"
+			(at 288.29 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 279.4 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 279.4 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD07330RL"
+			(at 279.4 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "df27ff0f-ccb8-5bd9-a80b-ddb602ea80e1")
+		)
+		(pin "2"
+			(uuid "54bc2a4c-d7c4-5ee9-b10c-509190347451")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 81.28 208.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11f36fd0-091e-5205-9ded-0200f8b0e73c")
+		(property "Reference" "R13"
+			(at 90.17 205.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "120"
+			(at 90.17 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 81.28 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 81.28 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD07120RL"
+			(at 81.28 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4db790aa-1d8e-5e36-ad5c-f039e7a3947f")
+		)
+		(pin "2"
+			(uuid "06112e59-6f54-5afe-9838-d39ccffa3384")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 332.74 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "13549d1f-2777-5d52-bacf-4a9f7fd8a0d7")
+		(property "Reference" "R24"
+			(at 332.74 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 332.74 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 332.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 332.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 332.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1b09467-8c80-58f7-bd4d-00bf692aa623")
+		)
+		(pin "2"
+			(uuid "94aa3a23-8ac5-5d90-9626-1c84af7ef569")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 180.34 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "136fc921-22dd-5cbe-96c4-213a55879540")
+		(property "Reference" "R6"
+			(at 189.23 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "8.2"
+			(at 189.23 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 180.34 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 180.34 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD078R2L"
+			(at 180.34 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b7d7263-636d-5935-b1ae-626e434db9b5")
+		)
+		(pin "2"
+			(uuid "0f2bdd12-5ab2-5497-bc2e-620494904f03")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 378.46 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1602c98e-315c-5312-9278-f8a69705f2d7")
+		(property "Reference" "Q8"
+			(at 389.89 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 389.89 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 378.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 378.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 378.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9f20c9ba-b317-5a8e-a21a-860fa57fd299")
+		)
+		(pin "2"
+			(uuid "7badeb5a-825c-5a67-9566-cd88332d8f3f")
+		)
+		(pin "3"
+			(uuid "b221ae35-b50c-5c1b-9d1b-d92dd0725d8d")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 81.28 33.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1ce65ae7-2b20-5171-b91a-6b4822ba92a9")
+		(property "Reference" "R1"
+			(at 90.17 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0.22"
+			(at 90.17 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 81.28 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RL1206FR-070R22L"
+			(at 81.28 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "1206, 1%, 0.25W at 70C, +/-600ppm/C; near-short load; actual V/I measured, not inferred from R"
+			(at 81.28 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RL1206FR-070R22L"
+			(at 81.28 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "524a5d32-7907-574b-8902-2866f95751bf")
+		)
+		(pin "2"
+			(uuid "140d757c-2775-5636-929f-2779ca0fc2db")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 279.4 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29485460-6826-5b69-b75d-853b75727e04")
+		(property "Reference" "R7"
+			(at 288.29 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "12"
+			(at 288.29 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 279.4 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 279.4 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD0712RL"
+			(at 279.4 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70f4ad48-657b-5334-b3c8-5abf482269fb")
+		)
+		(pin "2"
+			(uuid "4c8afcea-c13b-5b19-9ccd-a914e36cacf6")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 332.74 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29f1ea54-8d23-58c6-b3ac-fb629776a5a5")
+		(property "Reference" "R32"
+			(at 332.74 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 332.74 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 332.74 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 332.74 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 332.74 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3c7827a-8e7a-52b8-bf6b-ecb464c22479")
+		)
+		(pin "2"
+			(uuid "05848a61-36d5-5a04-94b6-3038bb115d25")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 355.6 233.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31877eeb-fabd-5dcc-9141-5ba07b9aefbb")
+		(property "Reference" "R56"
+			(at 364.49 231.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 364.49 236.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 355.6 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 355.6 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 355.6 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c8c8aff-cb73-5fb0-944d-1637754cc57a")
+		)
+		(pin "2"
+			(uuid "c3f587d9-3f34-5714-9353-3ae370d88d2c")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 378.46 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "332f06cf-ea02-5bb0-9b43-37a29d75b0e0")
+		(property "Reference" "Q16"
+			(at 389.89 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 389.89 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 378.46 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 378.46 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 378.46 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e3c8f3c-e915-5adb-92bc-dc8a1dbe09a0")
+		)
+		(pin "2"
+			(uuid "54333271-1e61-5cff-b9b8-a5706c6cc869")
+		)
+		(pin "3"
+			(uuid "c2800b74-ab1c-5cd4-ae15-5754aeb7ae69")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 256.54 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3425ff53-fbe3-5079-ba9b-132ca6fbac13")
+		(property "Reference" "R51"
+			(at 265.43 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 265.43 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 256.54 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 256.54 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 256.54 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "785d5086-3be9-5df1-bbdb-7ede9b20e31b")
+		)
+		(pin "2"
+			(uuid "73026e7f-3cb2-549c-92fc-ac9a3bc1c262")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 279.4 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ba9b983-318b-53ab-ad8f-becfb8c64746")
+		(property "Reference" "Q15"
+			(at 290.83 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 290.83 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 279.4 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 279.4 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 279.4 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e27af331-b0c6-5f10-8b79-828c677f0432")
+		)
+		(pin "2"
+			(uuid "74debccf-d265-5a09-ad49-889458513316")
+		)
+		(pin "3"
+			(uuid "18624804-564a-529f-86c2-32720a77d1db")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 279.4 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45625278-3923-5ba8-8e99-3a8841e62fdd")
+		(property "Reference" "Q3"
+			(at 290.83 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 290.83 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 279.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 279.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 279.4 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39d65cdb-1293-5e6a-a10b-ab7127c5e555")
+		)
+		(pin "2"
+			(uuid "0ef807c0-8a2c-5f13-a756-62e529203378")
+		)
+		(pin "3"
+			(uuid "2a96b56b-f6ed-581e-932a-b4eb3d6309b0")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 81.28 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "482bec57-389c-5936-94d3-2ea7c3072830")
+		(property "Reference" "Q1"
+			(at 92.71 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 92.71 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 81.28 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 81.28 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 81.28 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "49ffaf83-694d-5bc6-88a3-e9af8c18cada")
+		)
+		(pin "2"
+			(uuid "e95c2358-1e23-5ba6-9357-45af67da6ab5")
+		)
+		(pin "3"
+			(uuid "47c6ec31-140d-5777-8cff-97a540d25d51")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 58.42 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "490d3a9e-5c83-52b1-9c97-0a197c5e9399")
+		(property "Reference" "R45"
+			(at 67.31 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 67.31 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 58.42 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 58.42 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc576283-c9e5-541e-809b-51dcfb72e1b0")
+		)
+		(pin "2"
+			(uuid "0660bc1f-4d2a-5b7e-94a7-802297a5d18e")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 58.42 233.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "534cf48a-02ea-5a94-b49a-a1d82becab3c")
+		(property "Reference" "R53"
+			(at 67.31 231.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 67.31 236.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 58.42 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 58.42 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4b396537-bc8f-56aa-b373-40ffeb1c797e")
+		)
+		(pin "2"
+			(uuid "b11b67c7-c629-59e5-b6ec-0ba310eabe16")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 233.68 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a011fe8-19bc-568a-acda-9a439e016b06")
+		(property "Reference" "R23"
+			(at 233.68 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 233.68 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 233.68 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 233.68 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5935bb6b-b5e1-5f15-8291-93f19c3a0ae8")
+		)
+		(pin "2"
+			(uuid "0c1c7d29-c2b9-510d-bfb6-5156a6248fa0")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 157.48 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "632be7da-51b3-558c-8326-c8f099dd7711")
+		(property "Reference" "R42"
+			(at 166.37 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 166.37 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 157.48 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 157.48 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66b50ce5-ae8c-5bcc-9f7f-90a868156fb5")
+		)
+		(pin "2"
+			(uuid "c658416a-e27a-56fb-900d-8260a8b6737c")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 134.62 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d70b7df-3a3a-5b01-a74f-25f91bbc5d0c")
+		(property "Reference" "R34"
+			(at 134.62 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 134.62 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 134.62 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a56814dc-ad11-5d61-a533-db970ebf4d5a")
+		)
+		(pin "2"
+			(uuid "fc0c9a18-b4e2-51d0-a9fa-ae796f1fd540")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 180.34 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7856f187-42ca-55c6-9ce5-f7d9db83db31")
+		(property "Reference" "Q14"
+			(at 191.77 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 191.77 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 180.34 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 180.34 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 180.34 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "911da74f-df0c-5bd9-b8d4-f4d550634297")
+		)
+		(pin "2"
+			(uuid "8a31bfb6-20d1-5663-8059-ae2fecb5331f")
+		)
+		(pin "3"
+			(uuid "d5a3a353-9762-5ca1-aa1e-8847df7698e2")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 81.28 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "81150b8c-ed78-594a-843a-919d84fbbfc5")
+		(property "Reference" "Q13"
+			(at 92.71 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 92.71 223.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 81.28 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 81.28 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 81.28 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ac90e96-a7cd-5cca-b082-96139efcd6ce")
+		)
+		(pin "2"
+			(uuid "08466bff-11ac-50e2-b004-334c15c879e7")
+		)
+		(pin "3"
+			(uuid "c45342e3-6347-5ef2-aebb-e513cc0361d2")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 279.4 33.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82fbc76c-53c6-5a50-a25f-659016f08954")
+		(property "Reference" "R3"
+			(at 288.29 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1"
+			(at 288.29 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 279.4 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 279.4 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD071RL"
+			(at 279.4 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7687a435-f12b-536d-bfd5-b4a2a1d92ba2")
+		)
+		(pin "2"
+			(uuid "fb39db21-07ed-5710-89ff-496e46056712")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 180.34 33.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "83d68000-1583-544d-8430-504fdbcf8de6")
+		(property "Reference" "R2"
+			(at 189.23 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0.47"
+			(at 189.23 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 180.34 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RL1206FR-070R47L"
+			(at 180.34 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "1206, 1%, 0.25W at 70C, +/-300ppm/C; near-short load; actual V/I measured, not inferred from R"
+			(at 180.34 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RL1206FR-070R47L"
+			(at 180.34 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f476d984-be95-5b53-8ec6-ccf3a5775e43")
+		)
+		(pin "2"
+			(uuid "9bdaf5cc-eb88-56b3-8a84-dc14c62dc4fb")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 378.46 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85ba6c1f-9bf6-574c-8c98-f7f96aeb7529")
+		(property "Reference" "Q4"
+			(at 389.89 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 389.89 48.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 378.46 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 378.46 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 378.46 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2873fd3c-14cd-5abc-95e5-a0275e49d73c")
+		)
+		(pin "2"
+			(uuid "2e6e77bc-2a0c-5db2-a9ac-db3fb9bd8a04")
+		)
+		(pin "3"
+			(uuid "9257d624-ef2c-55ab-b9b2-21154033a2ef")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 279.4 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8755edd1-bb07-54c3-bc8b-84c2793adacc")
+		(property "Reference" "Q7"
+			(at 290.83 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 290.83 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 279.4 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 279.4 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 279.4 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 279.4 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a2ab138-86a9-5962-aab9-14d2e500821e")
+		)
+		(pin "2"
+			(uuid "199be006-a9e8-5ebb-98fd-f7c701078f6e")
+		)
+		(pin "3"
+			(uuid "c1922d74-42b2-50f0-9fbc-b834ea4ba272")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 134.62 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c0728e1-1d93-5638-bbf0-341a75f411f9")
+		(property "Reference" "R26"
+			(at 134.62 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 134.62 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 134.62 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d273571d-f847-55d8-b73e-deadb00d3bd3")
+		)
+		(pin "2"
+			(uuid "b4f48af4-8bf3-5e81-9c00-ad551c2a4031")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 35.56 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ef91e33-dc86-5b63-9321-659a3b7169d3")
+		(property "Reference" "R21"
+			(at 35.56 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 35.56 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 35.56 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5096cfdb-6a6e-52c3-b095-770fbcad6d33")
+		)
+		(pin "2"
+			(uuid "3ae24cb8-de7b-5570-94db-28686e4fed40")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 180.34 208.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "906508d8-a5e4-512f-bb09-b3b5a41ee758")
+		(property "Reference" "R14"
+			(at 189.23 205.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "180"
+			(at 189.23 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 180.34 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 180.34 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD07180RL"
+			(at 180.34 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a7225a7a-7f80-5f79-a191-26455b25cc36")
+		)
+		(pin "2"
+			(uuid "7259f76f-c03e-5309-894e-87a350ee24f3")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 378.46 33.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "920bd066-a545-54d9-bbbf-3748e397a29c")
+		(property "Reference" "R4"
+			(at 387.35 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "2.2"
+			(at 387.35 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 378.46 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 378.46 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD072R2L"
+			(at 378.46 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60243f7b-01a4-5487-a198-7a5d4d2e2462")
+		)
+		(pin "2"
+			(uuid "076b8bbd-d58f-5dca-9f7a-00e85906201d")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 355.6 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96dec344-475e-5479-b563-12eed0c19c4d")
+		(property "Reference" "R44"
+			(at 364.49 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 364.49 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 355.6 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 355.6 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 355.6 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1e53e1a-d19f-509b-aab1-10c0a682aef2")
+		)
+		(pin "2"
+			(uuid "42df7ff0-9c93-5012-9058-881b4be35321")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 58.42 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99b3ad1c-358c-5549-b80d-cbe347f48126")
+		(property "Reference" "R41"
+			(at 67.31 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 67.31 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 58.42 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 58.42 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86065c10-aa5a-59ab-a5ca-d3e64b9efda2")
+		)
+		(pin "2"
+			(uuid "fb386faa-0456-5764-984b-88be01118798")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 378.46 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9be607c3-08b0-5ba8-8fb0-39eb5cdcf3b3")
+		(property "Reference" "Q12"
+			(at 389.89 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 389.89 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 378.46 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 378.46 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 378.46 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 378.46 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4eb0a9ea-4cfe-5e81-93f8-46e2c3e42071")
+		)
+		(pin "2"
+			(uuid "066d8982-caf9-5913-8f9d-2254f7f23394")
+		)
+		(pin "3"
+			(uuid "3e9f0678-3d95-53e5-bc3d-ac29fe1d6f00")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 134.62 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e31a991-d4e7-59ef-99d5-9533a3be3892")
+		(property "Reference" "R22"
+			(at 134.62 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 134.62 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 134.62 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a7311f8-e9f3-569f-9d81-2756277525f6")
+		)
+		(pin "2"
+			(uuid "21f19123-e3f5-5055-a28b-ab9224ee5c04")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 355.6 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aee75d30-6ab8-5069-8a26-cf570e1394ea")
+		(property "Reference" "R48"
+			(at 364.49 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 364.49 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 355.6 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 355.6 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 355.6 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6478a0a7-37b1-5696-9d22-a902d681c1a1")
+		)
+		(pin "2"
+			(uuid "3c147e5e-fada-5e15-b160-2fd10fcfd8fc")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 81.28 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b9b25334-bd70-5324-bca3-355e28a4a90d")
+		(property "Reference" "R9"
+			(at 90.17 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "27"
+			(at 90.17 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 81.28 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 81.28 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD0727RL"
+			(at 81.28 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0c1e644-9d12-5ac4-a83a-2d9db40c4978")
+		)
+		(pin "2"
+			(uuid "897494e9-c803-55d8-901d-437638abf1f3")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 35.56 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c07ddd2a-5ffe-53d7-8158-3d142f4339c6")
+		(property "Reference" "R29"
+			(at 35.56 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 35.56 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.56 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 35.56 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8de8c69-30a0-55de-98c9-edd76a3c10da")
+		)
+		(pin "2"
+			(uuid "0a19557f-45c3-5297-9763-f69ac22e6d18")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 58.42 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c17cbf4a-66bf-59ae-a8e0-38695083e21e")
+		(property "Reference" "R49"
+			(at 67.31 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 67.31 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 58.42 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 58.42 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cfbb9fe-5112-540a-b267-25e949925519")
+		)
+		(pin "2"
+			(uuid "705a2d07-e908-53ba-8534-e1564fd40c2d")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 378.46 208.28 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c80b58e2-1470-59ba-84ba-beb80c06c26e")
+		(property "Reference" "R16"
+			(at 387.35 205.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 387.35 210.82 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 378.46 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 378.46 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD071KL"
+			(at 378.46 208.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01ee2fc0-bb43-5c0b-a4b2-67238c289dbf")
+		)
+		(pin "2"
+			(uuid "6ec0665f-da7f-5be1-82d2-f5173732db2f")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 35.56 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbb5e72d-6f65-5c72-83f8-30e0fc4eb853")
+		(property "Reference" "R33"
+			(at 35.56 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 35.56 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.56 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 35.56 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4db57e00-5bf4-57e5-9274-1b99c1ecbefd")
+		)
+		(pin "2"
+			(uuid "db8ff9c1-e10e-5870-878e-eadaee916453")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 180.34 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da12a48e-b9f2-5582-9c78-61bb7da962bb")
+		(property "Reference" "R10"
+			(at 189.23 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "39"
+			(at 189.23 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 180.34 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 180.34 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD0739RL"
+			(at 180.34 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef72d377-d28e-556d-a3c5-6bc6d8eb6b51")
+		)
+		(pin "2"
+			(uuid "29597884-abe9-511e-a992-d2402825037c")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 233.68 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df4e619e-510f-57f3-8e1d-0e9119edbc18")
+		(property "Reference" "R27"
+			(at 233.68 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 233.68 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 233.68 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 233.68 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19120c57-9380-5a2d-857e-70ecd1a9f9c1")
+		)
+		(pin "2"
+			(uuid "12c9fe24-bd2b-5b25-b378-4e88065c82d7")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 157.48 233.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dfc73f72-7606-5d01-bf4e-5035b8789f79")
+		(property "Reference" "R54"
+			(at 166.37 231.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 166.37 236.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 157.48 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 157.48 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "755acb0c-0386-5871-83b1-78e722912d69")
+		)
+		(pin "2"
+			(uuid "2a7339ec-4024-548d-bee8-97eee6d95aca")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 134.62 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1205819-dd08-5821-82fc-76814c8d324c")
+		(property "Reference" "R30"
+			(at 134.62 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 134.62 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 134.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 134.62 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f46474c-54e6-58ab-8191-5ec00f5d2bb1")
+		)
+		(pin "2"
+			(uuid "231aae9d-7df4-510b-a266-3e5895093aeb")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 81.28 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e18d702a-f752-5adc-9664-3386f880edf3")
+		(property "Reference" "Q5"
+			(at 92.71 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 92.71 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 81.28 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e12d889-03c4-5b7a-8a2f-dd31cd54a560")
+		)
+		(pin "2"
+			(uuid "648921d3-e3bd-5f47-a72f-54f9fd167261")
+		)
+		(pin "3"
+			(uuid "70e57753-095d-5fdf-856f-c61f1be3bc82")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 233.68 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e39de905-ae04-55ca-b688-37ff2952811b")
+		(property "Reference" "R31"
+			(at 233.68 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 233.68 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 233.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 233.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d430e67-7f52-5e1c-a863-674facb41a3c")
+		)
+		(pin "2"
+			(uuid "4e33767a-6e63-5b34-b14f-d067f2d2d26e")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 180.34 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e45f306d-97ba-574b-b019-844a17342fd5")
+		(property "Reference" "Q6"
+			(at 191.77 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 191.77 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 180.34 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "768e7228-0933-529a-bdfa-45399fcfcbf0")
+		)
+		(pin "2"
+			(uuid "7f039d79-1c76-5bd0-b65d-90261f9890cc")
+		)
+		(pin "3"
+			(uuid "04f8c97f-7d2a-54eb-aefa-93f41afabfe9")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 355.6 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e613b8ab-d355-56d4-a990-801e57e1d3be")
+		(property "Reference" "R52"
+			(at 364.49 172.72 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 364.49 177.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 355.6 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 355.6 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 355.6 175.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53d14f79-5a9c-5f01-91c4-b8e389ac7d04")
+		)
+		(pin "2"
+			(uuid "8e390632-60c5-5339-82ad-c2d8492d3498")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 35.56 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e622778c-6d25-58bf-890c-b04f093e4a6f")
+		(property "Reference" "R25"
+			(at 35.56 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 35.56 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 35.56 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 35.56 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ca1dcdb-a378-5c21-831a-b8ea8c5b13c2")
+		)
+		(pin "2"
+			(uuid "bf19dadb-6647-52be-9840-900f66ee429d")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 157.48 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6c671e2-1a45-5973-86cf-8977d03ab449")
+		(property "Reference" "R46"
+			(at 166.37 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 166.37 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 157.48 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 157.48 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 157.48 116.84 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "716cf8a4-cbb8-5421-b993-7bee94abb29f")
+		)
+		(pin "2"
+			(uuid "55bf3f07-07cb-5db5-ac59-01a1dd34118e")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 256.54 233.68 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e78c61f4-d5bf-5515-99bd-29f23502156d")
+		(property "Reference" "R55"
+			(at 265.43 231.14 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 265.43 236.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 256.54 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 256.54 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 256.54 233.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06045a6f-ab3d-583c-af5e-cb0b7311fb47")
+		)
+		(pin "2"
+			(uuid "344887c3-1536-538f-ab3c-82d5f058e8bb")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 378.46 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8841ff5-bc51-5b00-b7e0-5d2b896ff704")
+		(property "Reference" "R8"
+			(at 387.35 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "18"
+			(at 387.35 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 378.46 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 378.46 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 378.46 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD0718RL"
+			(at 378.46 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84521d4a-d8fb-5184-bd47-a887f27586bc")
+		)
+		(pin "2"
+			(uuid "fcc53f75-4b71-59c9-aec3-636c38d2ba16")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 279.4 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ed63cfb9-c604-5b50-b43b-b5ba3fa94963")
+		(property "Reference" "R11"
+			(at 288.29 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "56"
+			(at 288.29 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 279.4 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 279.4 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD0756RL"
+			(at 279.4 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f40ac6a6-a6dc-56e0-a4f6-4a35e5e2de71")
+		)
+		(pin "2"
+			(uuid "63abbf66-5d4d-5d16-a2ee-95220d1e836a")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:AO3400A_CS")
+		(at 180.34 165.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "efab0509-4ff5-5600-9729-95b27310e5f2")
+		(property "Reference" "Q10"
+			(at 191.77 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 191.77 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 180.34 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf"
+			(at 180.34 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "AO3400A"
+			(at 180.34 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3417513-71fe-5c4d-8ef1-e2ea273b7eb2")
+		)
+		(pin "2"
+			(uuid "dd37b750-b16b-5344-be9e-92c2e6c32c35")
+		)
+		(pin "3"
+			(uuid "c7ff6805-1dec-5cd3-9644-b366adf103c1")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "Q10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 332.74 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f14bb434-888f-538f-a2a5-ce1e81f6ba33")
+		(property "Reference" "R36"
+			(at 332.74 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 332.74 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 332.74 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 332.74 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 332.74 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "87c1efb7-617e-51f4-807e-1b80f41b7ad3")
+		)
+		(pin "2"
+			(uuid "3ebe87c0-ce25-5902-b998-6115691ae4ef")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 332.74 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f3a5a264-37d9-5853-b44e-cd31d6f8c73c")
+		(property "Reference" "R28"
+			(at 332.74 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 332.74 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 332.74 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 332.74 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 332.74 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 332.74 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f04aaaa1-7b62-594d-b4f0-beb5c10e2f73")
+		)
+		(pin "2"
+			(uuid "40f5b581-918a-590f-be7c-80dd94ea3db4")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 233.68 223.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f4ef4103-4b86-51ab-bef5-8fb8c671414f")
+		(property "Reference" "R35"
+			(at 233.68 218.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 233.68 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 233.68 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-071KL"
+			(at 233.68 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "078144c9-0102-506d-8e7e-3160c05b5c15")
+		)
+		(pin "2"
+			(uuid "d212ba25-3b0a-5ec2-bd1d-dbf70b6d8adc")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 256.54 58.42 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcb4ab51-e738-5e9c-84d3-6b8f0ca81f12")
+		(property "Reference" "R43"
+			(at 265.43 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47k"
+			(at 265.43 60.96 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 256.54 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "Return below shunt to avoid false measured logic current"
+			(at 256.54 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RC0603FR-0747KL"
+			(at 256.54 58.42 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "84f39bac-766e-5674-865c-25aff641f975")
+		)
+		(pin "2"
+			(uuid "ee8309f4-597b-50f7-ba37-43bf4ab48a35")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "solar_oracle:R")
+		(at 81.28 91.44 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffcaa299-bfc9-56df-b7db-674bab669c26")
+		(property "Reference" "R5"
+			(at 90.17 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "4.7"
+			(at 90.17 93.98 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 81.28 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Description" "0.1%, 25ppm/C, 0.25W"
+			(at 81.28 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "MPN" "RT1206BRD074R7L"
+			(at 81.28 91.44 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae221680-f79c-5dcc-ad2a-330ea707d814")
+		)
+		(pin "2"
+			(uuid "8e813089-9ccb-57f5-a351-47d0b174c147")
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a/0afc3d03-23a9-5816-82dc-7246282c8956"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

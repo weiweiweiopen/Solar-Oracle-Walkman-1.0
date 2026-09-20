@@ -1,0 +1,172 @@
+ref,quantity,value,MPN,footprint,sheet,connected_power_domains,note
+J2,1,LOLIN S3 MINI V1.0.0 / SOCKET,LOLIN S3 MINI V1.0.0,solar_oracle:LOLIN_S3_Mini_V1,control,+3V3;GND;MODULE_VBUS,
+J3,1,ADAFRUIT 6366 / 1x13 FEMALE,SSW-113-01-T-S,solar_oracle:EPD_6366_Socket13,control,+3V3;GND,"13-pin SPI socket; 8.51mm nominal body; display rotated180, VIN left/ENA right; pin2 regulator output NC; GPIO35 SRAM CS; map GPIO20260920"
+U1,1,SN74HC595PWR,SN74HC595PWR,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,control,+3V3;GND,
+C101,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,control,+3V3;GND,
+U2,1,SN74HC595PWR,SN74HC595PWR,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,control,+3V3;GND,
+C102,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,control,+3V3;GND,
+R101,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,control,+3V3,
+R102,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,control,+3V3,
+R103,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,control,GND,
+R104,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,control,GND,
+R105,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,control,GND,
+R106,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,control,GND,
+R107,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,control,+3V3,
+R108,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,control,+3V3,
+R109,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,control,+3V3,
+C103,1,10u,GRM21BR61C106KE15L,Capacitor_SMD:C_0805_2012Metric,control,+3V3;GND,
+SW1,1,MEASURE,TL3342F160QG,Button_Switch_SMD:SW_SPST_TL3342,control,GND,
+U7,1,AEM10941 / CFG=000,10AEM10941C0001,solar_oracle:AEM10941_QFN28_EP3.5,power,GND;HARV_P;VSTORE,
+L1,1,22uH,LPS4018-223MRC,Inductor_SMD:L_Coilcraft_LPS4018,power,,
+L2,1,10uH,MLZ1608N100LT000,Inductor_SMD:L_TDK_MLZ1608,power,,
+C104,1,22u,GRM32ER61A226KE20L,Capacitor_SMD:C_1210_3225Metric,power,GND,
+C105,1,10u,GRM21BR61C106KE15L,Capacitor_SMD:C_0805_2012Metric,power,GND,
+C106,1,10u,GRM21BR61C106KE15L,Capacitor_SMD:C_0805_2012Metric,power,GND,
+C107,1,10u,GRM21BR61C106KE15L,Capacitor_SMD:C_0805_2012Metric,power,GND,
+C108,1,10u,GRM21BR61C106KE15L,Capacitor_SMD:C_0805_2012Metric,power,GND,
+C109,1,100u,GRM32ER60J107ME20L,Capacitor_SMD:C_1210_3225Metric,power,GND;VSTORE,Verify effective DC-bias capacitance
+C110,1,100u,GRM32ER60J107ME20L,Capacitor_SMD:C_1210_3225Metric,power,GND;VSTORE,Verify effective DC-bias capacitance
+C111,1,22u,GRM32ER61A226KE20L,Capacitor_SMD:C_1210_3225Metric,power,GND;VSTORE,
+R80,1,549k,TNPW1206549KBEEA,Resistor_SMD:R_1206_3216Metric,power,GND,0.1% threshold resistor; exact sourcing to qualify
+R81,1,9.31k,TNPW12069K31BEEA,Resistor_SMD:R_1206_3216Metric,power,,0.1% threshold resistor; exact sourcing to qualify
+R82,1,143k,TNPW1206143KBEEA,Resistor_SMD:R_1206_3216Metric,power,,0.1% threshold resistor; exact sourcing to qualify
+R83,1,1.74M,TNPW12061M74BEEA,Resistor_SMD:R_1206_3216Metric,power,,0.1% threshold resistor; exact sourcing to qualify
+C1,1,1.5F 5V PHB,PHB-5R0V155-R,solar_oracle:PHB_5R0V155_R_LaidDown_Provisional,power,GND;VSTORE,PARALLEL 5V pack; + pad1 longer lead; max17.3x9x22mm/P11.8; equalize before assembly; no reflow
+C2,1,1.5F 5V PHB,PHB-5R0V155-R,solar_oracle:PHB_5R0V155_R_LaidDown_Provisional,power,GND;VSTORE,PARALLEL 5V pack; + pad1 longer lead; max17.3x9x22mm/P11.8; equalize before assembly; no reflow
+C3,1,1.5F 5V PHB,PHB-5R0V155-R,solar_oracle:PHB_5R0V155_R_LaidDown_Provisional,power,GND;VSTORE,PARALLEL 5V pack; + pad1 longer lead; max17.3x9x22mm/P11.8; equalize before assembly; no reflow
+U8,1,TPS61023DRLR / 5V,TPS61023DRLR,Package_TO_SOT_SMD:SOT-563,power,GND;SOLAR_5V;VSTORE,
+L3,1,1uH,XEL4030-102MEC,solar_oracle:Coilcraft_XEL4030,power,VSTORE,
+R84,1,732k,RC0603FR-07732KL,Resistor_SMD:R_0603_1608Metric,power,SOLAR_5V,
+R85,1,100k,RC0603FR-07100KL,Resistor_SMD:R_0603_1608Metric,power,GND,
+R86,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,always_on,GND,Fail-low bias; approx95uA when READY high; qualify loaded STATUS0 voltage
+C112,1,220p,GRM1885C1H221JA01D,Capacitor_SMD:C_0603_1608Metric,power,SOLAR_5V,
+C113,1,10u,GRM21BR61C106KE15L,Capacitor_SMD:C_0805_2012Metric,power,GND;VSTORE,
+C114,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,power,GND;VSTORE,
+C115,1,22u,GRM32ER61A226KE20L,Capacitor_SMD:C_1210_3225Metric,power,GND;SOLAR_5V,
+C116,1,22u,GRM32ER61A226KE20L,Capacitor_SMD:C_1210_3225Metric,power,GND;SOLAR_5V,
+JP1,1,SLIDE / OFF BEFORE USB,EGJ1210AAG2R,solar_oracle:EGJ1210AAG2R_Side,power,MODULE_VBUS;SOLAR_5V,"Side-actuated SPDT used ON/OFF; 1=SOLAR_5V common, 2=MODULE_VBUS, 3=NC; 0.5A at 12VDC; OFF before USB"
+R87,1,1M,RC0603FR-071ML,Resistor_SMD:R_0603_1608Metric,measurement,VSTORE,
+R88,1,330k,RC0603FR-07330KL,Resistor_SMD:R_0603_1608Metric,measurement,GND,
+Q18,1,AO3400A / WARN LEVEL,AO3400A,Package_TO_SOT_SMD:SOT-23,power,GND,
+R110,1,100k,RC0603FR-07100KL,Resistor_SMD:R_0603_1608Metric,power,+3V3,
+R111,1,1M,RC0603FR-071ML,Resistor_SMD:R_0603_1608Metric,power,GND,
+J1,1,DSSC ZEBRA 5x50,PCB_ENIG_CONTACT,solar_oracle:DSSC_Zebra_5x50,measurement,DUT_P;GND,66x66 glass; clamp and electrode registration require physical qualification
+Q17,1,AO3400A / RELAY COIL,AO3400A,Package_TO_SOT_SMD:SOT-23,switching,GND,Low-side coil driver; high SCAN_MODE energizes relay
+R90,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,switching,,
+R91,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,switching,GND,
+D1,1,1N4148W / FLYBACK,1N4148W-7-F,Diode_SMD:D_SOD-123,switching,MODULE_VBUS,"Flyback diode: K=pad1 to+5V, A=pad2 to coil low"
+U3,1,ADS122C04IPWR / 0x40,ADS122C04IPWR,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,measurement,ANALOG_3V3;GND,
+U4,1,INA190A4IDCKR / G=200,INA190A4IDCKR,Package_TO_SOT_SMD:SOT-363_SC-70-6,measurement,ANALOG_3V3;GND,
+U5,1,REF2025AIDDCR,REF2025AIDDCR,Package_TO_SOT_SMD:SOT-23-5,measurement,ANALOG_3V3;GND,
+U6,1,TMUX1511PWR / OFF ISOLATION,TMUX1511PWR,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,measurement,+3V3;DUT_P;GND,
+R17,1,0.100 1% CAL,WSL1206R1000FEA,solar_oracle:WSL1206,measurement,GND;SHUNT_H,1206 0.1ohm 1% 0.25W at 70C +/-75ppm/C shunt; separate PCB Kelvin traces and assembled gain calibration required
+R92,1,100,RC0603FR-07100RL,Resistor_SMD:R_0603_1608Metric,measurement,SHUNT_H,
+R93,1,100,RC0603FR-07100RL,Resistor_SMD:R_0603_1608Metric,measurement,GND,
+R94,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,measurement,,
+R95,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,measurement,GND,
+R96,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,measurement,,
+R97,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,measurement,,
+R98,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,measurement,GND,
+R99,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,measurement,ANALOG_3V3,
+R112,1,4.7k,RC0603FR-074K7L,Resistor_SMD:R_0603_1608Metric,measurement,ANALOG_3V3,
+R113,1,4.7k,RC0603FR-074K7L,Resistor_SMD:R_0603_1608Metric,measurement,ANALOG_3V3,
+R114,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,measurement,ANALOG_3V3,
+C117,1,22n,GRM21BR71H223KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,,
+C118,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,,
+C119,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,,
+C120,1,10n,GRM21BR71H103KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,GND,
+C121,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,GND,
+C122,1,1u,GRM21BR71C105KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,GND,
+C123,1,1u,GRM21BR71C105KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,GND,
+C124,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,ANALOG_3V3;GND,
+C125,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,ANALOG_3V3;GND,
+C126,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,ANALOG_3V3;GND,
+C127,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,ANALOG_3V3;GND,
+C128,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,+3V3;GND,
+C129,1,10u,GRM21BR61C106KE15L,Capacitor_SMD:C_0805_2012Metric,measurement,ANALOG_3V3;GND,
+R1,1,0.22,RL1206FR-070R22L,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"1206, 1%, 0.25W at 70C, +/-600ppm/C; near-short load; actual V/I measured, not inferred from R"
+Q1,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R21,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R41,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R2,1,0.47,RL1206FR-070R47L,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"1206, 1%, 0.25W at 70C, +/-300ppm/C; near-short load; actual V/I measured, not inferred from R"
+Q2,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R22,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R42,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R3,1,1,RT1206BRD071RL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q3,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R23,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R43,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R4,1,2.2,RT1206BRD072R2L,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q4,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R24,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R44,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R5,1,4.7,RT1206BRD074R7L,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q5,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R25,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R45,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R6,1,8.2,RT1206BRD078R2L,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q6,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R26,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R46,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R7,1,12,RT1206BRD0712RL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q7,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R27,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R47,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R8,1,18,RT1206BRD0718RL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q8,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R28,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R48,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R9,1,27,RT1206BRD0727RL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q9,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R29,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R49,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R10,1,39,RT1206BRD0739RL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q10,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R30,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R50,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R11,1,56,RT1206BRD0756RL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q11,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R31,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R51,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R12,1,82,RT1206BRD0782RL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q12,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R32,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R52,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R13,1,120,RT1206BRD07120RL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q13,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R33,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R53,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R14,1,180,RT1206BRD07180RL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q14,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R34,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R54,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R15,1,330,RT1206BRD07330RL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q15,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R35,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R55,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+R16,1,1k,RT1206BRD071KL,Resistor_SMD:R_1206_3216Metric,loads,LOAD_P,"0.1%, 25ppm/C, 0.25W"
+Q16,1,AO3400A,AO3400A,Package_TO_SOT_SMD:SOT-23,loads,SHUNT_H,
+R36,1,1k,RC0603FR-071KL,Resistor_SMD:R_0603_1608Metric,loads,,
+R56,1,47k,RC0603FR-0747KL,Resistor_SMD:R_0603_1608Metric,loads,GND,Return below shunt to avoid false measured logic current
+U9,1,TPS22919DCKR / ANALOG POWER,TPS22919DCKR,Package_TO_SOT_SMD:SOT-363_SC-70-6,measurement,+3V3;ANALOG_3V3;GND,
+R115,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,measurement,GND,
+R116,1,4.7k,RC0603FR-074K7L,Resistor_SMD:R_0603_1608Metric,control,+3V3,
+R117,1,4.7k,RC0603FR-074K7L,Resistor_SMD:R_0603_1608Metric,control,+3V3,
+C130,1,1u,GRM21BR71C105KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,+3V3;GND,
+C131,1,1u,GRM21BR71C105KA01L,Capacitor_SMD:C_0805_2012Metric,measurement,ANALOG_3V3;GND,
+U10,1,TPS7A0233PDBVR / AON ONLY,TPS7A0233PDBVR,Package_TO_SOT_SMD:SOT-23-5,always_on,AON_3V3;GND;VSTORE,
+U11,1,TPL5111DDCR / 600s,TPL5111DDCR,Package_TO_SOT_SMD:SOT-23-6,always_on,AON_3V3;GND,DRVn active HIGH; no DONE gives only50ms off; rail/reset timing must be measured
+U12,1,SN74LVC1G97DCKR / SCHMITT AND,SN74LVC1G97DCKR,Package_TO_SOT_SMD:SOT-363_SC-70-6,always_on,AON_3V3;GND,"In1=0 selects AND; Schmitt inputs; Ioff; READY is hysteretic, not per-task energy admission"
+U13,1,SN74LVC1G17DCKR / DONE ISOLATION,SN74LVC1G17DCKR,Package_TO_SOT_SMD:SOT-353_SC-70-5,always_on,AON_3V3;GND,"Powered from AON, not MAIN; Schmitt/Ioff protects TPL DONE in USB-only mode"
+C132,1,1u,GRM21BR71C105KA01L,Capacitor_SMD:C_0805_2012Metric,always_on,GND;VSTORE,
+C133,1,1u,GRM21BR71C105KA01L,Capacitor_SMD:C_0805_2012Metric,always_on,AON_3V3;GND,
+C134,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,always_on,AON_3V3;GND,
+C135,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,always_on,AON_3V3;GND,
+C136,1,100n,GRM21BR71H104KA01L,Capacitor_SMD:C_0805_2012Metric,always_on,AON_3V3;GND,
+R118,1,107k,RC0603FR-07107KL,Resistor_SMD:R_0603_1608Metric,always_on,GND,
+R119,1,124k,RC0603FR-07124KL,Resistor_SMD:R_0603_1608Metric,always_on,GND,
+R120,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,always_on,GND,
+R121,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,always_on,GND,
+R122,1,10k,RC0603FR-0710KL,Resistor_SMD:R_0603_1608Metric,power,GND,
+R123,1,100k,RC0603FR-07100KL,Resistor_SMD:R_0603_1608Metric,power,GND;SOLAR_5V,"Weak off-state bleed, NOT guaranteed50ms reset"
+K1,1,G6K-2F-Y DC5,G6K-2F-Y-TR DC5,solar_oracle:G6K_2F_Y,switching,MODULE_VBUS;DUT_P;HARV_P;LOAD_P,Non-latching 5V; coil1+/8-; COM3 NC2 NO4; poleB unused

@@ -1,0 +1,7 @@
+{
+  "native_XML_header_match": true,
+  "live_header_and_netlist_match": true,
+  "unique_assigned_GPIOs": 24,
+  "host_startup_tests": "passed",
+  "ESP32_cross_compile": "not performed; Arduino-ESP32 toolchain and main application absent"
+}

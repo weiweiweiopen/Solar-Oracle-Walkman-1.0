@@ -1,0 +1,312 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "ca43d17f-5fbd-5c25-9237-213d894d4d8a")
+	(paper "A3")
+	(title_block
+		(title "Solar Oracle Walkman - K1 Relay")
+		(rev "K1-RELAY")
+		(company "Wise Mouse Culture")
+		(comment 1 "LOLIN S3 MINI sockets / 16 MOSFET loads / AEM10941 / Adafruit 6366")
+	)
+	(lib_symbols)
+	(text "SOLAR ORACLE WALKMAN - INDEPENDENT ENGINEERING PROTOTYPE"
+		(exclude_from_sim no)
+		(at 20 20 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left top)
+		)
+		(uuid "23a523df-30d9-5cf3-9f93-3c3aadc231ba")
+	)
+	(text "K1 RELAY VARIANT: see README.md for contacts and coil timing.\nGlass66x66mm; optical opening50x50mm (routed corners); ENIG contacts5x50mm.\nThree PHB1.5F/5V packs in parallel; no DAC / Teensy / audio adaptor / LLM.\nSet JP1 OFF BEFORE USB: LOLIN USB VBUS and its5V header are the same node.\nDSSC Voc~0.65V / Isc~34mA are separate endpoints; Pmpp unmeasured. CAD consistency is not bench qualification."
+		(exclude_from_sim no)
+		(at 20 255 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "62314989-f093-5f3f-9fca-7f53b183b0be")
+	)
+	(sheet
+		(at 210 130)
+		(size 145 42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0afc3d03-23a9-5816-82dc-7246282c8956")
+		(property "Sheetname" "LOADS"
+			(at 210 128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "loads.kicad_sch"
+			(at 210 174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210 200)
+		(size 145 42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3d69ab76-44a0-5a22-b687-ccf22464cf0e")
+		(property "Sheetname" "SWITCHING"
+			(at 210 198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switching.kicad_sch"
+			(at 210 244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 200)
+		(size 145 42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "bd70ceff-8950-50fe-9980-ab94b0403adc")
+		(property "Sheetname" "ALWAYS_ON"
+			(at 30 198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "always_on.kicad_sch"
+			(at 30 244 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 60)
+		(size 145 42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "dea721cc-7b68-52bb-9917-cc138deff471")
+		(property "Sheetname" "POWER"
+			(at 30 58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 30 104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 210 60)
+		(size 145 42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e6b83cc4-87a3-5da2-a93a-ac2cc43ba997")
+		(property "Sheetname" "CONTROL"
+			(at 210 58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "control.kicad_sch"
+			(at 210 104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 30 130)
+		(size 145 42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "f426b321-d5a1-5ed3-9fe1-be333e71fd3a")
+		(property "Sheetname" "MEASUREMENT"
+			(at 30 128 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "measurement.kicad_sch"
+			(at 30 174 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "solar-oracle-walkman-relay"
+				(path "/ca43d17f-5fbd-5c25-9237-213d894d4d8a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,4 @@
+# Preserve verified native design files byte-for-byte across platforms.
+hardware/** -text
+hardware/models/*.step binary
+docs/*.pdf binary
