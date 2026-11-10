@@ -2,8 +2,8 @@
 
 ## 1. Get the whole source tree
 
-    git clone https://github.com/weiweiweiopen/self-powered-iv-curve-tester-with-single-dssc.git
-    cd self-powered-iv-curve-tester-with-single-dssc
+    git clone https://github.com/weiweiweiopen/Solar-Oracle-Walkman-1.0.git
+    cd Solar-Oracle-Walkman-1.0
 
 GitHub's Code → Download ZIP also works. Download the entire repository rather than an isolated PCB: schematics use sub-sheets, local symbols/footprints and models. Enclosure editable-source ZIPs contain the Blender scene, geometry inputs and rebuild scripts; extract the ZIP for the selected variant before editing.
 
