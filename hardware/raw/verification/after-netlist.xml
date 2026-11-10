@@ -1,0 +1,1682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/shihweichieh/Documents/Projects/SolarOracleWalkman/IVcurve_tester-main/_archive/load-resistors-1206-20261103-172855/solar-oracle-walkman-raw/candidate/Marc_USB.kicad_sch</source>
+    <date>2026-11-03T17:42:42</date>
+    <tool>Eeschema 10.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Marc USB - Integrated draft</title>
+        <company/>
+        <rev>D0</rev>
+        <date>2026-10-18</date>
+        <source>Marc_USB.kicad_sch</source>
+        <comment number="1" value="Based on Marc Dusseiller IVcurve_tester f9a75be; new integrated design"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PowerMCU/" tstamps="/cd1d06d3-19c9-490e-b06f-5cf128f9a574/">
+      <title_block>
+        <title>Marc USB - PowerMCU - DRAFT NOT FOR FAB</title>
+        <company/>
+        <rev>D0</rev>
+        <date>2026-10-18</date>
+        <source>PowerMCU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/">
+      <title_block>
+        <title>Marc USB - Measurement - DRAFT NOT FOR FAB</title>
+        <company/>
+        <rev>D0</rev>
+        <date>2026-10-18</date>
+        <source>Measurement.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/">
+      <title_block>
+        <title>Marc USB - DisplayUI - DRAFT NOT FOR FAB</title>
+        <company/>
+        <rev>D0</rev>
+        <date>2026-10-18</date>
+        <source>DisplayUI.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>LOLIN S3 Mini V1.0.0</value>
+      <footprint>Marc:LOLIN_S3_MINI_V1</footprint>
+      <datasheet>https://www.wemos.cc/en/latest/_static/files/sch_s3_mini_v1.0.0.pdf</datasheet>
+      <fields>
+        <field name="MPN">LOLIN S3 MINI V1.0.0</field>
+        <field name="Assembly">後焊</field>
+        <field name="Qualification">官方腳序／高度插座待核</field>
+        <field name="Footprint">Marc:LOLIN_S3_MINI_V1</field>
+        <field name="Datasheet">https://www.wemos.cc/en/latest/_static/files/sch_s3_mini_v1.0.0.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="LOLIN_S3_MINI_V1" description=""/>
+      <property name="MPN" value="LOLIN S3 MINI V1.0.0"/>
+      <property name="Assembly" value="後焊"/>
+      <property name="Qualification" value="官方腳序／高度插座待核"/>
+      <property name="Sheetname" value="PowerMCU"/>
+      <property name="Sheetfile" value="PowerMCU.kicad_sch"/>
+      <sheetpath names="/PowerMCU/" tstamps="/cd1d06d3-19c9-490e-b06f-5cf128f9a574/"/>
+      <tstamps>d8db7a27-e700-48d6-9cab-4199eafc35d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="J2.1"/>
+            <pin num="J2.2"/>
+            <pin num="J2.3"/>
+            <pin num="J2.4"/>
+            <pin num="J2.5"/>
+            <pin num="J2.6"/>
+            <pin num="J2.7"/>
+            <pin num="J2.8"/>
+            <pin num="J5.1"/>
+            <pin num="J5.2"/>
+            <pin num="J5.3"/>
+            <pin num="J5.4"/>
+            <pin num="J5.5"/>
+            <pin num="J5.6"/>
+            <pin num="J5.7"/>
+            <pin num="J5.8"/>
+            <pin num="J4.1"/>
+            <pin num="J4.2"/>
+            <pin num="J4.3"/>
+            <pin num="J4.4"/>
+            <pin num="J4.5"/>
+            <pin num="J4.6"/>
+            <pin num="J4.7"/>
+            <pin num="J4.8"/>
+            <pin num="J3.1"/>
+            <pin num="J3.2"/>
+            <pin num="J3.3"/>
+            <pin num="J3.4"/>
+            <pin num="J3.5"/>
+            <pin num="J3.6"/>
+            <pin num="J3.7"/>
+            <pin num="J3.8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10u 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Capacitor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="PowerMCU"/>
+      <property name="Sheetfile" value="PowerMCU.kicad_sch"/>
+      <sheetpath names="/PowerMCU/" tstamps="/cd1d06d3-19c9-490e-b06f-5cf128f9a574/"/>
+      <tstamps>08835dff-bc45-4c97-8778-c741b716f4fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>10u 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Capacitor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="PowerMCU"/>
+      <property name="Sheetfile" value="PowerMCU.kicad_sch"/>
+      <sheetpath names="/PowerMCU/" tstamps="/cd1d06d3-19c9-490e-b06f-5cf128f9a574/"/>
+      <tstamps>6a9d0b34-a862-4042-861e-79985e0e8268</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Capacitor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>a6209070-3e7a-432f-aec4-55375d0f45ee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Capacitor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>67b18d1d-3e67-4b57-8e39-30ba2096195a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Capacitor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>2d96089d-1218-4078-a742-134e986a75ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>DSSC single-cell collector</value>
+      <footprint>Marc:DSSC_Collector_58mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">後焊</field>
+        <field name="Qualification">Single DSSC; verify actual contact polarity before assembly</field>
+        <field name="Footprint">Marc:DSSC_Collector_58mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="DSSC_Collector" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="後焊"/>
+      <property name="Qualification" value="Single DSSC; verify actual contact polarity before assembly"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>04867bc4-d8a9-4bf2-8440-70a5e6af8b60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>1M CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-071ML</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-071ML</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-071ML</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-071ML"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>e70ce929-b752-426e-bb42-692140b29edd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>20k CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0720KL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0720KL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0720KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-0720KL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>ad830c3e-5eef-4a97-af45-e759bf8e6d5c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>8.2k CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-078K2L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-078K2L</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-078K2L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-078K2L"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>e90f6fed-cf8e-45aa-a83b-d3aa98fccdc1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>4.3k CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-074K3L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-074K3L</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-074K3L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-074K3L"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>37dbd86a-839b-4bbb-8cc6-4d1e772691e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-072K2L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-072K2L</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-072K2L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-072K2L"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>bf603cf0-b568-46ce-9b23-c131a5ff26d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>1k CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-071KL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-071KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>1dee86e8-bac8-4a80-8b3d-75004d08ff41</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>750 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07750RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07750RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07750RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07750RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>c16b7704-5d3b-4f3a-b5d0-8ebe93b2bdc1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>470 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07470RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07470RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07470RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07470RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>6cb2ad9a-acac-4f6c-b87d-464c43a28a21</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>330 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07330RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07330RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07330RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07330RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>90c65211-a4a4-41bf-b33b-e745468ada23</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>220 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07220RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07220RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07220RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07220RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>ad631953-67da-464a-bf8f-d5a1da52963d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>150 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07150RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07150RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07150RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07150RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>c642b2c5-f3c3-4d68-9b2b-f8b3b07ae489</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>100 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07100RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07100RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07100RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07100RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>810837ec-6aa1-4b20-83a1-76b3d3fb5e94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>75 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0775RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0775RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0775RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-0775RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>5e071c04-4d91-44f3-a7a8-82c92702c634</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>49.9 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0749R9L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0749R9L</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0749R9L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-0749R9L"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>96f5551e-b173-4c85-9610-1d741902274b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>30.1 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0730R1L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0730R1L</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0730R1L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-0730R1L"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>fc89d601-68bd-476f-ae74-51eb24774064</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>20 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0720RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0720RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0720RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-0720RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>462b851e-896d-4d95-8ac0-7729335ecfda</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>f3e1471a-a015-4128-ac8e-11cd366c57b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>4f2ff75d-4a5e-4d05-8e62-32c680f4c267</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>88661553-08af-481d-b285-6a155c3b9310</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>71c525c3-664f-403f-9e5b-5a8ca86dd167</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ADG706BRUZ-REEL7</value>
+      <footprint>Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ADG706_707.pdf</datasheet>
+      <fields>
+        <field name="MPN">ADG706BRUZ-REEL7</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">上游pin交叉核對；官方datasheet未完成</field>
+        <field name="Footprint">Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/ADG706_707.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="ADG706BRUZ" description=""/>
+      <property name="MPN" value="ADG706BRUZ-REEL7"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="上游pin交叉核對；官方datasheet未完成"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>04e0edd0-466b-42f7-8bfe-3739a8c301dc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="27"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="28"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>ADS1115IDGSR / 0x48</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ads1115.pdf</datasheet>
+      <fields>
+        <field name="MPN">ADS1115IDGSR</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">官方TI Rev F pin/限值已核；採購未核</field>
+        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads1115.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="ADS1115IDGSR" description=""/>
+      <property name="MPN" value="ADS1115IDGSR"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="官方TI Rev F pin/限值已核；採購未核"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>ad5fa91b-1938-4c41-8722-dacd2d74e7aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>Adafruit 4814 SSD1680 250x122</value>
+      <footprint>Marc:Adafruit_4814_FeatherWing_Mating</footprint>
+      <datasheet>https://www.adafruit.com/product/4814</datasheet>
+      <fields>
+        <field name="MPN">4814</field>
+        <field name="Assembly">Male 1x16 + 1x12 headers mating factory INNER socket rows; stack height UNVERIFIED</field>
+        <field name="Qualification">4814 SSD1680; common CAD outline; physical revision and mating Z UNVERIFIED</field>
+        <field name="Footprint">Marc:Adafruit_4814_FeatherWing_Mating</field>
+        <field name="Datasheet">https://www.adafruit.com/product/4814</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Adafruit_4814_FeatherWing" description=""/>
+      <property name="MPN" value="4814"/>
+      <property name="Assembly" value="Male 1x16 + 1x12 headers mating factory INNER socket rows; stack height UNVERIFIED"/>
+      <property name="Qualification" value="4814 SSD1680; common CAD outline; physical revision and mating Z UNVERIFIED"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>f534dd91-38a2-4cd1-8a03-21154e695035</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>68bee887-13b9-4f8d-bc04-29113d5e3cb7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>48c16308-2072-44eb-a169-8707e0e1b997</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>47868e84-7228-4c41-b0ca-8b6492dec529</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>eef9317f-27be-464c-bfce-015a599d22d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>MEASURE / SCALE</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="MPN">TL3342候選</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">柱塞行程／高度待核</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="MeasureSwitch" description=""/>
+      <property name="MPN" value="TL3342候選"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="柱塞行程／高度待核"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>df3017d1-5557-41e5-bc6c-cf2ffce01d04</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Marc" part="ADG706BRUZ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADG706BRUZ</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="S16" type="passive"/>
+        <pin num="5" name="S15" type="passive"/>
+        <pin num="6" name="S14" type="passive"/>
+        <pin num="7" name="S13" type="passive"/>
+        <pin num="8" name="S12" type="passive"/>
+        <pin num="9" name="S11" type="passive"/>
+        <pin num="10" name="S10" type="passive"/>
+        <pin num="11" name="S9" type="passive"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="NC" type="no_connect"/>
+        <pin num="14" name="A3" type="input"/>
+        <pin num="15" name="A2" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A0" type="input"/>
+        <pin num="18" name="EN" type="input"/>
+        <pin num="19" name="S1" type="passive"/>
+        <pin num="20" name="S2" type="passive"/>
+        <pin num="21" name="S3" type="passive"/>
+        <pin num="22" name="S4" type="passive"/>
+        <pin num="23" name="S5" type="passive"/>
+        <pin num="24" name="S6" type="passive"/>
+        <pin num="25" name="S7" type="passive"/>
+        <pin num="26" name="S8" type="passive"/>
+        <pin num="27" name="VSS" type="power_in"/>
+        <pin num="28" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="ADS1115IDGSR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1115IDGSR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT_RDY" type="open_collector"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="bidirectional"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="Adafruit_4814_FeatherWing">
+      <docs>https://www.adafruit.com/product/4814</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Adafruit_4814_FeatherWing</field>
+        <field name="Footprint">Marc:Adafruit_4814_FeatherWing_Mating</field>
+        <field name="Datasheet">https://www.adafruit.com/product/4814</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET_AUTO" type="passive"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="AREF" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="A0" type="passive"/>
+        <pin num="6" name="A1" type="passive"/>
+        <pin num="7" name="A2" type="passive"/>
+        <pin num="8" name="A3" type="passive"/>
+        <pin num="9" name="A4" type="passive"/>
+        <pin num="10" name="A5" type="passive"/>
+        <pin num="11" name="SCK" type="input"/>
+        <pin num="12" name="MOSI" type="input"/>
+        <pin num="13" name="MISO" type="output"/>
+        <pin num="14" name="RX" type="passive"/>
+        <pin num="15" name="TX" type="passive"/>
+        <pin num="16" name="GPIO" type="passive"/>
+        <pin num="17" name="SDA" type="passive"/>
+        <pin num="18" name="SCL" type="passive"/>
+        <pin num="19" name="SDCS_D5" type="input"/>
+        <pin num="20" name="SRAMCS_D6" type="input"/>
+        <pin num="21" name="ECS_D9" type="input"/>
+        <pin num="22" name="DC_D10" type="input"/>
+        <pin num="23" name="D11" type="passive"/>
+        <pin num="24" name="D12" type="passive"/>
+        <pin num="25" name="D13" type="passive"/>
+        <pin num="26" name="USB_NC" type="passive"/>
+        <pin num="27" name="EN_NC" type="passive"/>
+        <pin num="28" name="VBAT_NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="Capacitor">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="DSSC_Collector">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DSSC_Collector</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CELL1_P" type="passive"/>
+        <pin num="2" name="CELL1_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="LOLIN_S3_MINI_V1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LOLIN_S3_MINI_V1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="J2.1" name="EN" type="input"/>
+        <pin num="J2.2" name="GPIO2" type="bidirectional"/>
+        <pin num="J2.3" name="GPIO4" type="bidirectional"/>
+        <pin num="J2.4" name="GPIO12" type="bidirectional"/>
+        <pin num="J2.5" name="GPIO13" type="bidirectional"/>
+        <pin num="J2.6" name="GPIO11" type="bidirectional"/>
+        <pin num="J2.7" name="GPIO10" type="bidirectional"/>
+        <pin num="J2.8" name="3V3" type="power_out"/>
+        <pin num="J3.1" name="GPIO43" type="bidirectional"/>
+        <pin num="J3.2" name="GPIO44" type="bidirectional"/>
+        <pin num="J3.3" name="GPIO36" type="bidirectional"/>
+        <pin num="J3.4" name="GPIO35" type="bidirectional"/>
+        <pin num="J3.5" name="GPIO18" type="bidirectional"/>
+        <pin num="J3.6" name="GPIO16" type="bidirectional"/>
+        <pin num="J3.7" name="GND" type="power_in"/>
+        <pin num="J3.8" name="VBUS" type="power_out"/>
+        <pin num="J4.1" name="GPIO33" type="bidirectional"/>
+        <pin num="J4.2" name="GPIO37" type="bidirectional"/>
+        <pin num="J4.3" name="GPIO38" type="bidirectional"/>
+        <pin num="J4.4" name="GPIO34" type="bidirectional"/>
+        <pin num="J4.5" name="GPIO21" type="bidirectional"/>
+        <pin num="J4.6" name="GPIO17" type="bidirectional"/>
+        <pin num="J4.7" name="GND" type="power_in"/>
+        <pin num="J4.8" name="GPIO15" type="bidirectional"/>
+        <pin num="J5.1" name="GPIO1" type="bidirectional"/>
+        <pin num="J5.2" name="GPIO3" type="bidirectional"/>
+        <pin num="J5.3" name="GPIO5" type="bidirectional"/>
+        <pin num="J5.4" name="GPIO6" type="bidirectional"/>
+        <pin num="J5.5" name="GPIO7" type="bidirectional"/>
+        <pin num="J5.6" name="GPIO8" type="bidirectional"/>
+        <pin num="J5.7" name="GPIO9" type="bidirectional"/>
+        <pin num="J5.8" name="GPIO14" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="MeasureSwitch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MeasureSwitch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="Resistor">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Marc">
+      <uri>${KIPRJMOD}/Marc.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="ADC_IN" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="AIN0_4" pintype="input"/>
+    </net>
+    <net code="2" name="BUTTON_N" class="Default">
+      <node ref="A1" pin="J3.4" pinfunction="GPIO35_J3.4" pintype="bidirectional"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="DUT_P" class="Default">
+      <node ref="J1" pin="1" pinfunction="CELL1_P_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="EPD_CS" class="Default">
+      <node ref="A1" pin="J4.2" pinfunction="GPIO37_J4.2" pintype="bidirectional"/>
+      <node ref="J3" pin="21" pinfunction="ECS_D9_21" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="EPD_DC" class="Default">
+      <node ref="A1" pin="J4.3" pinfunction="GPIO38_J4.3" pintype="bidirectional"/>
+      <node ref="J3" pin="22" pinfunction="DC_D10_22" pintype="input"/>
+    </net>
+    <net code="6" name="GND" class="Default">
+      <node ref="A1" pin="J3.7" pinfunction="GND_J3.7" pintype="power_in"/>
+      <node ref="A1" pin="J4.7" pinfunction="GND_J4.7" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="CELL1_N_2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GND_12" pintype="power_in"/>
+      <node ref="U1" pin="27" pinfunction="VSS_27" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="D_28" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="ADDR_1" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="AIN1_5" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="AIN2_6" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="AIN3_7" pintype="input"/>
+    </net>
+    <net code="7" name="I2C_SCL" class="Default">
+      <node ref="A1" pin="J5.7" pinfunction="GPIO9_J5.7" pintype="bidirectional"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="SCL_10" pintype="input"/>
+    </net>
+    <net code="8" name="I2C_SDA" class="Default">
+      <node ref="A1" pin="J5.6" pinfunction="GPIO8_J5.6" pintype="bidirectional"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="SDA_9" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="LOAD_00" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="S1_19" pintype="passive"/>
+    </net>
+    <net code="10" name="LOAD_01" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="S2_20" pintype="passive"/>
+    </net>
+    <net code="11" name="LOAD_02" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="S3_21" pintype="passive"/>
+    </net>
+    <net code="12" name="LOAD_03" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="S4_22" pintype="passive"/>
+    </net>
+    <net code="13" name="LOAD_04" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="S5_23" pintype="passive"/>
+    </net>
+    <net code="14" name="LOAD_05" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="S6_24" pintype="passive"/>
+    </net>
+    <net code="15" name="LOAD_06" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="S7_25" pintype="passive"/>
+    </net>
+    <net code="16" name="LOAD_07" class="Default">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="S8_26" pintype="passive"/>
+    </net>
+    <net code="17" name="LOAD_08" class="Default">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="S9_11" pintype="passive"/>
+    </net>
+    <net code="18" name="LOAD_09" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="S10_10" pintype="passive"/>
+    </net>
+    <net code="19" name="LOAD_10" class="Default">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="S11_9" pintype="passive"/>
+    </net>
+    <net code="20" name="LOAD_11" class="Default">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="S12_8" pintype="passive"/>
+    </net>
+    <net code="21" name="LOAD_12" class="Default">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="S13_7" pintype="passive"/>
+    </net>
+    <net code="22" name="LOAD_13" class="Default">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="S14_6" pintype="passive"/>
+    </net>
+    <net code="23" name="LOAD_14" class="Default">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="S15_5" pintype="passive"/>
+    </net>
+    <net code="24" name="LOAD_15" class="Default">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="S16_4" pintype="passive"/>
+    </net>
+    <net code="25" name="MCU_3V3" class="Default">
+      <node ref="A1" pin="J2.8" pinfunction="3V3_J2.8" pintype="power_out"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="3V3_2" pintype="power_in"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VDD_8" pintype="power_in"/>
+    </net>
+    <net code="26" name="MUX_A0" class="Default">
+      <node ref="A1" pin="J2.2" pinfunction="GPIO2_J2.2" pintype="bidirectional"/>
+      <node ref="U1" pin="17" pinfunction="A0_17" pintype="input"/>
+    </net>
+    <net code="27" name="MUX_A1" class="Default">
+      <node ref="A1" pin="J5.4" pinfunction="GPIO6_J5.4" pintype="bidirectional"/>
+      <node ref="U1" pin="16" pinfunction="A1_16" pintype="input"/>
+    </net>
+    <net code="28" name="MUX_A2" class="Default">
+      <node ref="A1" pin="J2.3" pinfunction="GPIO4_J2.3" pintype="bidirectional"/>
+      <node ref="U1" pin="15" pinfunction="A2_15" pintype="input"/>
+    </net>
+    <net code="29" name="MUX_A3" class="Default">
+      <node ref="A1" pin="J5.3" pinfunction="GPIO5_J5.3" pintype="bidirectional"/>
+      <node ref="U1" pin="14" pinfunction="A3_14" pintype="input"/>
+    </net>
+    <net code="30" name="MUX_EN" class="Default">
+      <node ref="A1" pin="J5.8" pinfunction="GPIO14_J5.8" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="EN_18" pintype="input"/>
+    </net>
+    <net code="31" name="SD_CS_N" class="Default">
+      <node ref="J3" pin="19" pinfunction="SDCS_D5_19" pintype="input"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="SPI_MISO" class="Default">
+      <node ref="A1" pin="J3.5" pinfunction="GPIO18_J3.5" pintype="bidirectional"/>
+      <node ref="J3" pin="13" pinfunction="MISO_13" pintype="output"/>
+    </net>
+    <net code="33" name="SPI_MOSI" class="Default">
+      <node ref="A1" pin="J3.6" pinfunction="GPIO16_J3.6" pintype="bidirectional"/>
+      <node ref="J3" pin="12" pinfunction="MOSI_12" pintype="input"/>
+    </net>
+    <net code="34" name="SPI_SCK" class="Default">
+      <node ref="A1" pin="J3.3" pinfunction="GPIO36_J3.3" pintype="bidirectional"/>
+      <node ref="J3" pin="11" pinfunction="SCK_11" pintype="input"/>
+    </net>
+    <net code="35" name="SRAM_CS" class="Default">
+      <node ref="A1" pin="J4.4" pinfunction="GPIO34_J4.4" pintype="bidirectional"/>
+      <node ref="J3" pin="20" pinfunction="SRAMCS_D6_20" pintype="input"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="36" name="USB_5V" class="Default">
+      <node ref="A1" pin="J3.8" pinfunction="VBUS_J3.8" pintype="power_out"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="unconnected-(A1-EN-PadJ2.1)" class="Default">
+      <node ref="A1" pin="J2.1" pinfunction="EN_J2.1" pintype="input+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(A1-GPIO1-PadJ5.1)" class="Default">
+      <node ref="A1" pin="J5.1" pinfunction="GPIO1_J5.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(A1-GPIO3-PadJ5.2)" class="Default">
+      <node ref="A1" pin="J5.2" pinfunction="GPIO3_J5.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(A1-GPIO7-PadJ5.5)" class="Default">
+      <node ref="A1" pin="J5.5" pinfunction="GPIO7_J5.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(A1-GPIO10-PadJ2.7)" class="Default">
+      <node ref="A1" pin="J2.7" pinfunction="GPIO10_J2.7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(A1-GPIO11-PadJ2.6)" class="Default">
+      <node ref="A1" pin="J2.6" pinfunction="GPIO11_J2.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(A1-GPIO12-PadJ2.4)" class="Default">
+      <node ref="A1" pin="J2.4" pinfunction="GPIO12_J2.4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(A1-GPIO13-PadJ2.5)" class="Default">
+      <node ref="A1" pin="J2.5" pinfunction="GPIO13_J2.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(A1-GPIO15-PadJ4.8)" class="Default">
+      <node ref="A1" pin="J4.8" pinfunction="GPIO15_J4.8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(A1-GPIO17-PadJ4.6)" class="Default">
+      <node ref="A1" pin="J4.6" pinfunction="GPIO17_J4.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(A1-GPIO21-PadJ4.5)" class="Default">
+      <node ref="A1" pin="J4.5" pinfunction="GPIO21_J4.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(A1-GPIO33-PadJ4.1)" class="Default">
+      <node ref="A1" pin="J4.1" pinfunction="GPIO33_J4.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(A1-GPIO43-PadJ3.1)" class="Default">
+      <node ref="A1" pin="J3.1" pinfunction="GPIO43_J3.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(A1-GPIO44-PadJ3.2)" class="Default">
+      <node ref="A1" pin="J3.2" pinfunction="GPIO44_J3.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(J3-A0-Pad5)" class="Default">
+      <node ref="J3" pin="5" pinfunction="A0_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(J3-A1-Pad6)" class="Default">
+      <node ref="J3" pin="6" pinfunction="A1_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(J3-A2-Pad7)" class="Default">
+      <node ref="J3" pin="7" pinfunction="A2_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(J3-A3-Pad8)" class="Default">
+      <node ref="J3" pin="8" pinfunction="A3_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(J3-A4-Pad9)" class="Default">
+      <node ref="J3" pin="9" pinfunction="A4_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(J3-A5-Pad10)" class="Default">
+      <node ref="J3" pin="10" pinfunction="A5_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(J3-AREF-Pad3)" class="Default">
+      <node ref="J3" pin="3" pinfunction="AREF_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(J3-D11-Pad23)" class="Default">
+      <node ref="J3" pin="23" pinfunction="D11_23" pintype="passive+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(J3-D12-Pad24)" class="Default">
+      <node ref="J3" pin="24" pinfunction="D12_24" pintype="passive+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(J3-D13-Pad25)" class="Default">
+      <node ref="J3" pin="25" pinfunction="D13_25" pintype="passive+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(J3-EN_NC-Pad27)" class="Default">
+      <node ref="J3" pin="27" pinfunction="EN_NC_27" pintype="passive+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(J3-GPIO-Pad16)" class="Default">
+      <node ref="J3" pin="16" pinfunction="GPIO_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(J3-RESET_AUTO-Pad1)" class="Default">
+      <node ref="J3" pin="1" pinfunction="RESET_AUTO_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(J3-RX-Pad14)" class="Default">
+      <node ref="J3" pin="14" pinfunction="RX_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(J3-SCL-Pad18)" class="Default">
+      <node ref="J3" pin="18" pinfunction="SCL_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(J3-SDA-Pad17)" class="Default">
+      <node ref="J3" pin="17" pinfunction="SDA_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(J3-TX-Pad15)" class="Default">
+      <node ref="J3" pin="15" pinfunction="TX_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(J3-USB_NC-Pad26)" class="Default">
+      <node ref="J3" pin="26" pinfunction="USB_NC_26" pintype="passive+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(J3-VBAT_NC-Pad28)" class="Default">
+      <node ref="J3" pin="28" pinfunction="VBAT_NC_28" pintype="passive+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U1-NC-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U1-NC-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="NC_3" pintype="no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U1-NC-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="NC_13" pintype="no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U2-ALERT_RDY-Pad2)" class="Default">
+      <node ref="U2" pin="2" pinfunction="ALERT_RDY_2" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>

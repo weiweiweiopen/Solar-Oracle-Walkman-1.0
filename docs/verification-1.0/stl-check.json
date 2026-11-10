@@ -1,0 +1,34 @@
+[
+  {
+    "variant": "R19_RAW",
+    "file": "R19_RAW_Lower_shell.stl",
+    "facets": 12552,
+    "closed": true,
+    "nonmanifold": false,
+    "self_intersections": false
+  },
+  {
+    "variant": "R19_RAW",
+    "file": "R19_RAW_Upper_cover.stl",
+    "facets": 11050,
+    "closed": true,
+    "nonmanifold": false,
+    "self_intersections": false
+  },
+  {
+    "variant": "R19_CHARGE_SUPERCAP",
+    "file": "R19_CHARGE_SUPERCAP_Lower_shell.stl",
+    "facets": 13490,
+    "closed": true,
+    "nonmanifold": false,
+    "self_intersections": false
+  },
+  {
+    "variant": "R19_CHARGE_SUPERCAP",
+    "file": "R19_CHARGE_SUPERCAP_Upper_cover.stl",
+    "facets": 11078,
+    "closed": true,
+    "nonmanifold": false,
+    "self_intersections": false
+  }
+]

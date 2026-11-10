@@ -1,0 +1,65 @@
+reference,value,footprint,side,quantity,category,MPN,note
+A1,LOLIN S3 Mini V1.0.0,Marc:LOLIN_S3_MINI_V1,F.Cu,1,電子／模組,LOLIN S3 MINI V1.0.0,
+"C1, C2",100n,Capacitor_SMD:C_0603_1608Metric,F.Cu,2,電子／模組,,
+C3,10n,Capacitor_SMD:C_0603_1608Metric,F.Cu,1,電子／模組,,
+"C4, C5",10u 10V X7R,Capacitor_SMD:C_0805_2012Metric,F.Cu,2,電子／模組,,
+"C201, C202",1.5F 5V PHB,solar_oracle:PHB_5R0V155_R_LaidDown_Provisional,B.Cu,2,電子／模組,PHB-5R0V155-R,
+"C304, C311, C315, C316",22u,Capacitor_SMD:C_1210_3225Metric,B.Cu,4,電子／模組,GRM32ER61A226KE20L,
+"C305, C306, C307, C308, C313",10u,Capacitor_SMD:C_0805_2012Metric,B.Cu,5,電子／模組,GRM21BR61C106KE15L,
+"C309, C310",100u,Capacitor_SMD:C_1210_3225Metric,B.Cu,2,電子／模組,GRM32ER60J107ME20L,
+C312,220p,Capacitor_SMD:C_0603_1608Metric,B.Cu,1,電子／模組,GRM1885C1H221JA01D,
+"C314, C334, C335, C336",100n,Capacitor_SMD:C_0805_2012Metric,B.Cu,4,電子／模組,GRM21BR71H104KA01L,
+C317,1uF 10V X7R,Capacitor_SMD:C_0603_1608Metric,F.Cu,1,電子／模組,TBD_1uF_10V_X7R_0603,
+"C332, C333",1u,Capacitor_SMD:C_0805_2012Metric,B.Cu,2,電子／模組,GRM21BR71C105KA01L,
+D201,1N4148W / FLYBACK,Diode_SMD:D_SOD-123,B.Cu,1,電子／模組,1N4148W-7-F,
+"H1, H2, H3, H4",NPTH 3.2mm,:MountingHole_3.2mm_M3,F.Cu,4,機構孔,,PCB exclude_from_bom；僅 PCB 元件；無原理圖元件
+J1,DSSC single-cell collector,Marc:DSSC_Collector_58mm,F.Cu,1,電子／模組,,
+J3,Adafruit 4814 SSD1680 250x122,Marc:Adafruit_4814_FeatherWing_Mating,F.Cu,1,電子／模組,4814,
+JP201,C&K OS102011MA1QN1,Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q,F.Cu,1,電子／模組,OS102011MA1QN1,
+K1,G6K-2F-Y DC5,solar_oracle:G6K_2F_Y,B.Cu,1,電子／模組,G6K-2F-Y-TR DC5,
+L201,22uH,Inductor_SMD:L_Coilcraft_LPS4018,B.Cu,1,電子／模組,LPS4018-223MRC,
+L202,10uH,Inductor_SMD:L_TDK_MLZ1608,B.Cu,1,電子／模組,MLZ1608N100LT000,
+L203,1uH,solar_oracle:Coilcraft_XEL4030,B.Cu,1,電子／模組,XEL4030-102MEC,
+Q217,AO3400A / RELAY COIL,Package_TO_SOT_SMD:SOT-23,B.Cu,1,電子／模組,AO3400A,
+Q218,AO3400A / WARN LEVEL,Package_TO_SOT_SMD:SOT-23,B.Cu,1,電子／模組,AO3400A,
+R1,1M CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-071ML,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R2,20k CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-0720KL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R3,8.2k CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-078K2L,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R4,4.3k CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-074K3L,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R5,2.2k CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-072K2L,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R6,1k CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-071KL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R7,750 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07750RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R8,470 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07470RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R9,330 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07330RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R10,220 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07220RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R11,150 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07150RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R12,100 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07100RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R13,75 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-0775RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R14,68 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-0768RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R15,62 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-0762RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R16,56 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-0756RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R17,1k,Resistor_SMD:R_0603_1608Metric,F.Cu,1,電子／模組,,
+"R18, R19",4.7k,Resistor_SMD:R_0603_1608Metric,F.Cu,2,電子／模組,,
+"R20, R21, R22, R23, R24",10k,Resistor_SMD:R_0603_1608Metric,F.Cu,5,電子／模組,,
+R280,549k,Resistor_SMD:R_1206_3216Metric,B.Cu,1,電子／模組,TNPW1206549KBEEA,
+R281,9.31k,Resistor_SMD:R_1206_3216Metric,B.Cu,1,電子／模組,TNPW12069K31BEEA,
+R282,143k,Resistor_SMD:R_1206_3216Metric,B.Cu,1,電子／模組,TNPW1206143KBEEA,
+R283,1.74M,Resistor_SMD:R_1206_3216Metric,B.Cu,1,電子／模組,TNPW12061M74BEEA,
+R284,732k,Resistor_SMD:R_0603_1608Metric,B.Cu,1,電子／模組,RC0603FR-07732KL,
+"R285, R310, R323",100k,Resistor_SMD:R_0603_1608Metric,B.Cu,3,電子／模組,RC0603FR-07100KL,
+"R286, R291",47k,Resistor_SMD:R_0603_1608Metric,B.Cu,2,電子／模組,RC0603FR-0747KL,
+R290,1k,Resistor_SMD:R_0603_1608Metric,B.Cu,1,電子／模組,RC0603FR-071KL,
+R311,1M,Resistor_SMD:R_0603_1608Metric,B.Cu,1,電子／模組,RC0603FR-071ML,
+R318,107k,Resistor_SMD:R_0603_1608Metric,B.Cu,1,電子／模組,RC0603FR-07107KL,
+R319,124k,Resistor_SMD:R_0603_1608Metric,B.Cu,1,電子／模組,RC0603FR-07124KL,
+"R320, R321, R322",10k,Resistor_SMD:R_0603_1608Metric,B.Cu,3,電子／模組,RC0603FR-0710KL,
+SW1,MEASURE / SCALE,Button_Switch_SMD:SW_SPST_TL3342,F.Cu,1,電子／模組,TL3342候選,
+U1,ADG706BRUZ-REEL7,Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm,F.Cu,1,電子／模組,ADG706BRUZ-REEL7,
+U2,ADS1115IDGSR / 0x48,Package_SO:TSSOP-10_3x3mm_P0.5mm,F.Cu,1,電子／模組,ADS1115IDGSR,
+U207,AEM10941 / CFG=000,solar_oracle:AEM10941_QFN28_EP3.5,B.Cu,1,電子／模組,10AEM10941C0001,
+U208,TPS61023DRLR / 5V,Package_TO_SOT_SMD:SOT-563,B.Cu,1,電子／模組,TPS61023DRLR,
+U210,TPS7A0233PDBVR / AON ONLY,Package_TO_SOT_SMD:SOT-23-5,B.Cu,1,電子／模組,TPS7A0233PDBVR,
+U211,TPL5111DDCR / 600s,Package_TO_SOT_SMD:SOT-23-6,B.Cu,1,電子／模組,TPL5111DDCR,
+U212,SN74LVC1G97DCKR / SCHMITT AND,Package_TO_SOT_SMD:SOT-363_SC-70-6,B.Cu,1,電子／模組,SN74LVC1G97DCKR,
+U213,SN74LVC1G17DCKR / DONE ISOLATION,Package_TO_SOT_SMD:SOT-353_SC-70-5,B.Cu,1,電子／模組,SN74LVC1G17DCKR,
+U214,TPS22917DBV,Package_TO_SOT_SMD:SOT-23-6,F.Cu,1,電子／模組,TPS22917DBVR,

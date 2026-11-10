@@ -1,0 +1,74 @@
+元件,pin,官方來源名稱或待驗,草稿名稱,net,結果,依據
+LOLIN,J2.1,EN,EN,NC,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J2.2,GPIO2,GPIO2,MUX_A0,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J2.3,GPIO4,GPIO4,MUX_A2,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J2.4,GPIO12,GPIO12,NC,2026-10-18 GPIO同步已實作；官方腳名保留，板正反／高度待驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J2.5,GPIO13,GPIO13,NC,2026-10-18 GPIO同步已實作；官方腳名保留，板正反／高度待驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J2.6,GPIO11,GPIO11,NC,2026-10-18 GPIO同步已實作；官方腳名保留，板正反／高度待驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J2.7,GPIO10,GPIO10,EPD_RESET,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J2.8,3V3,3V3,MCU_3V3,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J5.1,GPIO1,GPIO1,NC,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J5.2,GPIO3,GPIO3,NC,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J5.3,GPIO5,GPIO5,MUX_A3,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J5.4,GPIO6,GPIO6,MUX_A1,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J5.5,GPIO7,GPIO7,EPD_BUSY,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J5.6,GPIO8,GPIO8,I2C_SDA,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J5.7,GPIO9,GPIO9,I2C_SCL,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J5.8,GPIO14,GPIO14,MUX_EN,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J4.1,GPIO33,GPIO33,NC,2026-10-18 GPIO同步已實作；官方腳名保留，板正反／高度待驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J4.2,GPIO37,GPIO37,EPD_CS,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J4.3,GPIO38,GPIO38,EPD_DC,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J4.4,GPIO34,GPIO34,SRAM_CS,2026-10-18 GPIO同步已實作；官方腳名保留，板正反／高度待驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J4.5,GPIO21,GPIO21,NC,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J4.6,GPIO17,GPIO17,NC,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J4.7,GND,GND,GND,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J4.8,GPIO15,GPIO15,NC,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J3.1,GPIO43,GPIO43,NC,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J3.2,GPIO44,GPIO44,NC,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J3.3,GPIO36,GPIO36,SPI_SCK,2026-10-18 GPIO同步已實作；官方腳名保留，板正反／高度待驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J3.4,GPIO35,GPIO35,BUTTON_N,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J3.5,GPIO18,GPIO18,SPI_MISO,2026-10-18 GPIO同步已實作；官方腳名保留，板正反／高度待驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J3.6,GPIO16,GPIO16,SPI_MOSI,2026-10-18 GPIO同步已實作；官方腳名保留，板正反／高度待驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J3.7,GND,GND,GND,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+LOLIN,J3.8,VBUS,VBUS,USB_5V,官方原理圖名稱一致；板正反方向另驗,sch_s3_mini_v1.0.0.pdf / s3-sch.png
+6366 JP2,1,VIN,VIN,USB_5V,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,2,3.3V,3V3_OUT,NC,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,3,GND,GND,GND,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,4,SCLK,SCK,SPI_SCK,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,5,MISO,MISO,SPI_MISO,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,6,MOSI,MOSI,SPI_MOSI,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,7,DISPCS,ECS,EPD_CS,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,8,DC,DC,EPD_DC,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,9,SRAMCS,SRCS,SRAM_CS,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,10,SDCS,SDCS,SD_CS_N,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,11,RESET,RST,EPD_RESET,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,12,BUSY,BUSY,EPD_BUSY,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+6366 JP2,13,ENABLE,ENA,NC,官方Eagle net名稱交叉對照,epd.brd JP2；6366官方downloads
+ADG706,1,未取得可讀原廠PDF,VDD,MCU_3V3,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,2,未取得可讀原廠PDF,NC,NC,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,3,未取得可讀原廠PDF,NC,NC,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,4,未取得可讀原廠PDF,S16,LOAD_15,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,5,未取得可讀原廠PDF,S15,LOAD_14,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,6,未取得可讀原廠PDF,S14,LOAD_13,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,7,未取得可讀原廠PDF,S13,LOAD_12,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,8,未取得可讀原廠PDF,S12,LOAD_11,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,9,未取得可讀原廠PDF,S11,LOAD_10,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,10,未取得可讀原廠PDF,S10,LOAD_09,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,11,未取得可讀原廠PDF,S9,LOAD_08,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,12,未取得可讀原廠PDF,GND,GND,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,13,未取得可讀原廠PDF,NC,NC,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,14,未取得可讀原廠PDF,A3,MUX_A3,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,15,未取得可讀原廠PDF,A2,MUX_A2,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,16,未取得可讀原廠PDF,A1,MUX_A1,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,17,未取得可讀原廠PDF,A0,MUX_A0,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,18,未取得可讀原廠PDF,EN,MUX_EN,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,19,未取得可讀原廠PDF,S1,LOAD_00,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,20,未取得可讀原廠PDF,S2,LOAD_01,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,21,未取得可讀原廠PDF,S3,LOAD_02,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,22,未取得可讀原廠PDF,S4,LOAD_03,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,23,未取得可讀原廠PDF,S5,LOAD_04,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,24,未取得可讀原廠PDF,S6,LOAD_05,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,25,未取得可讀原廠PDF,S7,LOAD_06,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,26,未取得可讀原廠PDF,S8,LOAD_07,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,27,未取得可讀原廠PDF,VSS,GND,未驗證；不能作pinout簽核,原上游symbol僅作待驗值
+ADG706,28,未取得可讀原廠PDF,D,GND,未驗證；不能作pinout簽核,原上游symbol僅作待驗值

@@ -1,0 +1,3605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/shihweichieh/Documents/Projects/SolarOracleWalkman/IVcurve_tester-main/_archive/load-resistors-1206-20261103-172855/solar-oracle-walkman-charge-adg706/candidate/Marc_USB.kicad_sch</source>
+    <date>2026-11-03T17:42:45</date>
+    <tool>Eeschema 10.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Marc USB - Integrated draft</title>
+        <company/>
+        <rev>D0</rev>
+        <date>2026-10-18</date>
+        <source>Marc_USB.kicad_sch</source>
+        <comment number="1" value="Based on Marc Dusseiller IVcurve_tester f9a75be; new integrated design"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PowerMCU/" tstamps="/cd1d06d3-19c9-490e-b06f-5cf128f9a574/">
+      <title_block>
+        <title>Marc USB - PowerMCU - DRAFT NOT FOR FAB</title>
+        <company/>
+        <rev>D0</rev>
+        <date>2026-10-18</date>
+        <source>PowerMCU.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/">
+      <title_block>
+        <title>Marc USB - Measurement - DRAFT NOT FOR FAB</title>
+        <company/>
+        <rev>D0</rev>
+        <date>2026-10-18</date>
+        <source>Measurement.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/">
+      <title_block>
+        <title>Marc USB - DisplayUI - DRAFT NOT FOR FAB</title>
+        <company/>
+        <rev>D0</rev>
+        <date>2026-10-18</date>
+        <source>DisplayUI.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/">
+      <title_block>
+        <title>POWER: AEM harvest + TPS61023 5V</title>
+        <company>Solar Oracle Walkman</company>
+        <rev>G20260913</rev>
+        <date/>
+        <source>HarvestPower.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/HarvestSwitch/" tstamps="/d5d5e032-5afb-4f5e-9916-ac654d063b80/">
+      <title_block>
+        <title>SWITCHING: K1 relay / coil driver / flyback</title>
+        <company>Solar Oracle Walkman</company>
+        <rev>K1-RELAY</rev>
+        <date/>
+        <source>HarvestSwitch.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/">
+      <title_block>
+        <title>ALWAYS_ON: READY / timer / DONE</title>
+        <company>Solar Oracle Walkman</company>
+        <rev>G20260913</rev>
+        <date/>
+        <source>AlwaysOn.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>LOLIN S3 Mini V1.0.0</value>
+      <footprint>Marc:LOLIN_S3_MINI_V1</footprint>
+      <datasheet>https://www.wemos.cc/en/latest/_static/files/sch_s3_mini_v1.0.0.pdf</datasheet>
+      <fields>
+        <field name="MPN">LOLIN S3 MINI V1.0.0</field>
+        <field name="Assembly">後焊</field>
+        <field name="Qualification">官方腳序／高度插座待核</field>
+        <field name="Footprint">Marc:LOLIN_S3_MINI_V1</field>
+        <field name="Datasheet">https://www.wemos.cc/en/latest/_static/files/sch_s3_mini_v1.0.0.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="LOLIN_S3_MINI_V1" description=""/>
+      <property name="MPN" value="LOLIN S3 MINI V1.0.0"/>
+      <property name="Assembly" value="後焊"/>
+      <property name="Qualification" value="官方腳序／高度插座待核"/>
+      <property name="Sheetname" value="PowerMCU"/>
+      <property name="Sheetfile" value="PowerMCU.kicad_sch"/>
+      <sheetpath names="/PowerMCU/" tstamps="/cd1d06d3-19c9-490e-b06f-5cf128f9a574/"/>
+      <tstamps>d8db7a27-e700-48d6-9cab-4199eafc35d1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="J2.1"/>
+            <pin num="J2.2"/>
+            <pin num="J2.3"/>
+            <pin num="J2.4"/>
+            <pin num="J2.5"/>
+            <pin num="J2.6"/>
+            <pin num="J2.7"/>
+            <pin num="J2.8"/>
+            <pin num="J5.1"/>
+            <pin num="J5.2"/>
+            <pin num="J5.3"/>
+            <pin num="J5.4"/>
+            <pin num="J5.5"/>
+            <pin num="J5.6"/>
+            <pin num="J5.7"/>
+            <pin num="J5.8"/>
+            <pin num="J4.1"/>
+            <pin num="J4.2"/>
+            <pin num="J4.3"/>
+            <pin num="J4.4"/>
+            <pin num="J4.5"/>
+            <pin num="J4.6"/>
+            <pin num="J4.7"/>
+            <pin num="J4.8"/>
+            <pin num="J3.1"/>
+            <pin num="J3.2"/>
+            <pin num="J3.3"/>
+            <pin num="J3.4"/>
+            <pin num="J3.5"/>
+            <pin num="J3.6"/>
+            <pin num="J3.7"/>
+            <pin num="J3.8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10u 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Capacitor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="PowerMCU"/>
+      <property name="Sheetfile" value="PowerMCU.kicad_sch"/>
+      <sheetpath names="/PowerMCU/" tstamps="/cd1d06d3-19c9-490e-b06f-5cf128f9a574/"/>
+      <tstamps>08835dff-bc45-4c97-8778-c741b716f4fe</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>10u 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Capacitor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="PowerMCU"/>
+      <property name="Sheetfile" value="PowerMCU.kicad_sch"/>
+      <sheetpath names="/PowerMCU/" tstamps="/cd1d06d3-19c9-490e-b06f-5cf128f9a574/"/>
+      <tstamps>6a9d0b34-a862-4042-861e-79985e0e8268</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Capacitor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>a6209070-3e7a-432f-aec4-55375d0f45ee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Capacitor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>67b18d1d-3e67-4b57-8e39-30ba2096195a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>10n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Capacitor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>2d96089d-1218-4078-a742-134e986a75ca</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>DSSC single-cell collector</value>
+      <footprint>Marc:DSSC_Collector_58mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">後焊</field>
+        <field name="Qualification">Single DSSC; verify actual contact polarity before assembly</field>
+        <field name="Footprint">Marc:DSSC_Collector_58mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="DSSC_Collector" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="後焊"/>
+      <property name="Qualification" value="Single DSSC; verify actual contact polarity before assembly"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>04867bc4-d8a9-4bf2-8440-70a5e6af8b60</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>1M CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-071ML</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-071ML</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-071ML</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-071ML"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>e70ce929-b752-426e-bb42-692140b29edd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>20k CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0720KL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0720KL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0720KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-0720KL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>ad830c3e-5eef-4a97-af45-e759bf8e6d5c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>8.2k CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-078K2L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-078K2L</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-078K2L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-078K2L"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>e90f6fed-cf8e-45aa-a83b-d3aa98fccdc1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>4.3k CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-074K3L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-074K3L</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-074K3L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-074K3L"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>37dbd86a-839b-4bbb-8cc6-4d1e772691e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-072K2L</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-072K2L</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-072K2L</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-072K2L"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>bf603cf0-b568-46ce-9b23-c131a5ff26d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>1k CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-071KL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-071KL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-071KL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-071KL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>1dee86e8-bac8-4a80-8b3d-75004d08ff41</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>750 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07750RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07750RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07750RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07750RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>c16b7704-5d3b-4f3a-b5d0-8ebe93b2bdc1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>470 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07470RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07470RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07470RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07470RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>6cb2ad9a-acac-4f6c-b87d-464c43a28a21</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>330 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07330RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07330RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07330RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07330RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>90c65211-a4a4-41bf-b33b-e745468ada23</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>220 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07220RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07220RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07220RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07220RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>ad631953-67da-464a-bf8f-d5a1da52963d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>150 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07150RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07150RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07150RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07150RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>c642b2c5-f3c3-4d68-9b2b-f8b3b07ae489</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>100 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07100RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-07100RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07100RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-07100RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>810837ec-6aa1-4b20-83a1-76b3d3fb5e94</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>75 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0775RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0775RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0775RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-0775RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>5e071c04-4d91-44f3-a7a8-82c92702c634</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>68 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0768RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0768RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0768RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-0768RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>96f5551e-b173-4c85-9610-1d741902274b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>62 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0762RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0762RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0762RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-0762RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>fc89d601-68bd-476f-ae74-51eb24774064</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>56 CANDIDATE</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0756RL</datasheet>
+      <fields>
+        <field name="MPN">RC1206FR-0756RL</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet">https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0756RL</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value="RC1206FR-0756RL"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="1206 inch / 3216 metric; 1%, 0.25W at 70C; retain nominal candidate resistance; calibrate assembled channel; live supplier stock NOT_CHECKED"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>462b851e-896d-4d95-8ac0-7729335ecfda</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>f3e1471a-a015-4128-ac8e-11cd366c57b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>4f2ff75d-4a5e-4d05-8e62-32c680f4c267</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>4.7k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>88661553-08af-481d-b285-6a155c3b9310</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>71c525c3-664f-403f-9e5b-5a8ca86dd167</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ADG706BRUZ-REEL7</value>
+      <footprint>Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/ADG706_707.pdf</datasheet>
+      <fields>
+        <field name="MPN">ADG706BRUZ-REEL7</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">上游pin交叉核對；官方datasheet未完成</field>
+        <field name="Footprint">Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm</field>
+        <field name="Datasheet">https://www.analog.com/media/en/technical-documentation/data-sheets/ADG706_707.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="ADG706BRUZ" description=""/>
+      <property name="MPN" value="ADG706BRUZ-REEL7"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="上游pin交叉核對；官方datasheet未完成"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>04e0edd0-466b-42f7-8bfe-3739a8c301dc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="27"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="28"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>ADS1115IDGSR / 0x48</value>
+      <footprint>Package_SO:TSSOP-10_3x3mm_P0.5mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/ads1115.pdf</datasheet>
+      <fields>
+        <field name="MPN">ADS1115IDGSR</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">官方TI Rev F pin/限值已核；採購未核</field>
+        <field name="Footprint">Package_SO:TSSOP-10_3x3mm_P0.5mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/ads1115.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="ADS1115IDGSR" description=""/>
+      <property name="MPN" value="ADS1115IDGSR"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="官方TI Rev F pin/限值已核；採購未核"/>
+      <property name="Sheetname" value="Measurement"/>
+      <property name="Sheetfile" value="Measurement.kicad_sch"/>
+      <sheetpath names="/Measurement/" tstamps="/f13b381b-bab4-4adc-930c-fa69b0601ed0/"/>
+      <tstamps>ad5fa91b-1938-4c41-8722-dacd2d74e7aa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>Adafruit 4814 SSD1680 250x122</value>
+      <footprint>Marc:Adafruit_4814_FeatherWing_Mating</footprint>
+      <datasheet>https://www.adafruit.com/product/4814</datasheet>
+      <fields>
+        <field name="MPN">4814</field>
+        <field name="Assembly">Male 1x16 + 1x12 headers mating factory INNER socket rows; stack height UNVERIFIED</field>
+        <field name="Qualification">4814 SSD1680; common CAD outline; physical revision and mating Z UNVERIFIED</field>
+        <field name="Footprint">Marc:Adafruit_4814_FeatherWing_Mating</field>
+        <field name="Datasheet">https://www.adafruit.com/product/4814</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Adafruit_4814_FeatherWing" description=""/>
+      <property name="MPN" value="4814"/>
+      <property name="Assembly" value="Male 1x16 + 1x12 headers mating factory INNER socket rows; stack height UNVERIFIED"/>
+      <property name="Qualification" value="4814 SSD1680; common CAD outline; physical revision and mating Z UNVERIFIED"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>f534dd91-38a2-4cd1-8a03-21154e695035</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>68bee887-13b9-4f8d-bc04-29113d5e3cb7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>48c16308-2072-44eb-a169-8707e0e1b997</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>47868e84-7228-4c41-b0ca-8b6492dec529</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">未核定，不可下單</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="Resistor" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="未核定，不可下單"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>eef9317f-27be-464c-bfce-015a599d22d0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>MEASURE / SCALE</value>
+      <footprint>Button_Switch_SMD:SW_SPST_TL3342</footprint>
+      <fields>
+        <field name="MPN">TL3342候選</field>
+        <field name="Assembly">JLC候選／未核庫存</field>
+        <field name="Qualification">柱塞行程／高度待核</field>
+        <field name="Footprint">Button_Switch_SMD:SW_SPST_TL3342</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Marc" part="MeasureSwitch" description=""/>
+      <property name="MPN" value="TL3342候選"/>
+      <property name="Assembly" value="JLC候選／未核庫存"/>
+      <property name="Qualification" value="柱塞行程／高度待核"/>
+      <property name="Sheetname" value="DisplayUI"/>
+      <property name="Sheetfile" value="DisplayUI.kicad_sch"/>
+      <sheetpath names="/DisplayUI/" tstamps="/ee69156e-b488-46e4-95d8-3ac8772560ef/"/>
+      <tstamps>df3017d1-5557-41e5-bc6c-cf2ffce01d04</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C201">
+      <value>1.5F 5V PHB</value>
+      <footprint>solar_oracle:PHB_5R0V155_R_LaidDown_Provisional</footprint>
+      <datasheet>https://www.hy-line-group.com/products/hpc/datasheet/eaton/phb-series.pdf</datasheet>
+      <description>PARALLEL 5V pack; + pad1 longer lead; max17.3x9x22mm/P11.8; equalize before assembly; no reflow</description>
+      <fields>
+        <field name="MPN">PHB-5R0V155-R</field>
+        <field name="Footprint">solar_oracle:PHB_5R0V155_R_LaidDown_Provisional</field>
+        <field name="Datasheet">https://www.hy-line-group.com/products/hpc/datasheet/eaton/phb-series.pdf</field>
+        <field name="Description">PARALLEL 5V pack; + pad1 longer lead; max17.3x9x22mm/P11.8; equalize before assembly; no reflow</field>
+      </fields>
+      <libsource lib="solar_oracle" part="CP" description=""/>
+      <property name="MPN" value="PHB-5R0V155-R"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>5f2e278d-ee50-5bad-a2b1-9a010b14e8d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C202">
+      <value>1.5F 5V PHB</value>
+      <footprint>solar_oracle:PHB_5R0V155_R_LaidDown_Provisional</footprint>
+      <datasheet>https://www.hy-line-group.com/products/hpc/datasheet/eaton/phb-series.pdf</datasheet>
+      <description>PARALLEL 5V pack; + pad1 longer lead; max17.3x9x22mm/P11.8; equalize before assembly; no reflow</description>
+      <fields>
+        <field name="MPN">PHB-5R0V155-R</field>
+        <field name="Footprint">solar_oracle:PHB_5R0V155_R_LaidDown_Provisional</field>
+        <field name="Datasheet">https://www.hy-line-group.com/products/hpc/datasheet/eaton/phb-series.pdf</field>
+        <field name="Description">PARALLEL 5V pack; + pad1 longer lead; max17.3x9x22mm/P11.8; equalize before assembly; no reflow</field>
+      </fields>
+      <libsource lib="solar_oracle" part="CP" description=""/>
+      <property name="MPN" value="PHB-5R0V155-R"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>cae70ea3-2de3-58fe-aeac-737f979b3b87</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C304">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">GRM32ER61A226KE20L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM32ER61A226KE20L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>75b95d29-7635-5eca-8191-926c02a1cccc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C305">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61C106KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR61C106KE15L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>f88fb158-b5c2-5b1c-a1da-35c76c1d1b5d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C306">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61C106KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR61C106KE15L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>9cf53db7-fe14-5cf1-98f1-2150b5fa3a37</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C307">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61C106KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR61C106KE15L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>b541f9a6-bdf0-5761-8418-9c5a124901ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C308">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61C106KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR61C106KE15L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>f6d217f6-d8d4-5d2d-b512-236140187f01</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C309">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>Verify effective DC-bias capacitance</description>
+      <fields>
+        <field name="MPN">GRM32ER60J107ME20L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Verify effective DC-bias capacitance</field>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM32ER60J107ME20L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>51c404c5-82a6-5ec1-872e-4031fa514438</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C310">
+      <value>100u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <description>Verify effective DC-bias capacitance</description>
+      <fields>
+        <field name="MPN">GRM32ER60J107ME20L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Verify effective DC-bias capacitance</field>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM32ER60J107ME20L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>4a03350f-86a9-52ca-b74e-dcac530dcdaa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C311">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">GRM32ER61A226KE20L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM32ER61A226KE20L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>8dd35c5e-e958-544d-a210-b9752b4c43ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C312">
+      <value>220p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM1885C1H221JA01D</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM1885C1H221JA01D"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>4e853345-97b9-51e6-8658-cbc6a2644c3f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C313">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR61C106KE15L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR61C106KE15L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>33d7a1fc-cae7-597c-9eac-412ad1121289</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C314">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>9a3d3ad1-edcd-594f-99a1-3d4e2bcb6459</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C315">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">GRM32ER61A226KE20L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM32ER61A226KE20L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>5559cddb-e088-5f96-972a-6ae18e2e2353</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C316">
+      <value>22u</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">GRM32ER61A226KE20L</field>
+        <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM32ER61A226KE20L"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>cc34c1d6-3359-5bfc-b25c-77d8b36e96ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C317">
+      <value>1uF 10V X7R</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">TBD_1uF_10V_X7R_0603</field>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="TBD_1uF_10V_X7R_0603"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>3fb9c6b2-fc01-4154-96bc-bf0be2ddcca1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP201">
+      <value>C&amp;K OS102011MA1QN1</value>
+      <footprint>Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q</footprint>
+      <datasheet>https://www.ckswitches.com/media/1428/os.pdf</datasheet>
+      <description>C&amp;K OS side SPDT; 1-2 enables U214, 2-3 grounds U214 ON; 0.1A contact carries control current only</description>
+      <fields>
+        <field name="MPN">OS102011MA1QN1</field>
+        <field name="Footprint">Button_Switch_THT:SW_Slide_SPDT_Angled_CK_OS102011MA1Q</field>
+        <field name="Datasheet">https://www.ckswitches.com/media/1428/os.pdf</field>
+        <field name="Description">C&amp;K OS side SPDT; 1-2 enables U214, 2-3 grounds U214 ON; 0.1A contact carries control current only</field>
+      </fields>
+      <libsource lib="solar_oracle" part="PWRGROUP_JP1" description=""/>
+      <property name="MPN" value="OS102011MA1QN1"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>b02ff70c-22da-5788-a782-8dc6494bc262</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L201">
+      <value>22uH</value>
+      <footprint>Inductor_SMD:L_Coilcraft_LPS4018</footprint>
+      <fields>
+        <field name="MPN">LPS4018-223MRC</field>
+        <field name="Footprint">Inductor_SMD:L_Coilcraft_LPS4018</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="PWRGROUP_INDUCTOR" description=""/>
+      <property name="MPN" value="LPS4018-223MRC"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>496c76f8-5ce3-5763-95c3-fe7d9dad446f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L202">
+      <value>10uH</value>
+      <footprint>Inductor_SMD:L_TDK_MLZ1608</footprint>
+      <fields>
+        <field name="MPN">MLZ1608N100LT000</field>
+        <field name="Footprint">Inductor_SMD:L_TDK_MLZ1608</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="PWRGROUP_INDUCTOR" description=""/>
+      <property name="MPN" value="MLZ1608N100LT000"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>3e492af3-6b45-5173-93f3-b136231ee908</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="L203">
+      <value>1uH</value>
+      <footprint>solar_oracle:Coilcraft_XEL4030</footprint>
+      <fields>
+        <field name="MPN">XEL4030-102MEC</field>
+        <field name="Footprint">solar_oracle:Coilcraft_XEL4030</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="PWRGROUP_INDUCTOR" description=""/>
+      <property name="MPN" value="XEL4030-102MEC"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>ce2d8f75-d72d-5430-ab1e-f0b25811640d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q218">
+      <value>AO3400A / WARN LEVEL</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="MPN">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="AO3400A_CS" description=""/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>7d4ee824-752f-5925-aa69-8ba5f00bb645</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R280">
+      <value>549k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>0.1% threshold resistor; exact sourcing to qualify</description>
+      <fields>
+        <field name="MPN">TNPW1206549KBEEA</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0.1% threshold resistor; exact sourcing to qualify</field>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="TNPW1206549KBEEA"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>dfed1f17-fe5a-5e2f-beae-2c4567d89745</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R281">
+      <value>9.31k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>0.1% threshold resistor; exact sourcing to qualify</description>
+      <fields>
+        <field name="MPN">TNPW12069K31BEEA</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0.1% threshold resistor; exact sourcing to qualify</field>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="TNPW12069K31BEEA"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>1377e962-7b46-5ef0-9af0-312da71d8510</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R282">
+      <value>143k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>0.1% threshold resistor; exact sourcing to qualify</description>
+      <fields>
+        <field name="MPN">TNPW1206143KBEEA</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0.1% threshold resistor; exact sourcing to qualify</field>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="TNPW1206143KBEEA"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>a347737b-4f5a-5749-b705-b1cca2c3b700</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R283">
+      <value>1.74M</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <description>0.1% threshold resistor; exact sourcing to qualify</description>
+      <fields>
+        <field name="MPN">TNPW12061M74BEEA</field>
+        <field name="Footprint">Resistor_SMD:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0.1% threshold resistor; exact sourcing to qualify</field>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="TNPW12061M74BEEA"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>fea65bdc-b0fc-5eec-a64f-e6c304434eb9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R284">
+      <value>732k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07732KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07732KL"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>be5db44a-5634-5fe7-94a2-9a920f8c8d39</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R285">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>295a7576-8620-556c-84dd-3541cda3142b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R310">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>5ca2dcbc-3643-5a71-aa0f-e2b4eb536436</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R311">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071ML</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-071ML"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>acb316bc-cb6f-5630-8bbd-813965d3ac34</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R322">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>5ef1e759-31e2-52d1-a572-6ce4ea874eb3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R323">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Weak off-state bleed, NOT guaranteed50ms reset</description>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Weak off-state bleed, NOT guaranteed50ms reset</field>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>a509e5f1-3353-59e3-b035-529ca4fc4751</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U207">
+      <value>AEM10941 / CFG=000</value>
+      <footprint>solar_oracle:AEM10941_QFN28_EP3.5</footprint>
+      <datasheet>https://e-peas.com/documents/AEM10941/DS-AEM10941.pdf</datasheet>
+      <fields>
+        <field name="MPN">10AEM10941C0001</field>
+        <field name="Footprint">solar_oracle:AEM10941_QFN28_EP3.5</field>
+        <field name="Datasheet">https://e-peas.com/documents/AEM10941/DS-AEM10941.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="PWRGROUP_U7" description=""/>
+      <property name="MPN" value="10AEM10941C0001"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>aa94a786-e959-50f6-b26d-14848a131e63</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="28"/>
+            <pin num="27"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="24"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="1"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="29"/>
+            <pin num="16"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="11"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U208">
+      <value>TPS61023DRLR / 5V</value>
+      <footprint>Package_TO_SOT_SMD:SOT-563</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps61023.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS61023DRLR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-563</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps61023.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="PWRGROUP_U8" description=""/>
+      <property name="MPN" value="TPS61023DRLR"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>75903054-2c58-5521-a5ae-310c6f2a14eb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U214">
+      <value>TPS22917DBV</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps22917.pdf</datasheet>
+      <description>2 A active-high load switch with reverse-current blocking; QOD left open for USB VBUS</description>
+      <fields>
+        <field name="MPN">TPS22917DBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps22917.pdf</field>
+        <field name="Description">2 A active-high load switch with reverse-current blocking; QOD left open for USB VBUS</field>
+      </fields>
+      <libsource lib="solar_oracle" part="TPS22917DBV_VBUS_OR" description="1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6"/>
+      <property name="MPN" value="TPS22917DBVR"/>
+      <property name="Sheetname" value="HarvestPower"/>
+      <property name="Sheetfile" value="HarvestPower.kicad_sch"/>
+      <property name="ki_keywords" value="high-side power distribution switch"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/HarvestPower/" tstamps="/8e876c37-bb13-475e-a5ed-5709548d7592/"/>
+      <tstamps>8bb4c3cc-18bf-4d45-8c41-ea4bd78c65d6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D201">
+      <value>1N4148W / FLYBACK</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds30086.pdf</datasheet>
+      <description>Coil flyback; cathode pad1 to MODULE_VBUS, anode pad2 to RELAY_COIL_LOW</description>
+      <fields>
+        <field name="MPN">1N4148W-7-F</field>
+        <field name="Footprint">Diode_SMD:D_SOD-123</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds30086.pdf</field>
+        <field name="Description">Coil flyback; cathode pad1 to MODULE_VBUS, anode pad2 to RELAY_COIL_LOW</field>
+      </fields>
+      <libsource lib="solar_oracle" part="RELAY_FLYBACK" description=""/>
+      <property name="MPN" value="1N4148W-7-F"/>
+      <property name="Sheetname" value="HarvestSwitch"/>
+      <property name="Sheetfile" value="HarvestSwitch.kicad_sch"/>
+      <sheetpath names="/HarvestSwitch/" tstamps="/d5d5e032-5afb-4f5e-9916-ac654d063b80/"/>
+      <tstamps>78f84a21-c625-52ca-b8a7-fe1d8ba6f59d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="K1">
+      <value>G6K-2F-Y DC5</value>
+      <footprint>solar_oracle:G6K_2F_Y</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <description>5V non-latching relay; coil1+/8-; poleA COM3 NC2 NO4; poleB unused</description>
+      <fields>
+        <field name="MPN">G6K-2F-Y-TR DC5</field>
+        <field name="Footprint">solar_oracle:G6K_2F_Y</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</field>
+        <field name="Description">5V non-latching relay; coil1+/8-; poleA COM3 NC2 NO4; poleB unused</field>
+      </fields>
+      <libsource lib="solar_oracle" part="RELAY_G6K_2F_Y" description=""/>
+      <property name="MPN" value="G6K-2F-Y-TR DC5"/>
+      <property name="Sheetname" value="HarvestSwitch"/>
+      <property name="Sheetfile" value="HarvestSwitch.kicad_sch"/>
+      <sheetpath names="/HarvestSwitch/" tstamps="/d5d5e032-5afb-4f5e-9916-ac654d063b80/"/>
+      <tstamps>33f103ca-cc0b-51c2-b818-d02836d26ff8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q217">
+      <value>AO3400A / RELAY COIL</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf</datasheet>
+      <description>Low-side relay coil driver; SCAN_MODE high energizes K1</description>
+      <fields>
+        <field name="MPN">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/sites/default/files/res/datasheets/AO3400A.pdf</field>
+        <field name="Description">Low-side relay coil driver; SCAN_MODE high energizes K1</field>
+      </fields>
+      <libsource lib="solar_oracle" part="AO3400A_CS" description=""/>
+      <property name="MPN" value="AO3400A"/>
+      <property name="Sheetname" value="HarvestSwitch"/>
+      <property name="Sheetfile" value="HarvestSwitch.kicad_sch"/>
+      <sheetpath names="/HarvestSwitch/" tstamps="/d5d5e032-5afb-4f5e-9916-ac654d063b80/"/>
+      <tstamps>73183d76-5e03-513f-bc4f-d90c6e34f8d9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R290">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="REV_R" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="HarvestSwitch"/>
+      <property name="Sheetfile" value="HarvestSwitch.kicad_sch"/>
+      <sheetpath names="/HarvestSwitch/" tstamps="/d5d5e032-5afb-4f5e-9916-ac654d063b80/"/>
+      <tstamps>036928c7-4ed0-50d0-9bc4-6389d08d2474</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R291">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0747KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="REV_R" description=""/>
+      <property name="MPN" value="RC0603FR-0747KL"/>
+      <property name="Sheetname" value="HarvestSwitch"/>
+      <property name="Sheetfile" value="HarvestSwitch.kicad_sch"/>
+      <sheetpath names="/HarvestSwitch/" tstamps="/d5d5e032-5afb-4f5e-9916-ac654d063b80/"/>
+      <tstamps>8b0c5e5e-7079-5672-9da1-d3c375468320</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C332">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71C105KA01L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71C105KA01L"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>87a0c846-8748-58cd-90f4-ecc7bcb7d1e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C333">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71C105KA01L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71C105KA01L"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>674beaac-b17f-5fe3-905c-8e94e52cd509</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C334">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>0274a42a-1646-5ce7-b8d6-f8970b4f4423</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C335">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>ce646250-4b2e-5d60-bd6a-933968866c0b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C336">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="MPN">GRM21BR71H104KA01L</field>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="C" description=""/>
+      <property name="MPN" value="GRM21BR71H104KA01L"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>92dff6ce-62dc-5afd-ba29-18b24fa48709</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R286">
+      <value>47k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Fail-low bias; approx95uA when READY high; qualify loaded STATUS0 voltage</description>
+      <fields>
+        <field name="MPN">RC0603FR-0747KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Fail-low bias; approx95uA when READY high; qualify loaded STATUS0 voltage</field>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0747KL"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>dc0811c4-75b1-51cb-9e68-a6ae89a97458</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R318">
+      <value>107k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07107KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07107KL"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>67367035-fd93-529a-b075-37c1622a24c3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R319">
+      <value>124k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07124KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07124KL"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>1f08f74f-89a6-5e41-a0f2-4b33ed6aa0d2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R320">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>d7eb6280-2df9-50f2-b1cc-2df38fde3ae3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R321">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>cd3ba07c-c449-5a2c-bbd1-c639020eb63b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U210">
+      <value>TPS7A0233PDBVR / AON ONLY</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps7a02.pdf</datasheet>
+      <fields>
+        <field name="MPN">TPS7A0233PDBVR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps7a02.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="solar_oracle" part="PWRGROUP_U10" description=""/>
+      <property name="MPN" value="TPS7A0233PDBVR"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>c9adfe60-a177-52f0-a022-436a13536293</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U211">
+      <value>TPL5111DDCR / 600s</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tpl5111.pdf</datasheet>
+      <description>DRVn active HIGH; no DONE gives only50ms off; rail/reset timing must be measured</description>
+      <fields>
+        <field name="MPN">TPL5111DDCR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tpl5111.pdf</field>
+        <field name="Description">DRVn active HIGH; no DONE gives only50ms off; rail/reset timing must be measured</field>
+      </fields>
+      <libsource lib="solar_oracle" part="PWRGROUP_U11" description=""/>
+      <property name="MPN" value="TPL5111DDCR"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>a8eb817f-13fc-53a0-adf5-ae18851a575f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="6"/>
+            <pin num="3"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U212">
+      <value>SN74LVC1G97DCKR / SCHMITT AND</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf</datasheet>
+      <description>In1=0 selects AND; Schmitt inputs; Ioff; READY is hysteretic, not per-task energy admission</description>
+      <fields>
+        <field name="MPN">SN74LVC1G97DCKR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g97.pdf</field>
+        <field name="Description">In1=0 selects AND; Schmitt inputs; Ioff; READY is hysteretic, not per-task energy admission</field>
+      </fields>
+      <libsource lib="solar_oracle" part="PWRGROUP_U12" description=""/>
+      <property name="MPN" value="SN74LVC1G97DCKR"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>64749f56-ceb7-54fb-ac5e-8b0bf986f3a8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="3"/>
+            <pin num="6"/>
+            <pin num="1"/>
+            <pin num="5"/>
+            <pin num="2"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U213">
+      <value>SN74LVC1G17DCKR / DONE ISOLATION</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf</datasheet>
+      <description>Powered from AON, not MAIN; Schmitt/Ioff protects TPL DONE in USB-only mode</description>
+      <fields>
+        <field name="MPN">SN74LVC1G17DCKR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf</field>
+        <field name="Description">Powered from AON, not MAIN; Schmitt/Ioff protects TPL DONE in USB-only mode</field>
+      </fields>
+      <libsource lib="solar_oracle" part="PWRGROUP_U13" description=""/>
+      <property name="MPN" value="SN74LVC1G17DCKR"/>
+      <property name="Sheetname" value="AlwaysOn"/>
+      <property name="Sheetfile" value="AlwaysOn.kicad_sch"/>
+      <sheetpath names="/AlwaysOn/" tstamps="/ae4d02bb-0f54-4b75-8807-30cda40df46f/"/>
+      <tstamps>270980a3-db7f-5357-a56d-c7405263b9e8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="5"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Marc" part="ADG706BRUZ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADG706BRUZ</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="NC" type="no_connect"/>
+        <pin num="3" name="NC" type="no_connect"/>
+        <pin num="4" name="S16" type="passive"/>
+        <pin num="5" name="S15" type="passive"/>
+        <pin num="6" name="S14" type="passive"/>
+        <pin num="7" name="S13" type="passive"/>
+        <pin num="8" name="S12" type="passive"/>
+        <pin num="9" name="S11" type="passive"/>
+        <pin num="10" name="S10" type="passive"/>
+        <pin num="11" name="S9" type="passive"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="NC" type="no_connect"/>
+        <pin num="14" name="A3" type="input"/>
+        <pin num="15" name="A2" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A0" type="input"/>
+        <pin num="18" name="EN" type="input"/>
+        <pin num="19" name="S1" type="passive"/>
+        <pin num="20" name="S2" type="passive"/>
+        <pin num="21" name="S3" type="passive"/>
+        <pin num="22" name="S4" type="passive"/>
+        <pin num="23" name="S5" type="passive"/>
+        <pin num="24" name="S6" type="passive"/>
+        <pin num="25" name="S7" type="passive"/>
+        <pin num="26" name="S8" type="passive"/>
+        <pin num="27" name="VSS" type="power_in"/>
+        <pin num="28" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="ADS1115IDGSR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADS1115IDGSR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ADDR" type="input"/>
+        <pin num="2" name="ALERT_RDY" type="open_collector"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="AIN0" type="input"/>
+        <pin num="5" name="AIN1" type="input"/>
+        <pin num="6" name="AIN2" type="input"/>
+        <pin num="7" name="AIN3" type="input"/>
+        <pin num="8" name="VDD" type="power_in"/>
+        <pin num="9" name="SDA" type="bidirectional"/>
+        <pin num="10" name="SCL" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="Adafruit_4814_FeatherWing">
+      <docs>https://www.adafruit.com/product/4814</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Adafruit_4814_FeatherWing</field>
+        <field name="Footprint">Marc:Adafruit_4814_FeatherWing_Mating</field>
+        <field name="Datasheet">https://www.adafruit.com/product/4814</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET_AUTO" type="passive"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="AREF" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="A0" type="passive"/>
+        <pin num="6" name="A1" type="passive"/>
+        <pin num="7" name="A2" type="passive"/>
+        <pin num="8" name="A3" type="passive"/>
+        <pin num="9" name="A4" type="passive"/>
+        <pin num="10" name="A5" type="passive"/>
+        <pin num="11" name="SCK" type="input"/>
+        <pin num="12" name="MOSI" type="input"/>
+        <pin num="13" name="MISO" type="output"/>
+        <pin num="14" name="RX" type="passive"/>
+        <pin num="15" name="TX" type="passive"/>
+        <pin num="16" name="GPIO" type="passive"/>
+        <pin num="17" name="SDA" type="passive"/>
+        <pin num="18" name="SCL" type="passive"/>
+        <pin num="19" name="SDCS_D5" type="input"/>
+        <pin num="20" name="SRAMCS_D6" type="input"/>
+        <pin num="21" name="ECS_D9" type="input"/>
+        <pin num="22" name="DC_D10" type="input"/>
+        <pin num="23" name="D11" type="passive"/>
+        <pin num="24" name="D12" type="passive"/>
+        <pin num="25" name="D13" type="passive"/>
+        <pin num="26" name="USB_NC" type="passive"/>
+        <pin num="27" name="EN_NC" type="passive"/>
+        <pin num="28" name="VBAT_NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="Capacitor">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="DSSC_Collector">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DSSC_Collector</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="CELL1_P" type="passive"/>
+        <pin num="2" name="CELL1_N" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="LOLIN_S3_MINI_V1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LOLIN_S3_MINI_V1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="J2.1" name="EN" type="input"/>
+        <pin num="J2.2" name="GPIO2" type="bidirectional"/>
+        <pin num="J2.3" name="GPIO4" type="bidirectional"/>
+        <pin num="J2.4" name="GPIO12" type="bidirectional"/>
+        <pin num="J2.5" name="GPIO13" type="bidirectional"/>
+        <pin num="J2.6" name="GPIO11" type="bidirectional"/>
+        <pin num="J2.7" name="GPIO10" type="bidirectional"/>
+        <pin num="J2.8" name="3V3" type="power_out"/>
+        <pin num="J3.1" name="GPIO43" type="bidirectional"/>
+        <pin num="J3.2" name="GPIO44" type="bidirectional"/>
+        <pin num="J3.3" name="GPIO36" type="bidirectional"/>
+        <pin num="J3.4" name="GPIO35" type="bidirectional"/>
+        <pin num="J3.5" name="GPIO18" type="bidirectional"/>
+        <pin num="J3.6" name="GPIO16" type="bidirectional"/>
+        <pin num="J3.7" name="GND" type="power_in"/>
+        <pin num="J3.8" name="VBUS" type="power_out"/>
+        <pin num="J4.1" name="GPIO33" type="bidirectional"/>
+        <pin num="J4.2" name="GPIO37" type="bidirectional"/>
+        <pin num="J4.3" name="GPIO38" type="bidirectional"/>
+        <pin num="J4.4" name="GPIO34" type="bidirectional"/>
+        <pin num="J4.5" name="GPIO21" type="bidirectional"/>
+        <pin num="J4.6" name="GPIO17" type="bidirectional"/>
+        <pin num="J4.7" name="GND" type="power_in"/>
+        <pin num="J4.8" name="GPIO15" type="bidirectional"/>
+        <pin num="J5.1" name="GPIO1" type="bidirectional"/>
+        <pin num="J5.2" name="GPIO3" type="bidirectional"/>
+        <pin num="J5.3" name="GPIO5" type="bidirectional"/>
+        <pin num="J5.4" name="GPIO6" type="bidirectional"/>
+        <pin num="J5.5" name="GPIO7" type="bidirectional"/>
+        <pin num="J5.6" name="GPIO8" type="bidirectional"/>
+        <pin num="J5.7" name="GPIO9" type="bidirectional"/>
+        <pin num="J5.8" name="GPIO14" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="MeasureSwitch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MeasureSwitch</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Marc" part="Resistor">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="AO3400A_CS">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AO3400A_CS</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="CP">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="PWRGROUP_INDUCTOR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="PWRGROUP_JP1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PWRGROUP_JP1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ON_SOLAR_5V" type="passive"/>
+        <pin num="2" name="COM_SOLAR_EN" type="passive"/>
+        <pin num="3" name="OFF_GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="PWRGROUP_U10">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PWRGROUP_U10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="PWRGROUP_U11">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PWRGROUP_U11</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="DELAY_M_DRV" type="passive"/>
+        <pin num="4" name="DONE" type="input"/>
+        <pin num="5" name="DRVn_ACTIVE_HIGH" type="output"/>
+        <pin num="6" name="EN_ONE_SHOT" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="PWRGROUP_U12">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PWRGROUP_U12</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="In1" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="In0" type="input"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="In2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="PWRGROUP_U13">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PWRGROUP_U13</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="PWRGROUP_U7">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PWRGROUP_U7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="BOOST" type="passive"/>
+        <pin num="2" name="SWBUCK" type="passive"/>
+        <pin num="3" name="BUCK" type="passive"/>
+        <pin num="4" name="CFG2" type="passive"/>
+        <pin num="5" name="CFG1" type="passive"/>
+        <pin num="6" name="CFG0" type="passive"/>
+        <pin num="7" name="SELMPP1" type="passive"/>
+        <pin num="8" name="SELMPP0" type="passive"/>
+        <pin num="9" name="FB_PRIM_D" type="passive"/>
+        <pin num="10" name="FB_PRIM_U" type="passive"/>
+        <pin num="11" name="LVOUT" type="passive"/>
+        <pin num="12" name="ENHV" type="passive"/>
+        <pin num="13" name="FB_HV" type="passive"/>
+        <pin num="14" name="HVOUT" type="passive"/>
+        <pin num="15" name="BAL" type="passive"/>
+        <pin num="16" name="BATT" type="passive"/>
+        <pin num="17" name="PRIM" type="passive"/>
+        <pin num="18" name="ENLV" type="passive"/>
+        <pin num="19" name="STATUS2" type="passive"/>
+        <pin num="20" name="STATUS1" type="passive"/>
+        <pin num="21" name="STATUS0" type="passive"/>
+        <pin num="22" name="SET_OVCH" type="passive"/>
+        <pin num="23" name="SET_CHRDY" type="passive"/>
+        <pin num="24" name="SET_OVDIS" type="passive"/>
+        <pin num="25" name="SRC1" type="passive"/>
+        <pin num="26" name="SRC2" type="passive"/>
+        <pin num="27" name="BUFSRC" type="passive"/>
+        <pin num="28" name="SWBOOST" type="passive"/>
+        <pin num="29" name="EP_GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="PWRGROUP_U8">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PWRGROUP_U8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="FB" type="input"/>
+        <pin num="2" name="EN" type="input"/>
+        <pin num="3" name="VIN" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="SW" type="passive"/>
+        <pin num="6" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="RELAY_FLYBACK">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148W</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="RELAY_G6K_2F_Y">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G6K-2F-Y DC5</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="COIL+" type="passive"/>
+        <pin num="2" name="NC_A" type="passive"/>
+        <pin num="3" name="COM_A" type="passive"/>
+        <pin num="4" name="NO_A" type="passive"/>
+        <pin num="5" name="NO_B" type="passive"/>
+        <pin num="6" name="COM_B" type="passive"/>
+        <pin num="7" name="NC_B" type="passive"/>
+        <pin num="8" name="COIL-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="REV_R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">REV_R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="solar_oracle" part="TPS22917DBV_VBUS_OR">
+      <description>1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps22917.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS22917DBV</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps22917.pdf</field>
+        <field name="Description">1V to 5.5V, 2A, 80mΩ Ultra-Low Leakage Load Switch, SOT23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ON" type="input"/>
+        <pin num="4" name="CT" type="output"/>
+        <pin num="5" name="QOD" type="open_collector"/>
+        <pin num="6" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Marc">
+      <uri>${KIPRJMOD}/Marc.kicad_sym</uri>
+    </library>
+    <library logical="solar_oracle">
+      <uri>${KIPRJMOD}/solar_oracle.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="ADC_IN" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="AIN0_4" pintype="input"/>
+    </net>
+    <net code="2" name="AON_3V3" class="Default">
+      <node ref="C333" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C334" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C335" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C336" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U210" pin="5" pinfunction="OUT_5" pintype="power_out"/>
+      <node ref="U211" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U211" pin="6" pinfunction="EN_ONE_SHOT_6" pintype="input"/>
+      <node ref="U212" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U213" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+    </net>
+    <net code="3" name="BOOST_EN" class="Default">
+      <node ref="R322" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U208" pin="2" pinfunction="EN_2" pintype="input"/>
+      <node ref="U212" pin="4" pinfunction="Y_4" pintype="output"/>
+    </net>
+    <net code="4" name="BUTTON_N" class="Default">
+      <node ref="A1" pin="J3.4" pinfunction="GPIO35_J3.4" pintype="bidirectional"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="DUT_P" class="Default">
+      <node ref="J1" pin="1" pinfunction="CELL1_P_1" pintype="passive"/>
+      <node ref="K1" pin="3" pinfunction="COM_A_3" pintype="passive"/>
+      <node ref="K1" pin="6" pinfunction="COM_B_6" pintype="passive"/>
+    </net>
+    <net code="6" name="EPD_CS" class="Default">
+      <node ref="A1" pin="J4.2" pinfunction="GPIO37_J4.2" pintype="bidirectional"/>
+      <node ref="J3" pin="21" pinfunction="ECS_D9_21" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="EPD_DC" class="Default">
+      <node ref="A1" pin="J4.3" pinfunction="GPIO38_J4.3" pintype="bidirectional"/>
+      <node ref="J3" pin="22" pinfunction="DC_D10_22" pintype="input"/>
+    </net>
+    <net code="8" name="GND" class="Default">
+      <node ref="A1" pin="J3.7" pinfunction="GND_J3.7" pintype="power_in"/>
+      <node ref="A1" pin="J4.7" pinfunction="GND_J4.7" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C201" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="C202" pin="2" pinfunction="-_2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C304" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C305" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C306" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C307" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C308" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C309" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C310" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C311" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C313" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C314" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C315" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C316" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C317" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C332" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C333" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C334" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C335" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C336" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="CELL1_N_2" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="JP201" pin="3" pinfunction="OFF_GND_3" pintype="passive"/>
+      <node ref="Q217" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q218" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R280" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R285" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R286" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R291" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R311" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R318" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R319" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R320" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R321" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R322" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R323" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GND_12" pintype="power_in"/>
+      <node ref="U1" pin="27" pinfunction="VSS_27" pintype="power_in"/>
+      <node ref="U1" pin="28" pinfunction="D_28" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="ADDR_1" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="AIN1_5" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="AIN2_6" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="AIN3_7" pintype="input"/>
+      <node ref="U207" pin="10" pinfunction="FB_PRIM_U_10" pintype="passive"/>
+      <node ref="U207" pin="12" pinfunction="ENHV_12" pintype="passive"/>
+      <node ref="U207" pin="15" pinfunction="BAL_15" pintype="passive"/>
+      <node ref="U207" pin="17" pinfunction="PRIM_17" pintype="passive"/>
+      <node ref="U207" pin="18" pinfunction="ENLV_18" pintype="passive"/>
+      <node ref="U207" pin="29" pinfunction="EP_GND_29" pintype="passive"/>
+      <node ref="U207" pin="4" pinfunction="CFG2_4" pintype="passive"/>
+      <node ref="U207" pin="5" pinfunction="CFG1_5" pintype="passive"/>
+      <node ref="U207" pin="6" pinfunction="CFG0_6" pintype="passive"/>
+      <node ref="U207" pin="7" pinfunction="SELMPP1_7" pintype="passive"/>
+      <node ref="U207" pin="8" pinfunction="SELMPP0_8" pintype="passive"/>
+      <node ref="U207" pin="9" pinfunction="FB_PRIM_D_9" pintype="passive"/>
+      <node ref="U208" pin="4" pinfunction="GND_4" pintype="power_in"/>
+      <node ref="U210" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U211" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U212" pin="1" pinfunction="In1_1" pintype="input"/>
+      <node ref="U212" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U213" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U214" pin="2" pinfunction="GND_2" pintype="power_in"/>
+    </net>
+    <net code="9" name="HARV_P" class="Default">
+      <node ref="K1" pin="2" pinfunction="NC_A_2" pintype="passive"/>
+      <node ref="U207" pin="25" pinfunction="SRC1_25" pintype="passive"/>
+      <node ref="U207" pin="26" pinfunction="SRC2_26" pintype="passive"/>
+    </net>
+    <net code="10" name="I2C_SCL" class="Default">
+      <node ref="A1" pin="J5.7" pinfunction="GPIO9_J5.7" pintype="bidirectional"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="SCL_10" pintype="input"/>
+    </net>
+    <net code="11" name="I2C_SDA" class="Default">
+      <node ref="A1" pin="J5.6" pinfunction="GPIO8_J5.6" pintype="bidirectional"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="SDA_9" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="LOAD_00" class="Default">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="S1_19" pintype="passive"/>
+    </net>
+    <net code="13" name="LOAD_01" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="S2_20" pintype="passive"/>
+    </net>
+    <net code="14" name="LOAD_02" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="S3_21" pintype="passive"/>
+    </net>
+    <net code="15" name="LOAD_03" class="Default">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="22" pinfunction="S4_22" pintype="passive"/>
+    </net>
+    <net code="16" name="LOAD_04" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="S5_23" pintype="passive"/>
+    </net>
+    <net code="17" name="LOAD_05" class="Default">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="S6_24" pintype="passive"/>
+    </net>
+    <net code="18" name="LOAD_06" class="Default">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="S7_25" pintype="passive"/>
+    </net>
+    <net code="19" name="LOAD_07" class="Default">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="S8_26" pintype="passive"/>
+    </net>
+    <net code="20" name="LOAD_08" class="Default">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="S9_11" pintype="passive"/>
+    </net>
+    <net code="21" name="LOAD_09" class="Default">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="S10_10" pintype="passive"/>
+    </net>
+    <net code="22" name="LOAD_10" class="Default">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="S11_9" pintype="passive"/>
+    </net>
+    <net code="23" name="LOAD_11" class="Default">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="S12_8" pintype="passive"/>
+    </net>
+    <net code="24" name="LOAD_12" class="Default">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="S13_7" pintype="passive"/>
+    </net>
+    <net code="25" name="LOAD_13" class="Default">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="S14_6" pintype="passive"/>
+    </net>
+    <net code="26" name="LOAD_14" class="Default">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="S15_5" pintype="passive"/>
+    </net>
+    <net code="27" name="LOAD_15" class="Default">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="S16_4" pintype="passive"/>
+    </net>
+    <net code="28" name="LOAD_P" class="Default">
+      <node ref="K1" pin="4" pinfunction="NO_A_4" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="MCU_3V3" class="Default">
+      <node ref="A1" pin="J2.8" pinfunction="3V3_J2.8" pintype="power_out"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="3V3_2" pintype="power_in"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R310" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD_1" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VDD_8" pintype="power_in"/>
+    </net>
+    <net code="30" name="MCU_DONE" class="Default">
+      <node ref="A1" pin="J2.5" pinfunction="GPIO13_J2.5" pintype="bidirectional"/>
+      <node ref="R320" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U213" pin="2" pinfunction="A_2" pintype="input"/>
+    </net>
+    <net code="31" name="MODULE_VBUS" class="Default">
+      <node ref="A1" pin="J3.8" pinfunction="VBUS_J3.8" pintype="power_out"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="D201" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="K1" pin="1" pinfunction="COIL+_1" pintype="passive"/>
+      <node ref="U214" pin="6" pinfunction="VOUT_6" pintype="passive"/>
+    </net>
+    <net code="32" name="MUX_A0" class="Default">
+      <node ref="A1" pin="J2.2" pinfunction="GPIO2_J2.2" pintype="bidirectional"/>
+      <node ref="U1" pin="17" pinfunction="A0_17" pintype="input"/>
+    </net>
+    <net code="33" name="MUX_A1" class="Default">
+      <node ref="A1" pin="J5.4" pinfunction="GPIO6_J5.4" pintype="bidirectional"/>
+      <node ref="U1" pin="16" pinfunction="A1_16" pintype="input"/>
+    </net>
+    <net code="34" name="MUX_A2" class="Default">
+      <node ref="A1" pin="J2.3" pinfunction="GPIO4_J2.3" pintype="bidirectional"/>
+      <node ref="U1" pin="15" pinfunction="A2_15" pintype="input"/>
+    </net>
+    <net code="35" name="MUX_A3" class="Default">
+      <node ref="A1" pin="J5.3" pinfunction="GPIO5_J5.3" pintype="bidirectional"/>
+      <node ref="U1" pin="14" pinfunction="A3_14" pintype="input"/>
+    </net>
+    <net code="36" name="MUX_EN" class="Default">
+      <node ref="A1" pin="J5.8" pinfunction="GPIO14_J5.8" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="EN_18" pintype="input"/>
+    </net>
+    <net code="37" name="P5_FB" class="Default">
+      <node ref="C312" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R284" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R285" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U208" pin="1" pinfunction="FB_1" pintype="input"/>
+    </net>
+    <net code="38" name="P5_SW" class="Default">
+      <node ref="L203" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U208" pin="5" pinfunction="SW_5" pintype="passive"/>
+    </net>
+    <net code="39" name="PM_BOOST" class="Default">
+      <node ref="C304" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R283" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U207" pin="1" pinfunction="BOOST_1" pintype="passive"/>
+    </net>
+    <net code="40" name="PM_BUCK" class="Default">
+      <node ref="C306" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L202" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U207" pin="3" pinfunction="BUCK_3" pintype="passive"/>
+    </net>
+    <net code="41" name="PM_BUFSRC" class="Default">
+      <node ref="C305" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L201" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U207" pin="27" pinfunction="BUFSRC_27" pintype="passive"/>
+    </net>
+    <net code="42" name="PM_HVOUT" class="Default">
+      <node ref="C308" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U207" pin="14" pinfunction="HVOUT_14" pintype="passive"/>
+    </net>
+    <net code="43" name="PM_LVOUT" class="Default">
+      <node ref="C307" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U207" pin="11" pinfunction="LVOUT_11" pintype="passive"/>
+    </net>
+    <net code="44" name="PM_READY" class="Default">
+      <node ref="R286" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U207" pin="21" pinfunction="STATUS0_21" pintype="passive"/>
+      <node ref="U212" pin="3" pinfunction="In0_3" pintype="input"/>
+    </net>
+    <net code="45" name="PM_SWBOOST" class="Default">
+      <node ref="L201" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U207" pin="28" pinfunction="SWBOOST_28" pintype="passive"/>
+    </net>
+    <net code="46" name="PM_SWBUCK" class="Default">
+      <node ref="L202" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U207" pin="2" pinfunction="SWBUCK_2" pintype="passive"/>
+    </net>
+    <net code="47" name="PM_WARN" class="Default">
+      <node ref="Q218" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R311" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U207" pin="20" pinfunction="STATUS1_20" pintype="passive"/>
+    </net>
+    <net code="48" name="POWER_WARN_N" class="Default">
+      <node ref="A1" pin="J2.6" pinfunction="GPIO11_J2.6" pintype="bidirectional"/>
+      <node ref="Q218" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="R310" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="49" name="RELAY_COIL_LOW" class="Default">
+      <node ref="D201" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="K1" pin="8" pinfunction="COIL-_8" pintype="passive"/>
+      <node ref="Q217" pin="3" pinfunction="D_3" pintype="passive"/>
+    </net>
+    <net code="50" name="SCAN_GATE" class="Default">
+      <node ref="Q217" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="R290" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R291" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="51" name="SCAN_MODE" class="Default">
+      <node ref="A1" pin="J2.4" pinfunction="GPIO12_J2.4" pintype="bidirectional"/>
+      <node ref="R290" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="52" name="SD_CS_N" class="Default">
+      <node ref="J3" pin="19" pinfunction="SDCS_D5_19" pintype="input"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="SENSE_P" class="Default">
+      <node ref="K1" pin="5" pinfunction="NO_B_5" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="SET_CHRDY" class="Default">
+      <node ref="R281" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R282" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U207" pin="23" pinfunction="SET_CHRDY_23" pintype="passive"/>
+    </net>
+    <net code="55" name="SET_OVCH" class="Default">
+      <node ref="R280" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R281" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U207" pin="22" pinfunction="SET_OVCH_22" pintype="passive"/>
+    </net>
+    <net code="56" name="SET_OVDIS" class="Default">
+      <node ref="R282" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R283" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U207" pin="24" pinfunction="SET_OVDIS_24" pintype="passive"/>
+    </net>
+    <net code="57" name="SOLAR_5V" class="Default">
+      <node ref="C312" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C315" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C316" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C317" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="JP201" pin="1" pinfunction="ON_SOLAR_5V_1" pintype="passive"/>
+      <node ref="R284" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R323" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U208" pin="6" pinfunction="VOUT_6" pintype="power_out"/>
+      <node ref="U214" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+    </net>
+    <net code="58" name="SOLAR_EN" class="Default">
+      <node ref="JP201" pin="2" pinfunction="COM_SOLAR_EN_2" pintype="passive"/>
+      <node ref="U214" pin="3" pinfunction="ON_3" pintype="input"/>
+    </net>
+    <net code="59" name="SPI_MISO" class="Default">
+      <node ref="A1" pin="J3.5" pinfunction="GPIO18_J3.5" pintype="bidirectional"/>
+      <node ref="J3" pin="13" pinfunction="MISO_13" pintype="output"/>
+    </net>
+    <net code="60" name="SPI_MOSI" class="Default">
+      <node ref="A1" pin="J3.6" pinfunction="GPIO16_J3.6" pintype="bidirectional"/>
+      <node ref="J3" pin="12" pinfunction="MOSI_12" pintype="input"/>
+    </net>
+    <net code="61" name="SPI_SCK" class="Default">
+      <node ref="A1" pin="J3.3" pinfunction="GPIO36_J3.3" pintype="bidirectional"/>
+      <node ref="J3" pin="11" pinfunction="SCK_11" pintype="input"/>
+    </net>
+    <net code="62" name="SRAM_CS" class="Default">
+      <node ref="A1" pin="J4.4" pinfunction="GPIO34_J4.4" pintype="bidirectional"/>
+      <node ref="J3" pin="20" pinfunction="SRAMCS_D6_20" pintype="input"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="TIMER_DELAY" class="Default">
+      <node ref="R318" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R319" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U211" pin="3" pinfunction="DELAY_M_DRV_3" pintype="passive"/>
+    </net>
+    <net code="64" name="TIMER_DONE" class="Default">
+      <node ref="R321" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U211" pin="4" pinfunction="DONE_4" pintype="input"/>
+      <node ref="U213" pin="4" pinfunction="Y_4" pintype="output"/>
+    </net>
+    <net code="65" name="TIMER_REQUEST" class="Default">
+      <node ref="U211" pin="5" pinfunction="DRVn_ACTIVE_HIGH_5" pintype="output"/>
+      <node ref="U212" pin="6" pinfunction="In2_6" pintype="input"/>
+    </net>
+    <net code="66" name="VSTORE" class="Default">
+      <node ref="C201" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="C202" pin="1" pinfunction="+_1" pintype="passive"/>
+      <node ref="C309" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C310" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C311" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C313" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C314" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C332" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="L203" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U207" pin="16" pinfunction="BATT_16" pintype="passive"/>
+      <node ref="U208" pin="3" pinfunction="VIN_3" pintype="power_in"/>
+      <node ref="U210" pin="1" pinfunction="IN_1" pintype="power_in"/>
+      <node ref="U210" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="67" name="unconnected-(A1-EN-PadJ2.1)" class="Default">
+      <node ref="A1" pin="J2.1" pinfunction="EN_J2.1" pintype="input+no_connect"/>
+    </net>
+    <net code="68" name="unconnected-(A1-GPIO1-PadJ5.1)" class="Default">
+      <node ref="A1" pin="J5.1" pinfunction="GPIO1_J5.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(A1-GPIO3-PadJ5.2)" class="Default">
+      <node ref="A1" pin="J5.2" pinfunction="GPIO3_J5.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(A1-GPIO7-PadJ5.5)" class="Default">
+      <node ref="A1" pin="J5.5" pinfunction="GPIO7_J5.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(A1-GPIO10-PadJ2.7)" class="Default">
+      <node ref="A1" pin="J2.7" pinfunction="GPIO10_J2.7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(A1-GPIO15-PadJ4.8)" class="Default">
+      <node ref="A1" pin="J4.8" pinfunction="GPIO15_J4.8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(A1-GPIO17-PadJ4.6)" class="Default">
+      <node ref="A1" pin="J4.6" pinfunction="GPIO17_J4.6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(A1-GPIO21-PadJ4.5)" class="Default">
+      <node ref="A1" pin="J4.5" pinfunction="GPIO21_J4.5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(A1-GPIO33-PadJ4.1)" class="Default">
+      <node ref="A1" pin="J4.1" pinfunction="GPIO33_J4.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(A1-GPIO43-PadJ3.1)" class="Default">
+      <node ref="A1" pin="J3.1" pinfunction="GPIO43_J3.1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(A1-GPIO44-PadJ3.2)" class="Default">
+      <node ref="A1" pin="J3.2" pinfunction="GPIO44_J3.2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(J3-A0-Pad5)" class="Default">
+      <node ref="J3" pin="5" pinfunction="A0_5" pintype="passive+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(J3-A1-Pad6)" class="Default">
+      <node ref="J3" pin="6" pinfunction="A1_6" pintype="passive+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(J3-A2-Pad7)" class="Default">
+      <node ref="J3" pin="7" pinfunction="A2_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(J3-A3-Pad8)" class="Default">
+      <node ref="J3" pin="8" pinfunction="A3_8" pintype="passive+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(J3-A4-Pad9)" class="Default">
+      <node ref="J3" pin="9" pinfunction="A4_9" pintype="passive+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(J3-A5-Pad10)" class="Default">
+      <node ref="J3" pin="10" pinfunction="A5_10" pintype="passive+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(J3-AREF-Pad3)" class="Default">
+      <node ref="J3" pin="3" pinfunction="AREF_3" pintype="passive+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(J3-D11-Pad23)" class="Default">
+      <node ref="J3" pin="23" pinfunction="D11_23" pintype="passive+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(J3-D12-Pad24)" class="Default">
+      <node ref="J3" pin="24" pinfunction="D12_24" pintype="passive+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(J3-D13-Pad25)" class="Default">
+      <node ref="J3" pin="25" pinfunction="D13_25" pintype="passive+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(J3-EN_NC-Pad27)" class="Default">
+      <node ref="J3" pin="27" pinfunction="EN_NC_27" pintype="passive+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(J3-GPIO-Pad16)" class="Default">
+      <node ref="J3" pin="16" pinfunction="GPIO_16" pintype="passive+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(J3-RESET_AUTO-Pad1)" class="Default">
+      <node ref="J3" pin="1" pinfunction="RESET_AUTO_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(J3-RX-Pad14)" class="Default">
+      <node ref="J3" pin="14" pinfunction="RX_14" pintype="passive+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(J3-SCL-Pad18)" class="Default">
+      <node ref="J3" pin="18" pinfunction="SCL_18" pintype="passive+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(J3-SDA-Pad17)" class="Default">
+      <node ref="J3" pin="17" pinfunction="SDA_17" pintype="passive+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(J3-TX-Pad15)" class="Default">
+      <node ref="J3" pin="15" pinfunction="TX_15" pintype="passive+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(J3-USB_NC-Pad26)" class="Default">
+      <node ref="J3" pin="26" pinfunction="USB_NC_26" pintype="passive+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J3-VBAT_NC-Pad28)" class="Default">
+      <node ref="J3" pin="28" pinfunction="VBAT_NC_28" pintype="passive+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(K1-NC_B-Pad7)" class="Default">
+      <node ref="K1" pin="7" pinfunction="NC_B_7" pintype="passive+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U1-NC-Pad2)" class="Default">
+      <node ref="U1" pin="2" pinfunction="NC_2" pintype="no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U1-NC-Pad3)" class="Default">
+      <node ref="U1" pin="3" pinfunction="NC_3" pintype="no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U1-NC-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="NC_13" pintype="no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U2-ALERT_RDY-Pad2)" class="Default">
+      <node ref="U2" pin="2" pinfunction="ALERT_RDY_2" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U207-FB_HV-Pad13)" class="Default">
+      <node ref="U207" pin="13" pinfunction="FB_HV_13" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U207-STATUS2-Pad19)" class="Default">
+      <node ref="U207" pin="19" pinfunction="STATUS2_19" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U210-NC-Pad4)" class="Default">
+      <node ref="U210" pin="4" pinfunction="NC_4" pintype="no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U213-NC-Pad1)" class="Default">
+      <node ref="U213" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U214-CT-Pad4)" class="Default">
+      <node ref="U214" pin="4" pinfunction="CT_4" pintype="output+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U214-QOD-Pad5)" class="Default">
+      <node ref="U214" pin="5" pinfunction="QOD_5" pintype="open_collector+no_connect"/>
+    </net>
+  </nets>
+</export>

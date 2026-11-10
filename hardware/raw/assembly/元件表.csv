@@ -1,0 +1,30 @@
+reference,value,footprint,side,quantity,category,MPN,note
+A1,LOLIN S3 Mini V1.0.0,Marc:LOLIN_S3_MINI_V1,F.Cu,1,電子／模組,LOLIN S3 MINI V1.0.0,LOLIN S3 Mini 模組；插座另配、MPN未鎖定
+"C1, C2",100n,Capacitor_SMD:C_0603_1608Metric,F.Cu,2,電子／模組,,
+C3,10n,Capacitor_SMD:C_0603_1608Metric,F.Cu,1,電子／模組,,
+"C4, C5",10u 10V X7R,Capacitor_SMD:C_0805_2012Metric,F.Cu,2,電子／模組,,
+"H1, H2, H3, H4",NPTH 3.2mm,:MountingHole_3.2mm_M3,F.Cu,4,機構孔,未鎖定MPN,
+J1,DSSC series 2-cell collector - UNQUALIFIED,Marc:DSSC_Collector_58mm,F.Cu,1,純接點（非採購件）,,
+J3,Adafruit 4814 SSD1680 250x122,Marc:Adafruit_4814_FeatherWing_Mating,F.Cu,1,電子／模組,4814,Adafruit #4814 FeatherWing 16+12腳/3.3V；插座另配、MPN未鎖定
+R1,1M CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-071ML,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R10,220 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07220RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R11,150 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07150RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R12,100 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07100RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R13,75 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-0775RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R14,49.9 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-0749R9L,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R15,30.1 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-0730R1L,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R16,20 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-0720RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R17,1k,Resistor_SMD:R_0603_1608Metric,F.Cu,1,電子／模組,,
+"R18, R19",4.7k,Resistor_SMD:R_0603_1608Metric,F.Cu,2,電子／模組,,
+R2,20k CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-0720KL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+"R20, R21, R22, R23, R24",10k,Resistor_SMD:R_0603_1608Metric,F.Cu,5,電子／模組,,
+R3,8.2k CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-078K2L,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R4,4.3k CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-074K3L,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R5,2.2k CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-072K2L,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R6,1k CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-071KL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R7,750 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07750RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R8,470 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07470RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+R9,330 CANDIDATE,Resistor_SMD:R_1206_3216Metric,F.Cu,1,電子／模組,RC1206FR-07330RL,1206英制/3216公制；1%、0.25W@70°C；保留候選阻值，組裝後重校準；供應商即時庫存未核
+SW1,MEASURE / SCALE,Button_Switch_SMD:SW_SPST_TL3342,F.Cu,1,電子／模組,TL3342候選,
+U1,ADG706BRUZ-REEL7,Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm,F.Cu,1,電子／模組,ADG706BRUZ-REEL7,
+U2,ADS1115IDGSR / 0x48,Package_SO:TSSOP-10_3x3mm_P0.5mm,F.Cu,1,電子／模組,ADS1115IDGSR,

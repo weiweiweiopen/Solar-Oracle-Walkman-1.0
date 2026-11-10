@@ -1,0 +1,17 @@
+net,GPIO,A1_pad,direction,status
+MUX_A0,2,J2.2,output,schematic / PCB / firmware synchronized; no hardware verification
+MUX_A1,6,J5.4,output,schematic / PCB / firmware synchronized; no hardware verification
+MUX_A2,4,J2.3,output,schematic / PCB / firmware synchronized; no hardware verification
+MUX_A3,5,J5.3,output,schematic / PCB / firmware synchronized; no hardware verification
+MUX_EN,14,J5.8,output,schematic / PCB / firmware synchronized; no hardware verification
+I2C_SDA,8,J5.6,open-drain,schematic / PCB / firmware synchronized; no hardware verification
+I2C_SCL,9,J5.7,open-drain,schematic / PCB / firmware synchronized; no hardware verification
+BUTTON_N,35,J3.4,input pullup,schematic / PCB / firmware synchronized; no hardware verification
+SPI_SCK,36,J3.3,output,SCK copper gap remains
+SPI_MISO,18,J3.5,input,schematic / PCB / firmware synchronized; no hardware verification
+SPI_MOSI,16,J3.6,output,schematic / PCB / firmware synchronized; no hardware verification
+EPD_CS,37,J4.2,output,schematic / PCB / firmware synchronized; no hardware verification
+EPD_DC,38,J4.3,output,schematic / PCB / firmware synchronized; no hardware verification
+EPD_RESET,10,J2.7,output driver reset,schematic / PCB / firmware synchronized; no hardware verification
+EPD_BUSY,7,J5.5,input active-low,schematic / PCB / firmware synchronized; no hardware verification
+SRAM_CS,34,J4.4,output,schematic / PCB / firmware synchronized; no hardware verification

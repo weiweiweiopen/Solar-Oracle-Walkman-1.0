@@ -1,0 +1,327 @@
+﻿Ref,Pin,Pin_name,Net,Disposition
+A1,J2.1,EN_J2.1,unconnected-(A1-EN-PadJ2.1),Explicit NC (schematic)
+A1,J2.2,GPIO2_J2.2,MUX_A0,Connected
+A1,J2.3,GPIO4_J2.3,MUX_A2,Connected
+A1,J2.4,GPIO12_J2.4,SCAN_MODE,Connected
+A1,J2.5,GPIO13_J2.5,MCU_DONE,Connected
+A1,J2.6,GPIO11_J2.6,POWER_WARN_N,Connected
+A1,J2.7,GPIO10_J2.7,unconnected-(A1-GPIO10-PadJ2.7),Explicit NC (schematic)
+A1,J2.8,3V3_J2.8,MCU_3V3,Connected
+A1,J3.1,GPIO43_J3.1,unconnected-(A1-GPIO43-PadJ3.1),Explicit NC (schematic)
+A1,J3.2,GPIO44_J3.2,unconnected-(A1-GPIO44-PadJ3.2),Explicit NC (schematic)
+A1,J3.3,GPIO36_J3.3,SPI_SCK,Connected
+A1,J3.4,GPIO35_J3.4,BUTTON_N,Connected
+A1,J3.5,GPIO18_J3.5,SPI_MISO,Connected
+A1,J3.6,GPIO16_J3.6,SPI_MOSI,Connected
+A1,J3.7,GND_J3.7,GND,Connected
+A1,J3.8,VBUS_J3.8,MODULE_VBUS,Connected
+A1,J4.1,GPIO33_J4.1,unconnected-(A1-GPIO33-PadJ4.1),Explicit NC (schematic)
+A1,J4.2,GPIO37_J4.2,EPD_CS,Connected
+A1,J4.3,GPIO38_J4.3,EPD_DC,Connected
+A1,J4.4,GPIO34_J4.4,SRAM_CS,Connected
+A1,J4.5,GPIO21_J4.5,unconnected-(A1-GPIO21-PadJ4.5),Explicit NC (schematic)
+A1,J4.6,GPIO17_J4.6,unconnected-(A1-GPIO17-PadJ4.6),Explicit NC (schematic)
+A1,J4.7,GND_J4.7,GND,Connected
+A1,J4.8,GPIO15_J4.8,unconnected-(A1-GPIO15-PadJ4.8),Explicit NC (schematic)
+A1,J5.1,GPIO1_J5.1,unconnected-(A1-GPIO1-PadJ5.1),Explicit NC (schematic)
+A1,J5.2,GPIO3_J5.2,unconnected-(A1-GPIO3-PadJ5.2),Explicit NC (schematic)
+A1,J5.3,GPIO5_J5.3,MUX_A3,Connected
+A1,J5.4,GPIO6_J5.4,MUX_A1,Connected
+A1,J5.5,GPIO7_J5.5,unconnected-(A1-GPIO7-PadJ5.5),Explicit NC (schematic)
+A1,J5.6,GPIO8_J5.6,I2C_SDA,Connected
+A1,J5.7,GPIO9_J5.7,I2C_SCL,Connected
+A1,J5.8,GPIO14_J5.8,MUX_EN,Connected
+C1,1,,MCU_3V3,Connected
+C1,2,,GND,Connected
+C2,1,,MCU_3V3,Connected
+C2,2,,GND,Connected
+C3,1,,ADC_IN,Connected
+C3,2,,GND,Connected
+C4,1,,MCU_3V3,Connected
+C4,2,,GND,Connected
+C5,1,,MODULE_VBUS,Connected
+C5,2,,GND,Connected
+C201,1,+_1,VSTORE,Connected
+C201,2,-_2,GND,Connected
+C202,1,+_1,VSTORE,Connected
+C202,2,-_2,GND,Connected
+C304,1,1_1,PM_BOOST,Connected
+C304,2,2_2,GND,Connected
+C305,1,1_1,PM_BUFSRC,Connected
+C305,2,2_2,GND,Connected
+C306,1,1_1,PM_BUCK,Connected
+C306,2,2_2,GND,Connected
+C307,1,1_1,PM_LVOUT,Connected
+C307,2,2_2,GND,Connected
+C308,1,1_1,PM_HVOUT,Connected
+C308,2,2_2,GND,Connected
+C309,1,1_1,VSTORE,Connected
+C309,2,2_2,GND,Connected
+C310,1,1_1,VSTORE,Connected
+C310,2,2_2,GND,Connected
+C311,1,1_1,VSTORE,Connected
+C311,2,2_2,GND,Connected
+C312,1,1_1,SOLAR_5V,Connected
+C312,2,2_2,P5_FB,Connected
+C313,1,1_1,VSTORE,Connected
+C313,2,2_2,GND,Connected
+C314,1,1_1,VSTORE,Connected
+C314,2,2_2,GND,Connected
+C315,1,1_1,SOLAR_5V,Connected
+C315,2,2_2,GND,Connected
+C316,1,1_1,SOLAR_5V,Connected
+C316,2,2_2,GND,Connected
+C317,1,1_1,SOLAR_5V,Connected
+C317,2,2_2,GND,Connected
+C332,1,1_1,VSTORE,Connected
+C332,2,2_2,GND,Connected
+C333,1,1_1,AON_3V3,Connected
+C333,2,2_2,GND,Connected
+C334,1,1_1,AON_3V3,Connected
+C334,2,2_2,GND,Connected
+C335,1,1_1,AON_3V3,Connected
+C335,2,2_2,GND,Connected
+C336,1,1_1,AON_3V3,Connected
+C336,2,2_2,GND,Connected
+D201,1,K_1,MODULE_VBUS,Connected
+D201,2,A_2,RELAY_COIL_LOW,Connected
+J1,1,CELL1_P_1,DUT_P,Connected
+J1,2,CELL1_N_2,GND,Connected
+J3,1,RESET_AUTO_1,unconnected-(J3-RESET_AUTO-Pad1),Explicit NC (schematic)
+J3,2,3V3_2,MCU_3V3,Connected
+J3,3,AREF_3,unconnected-(J3-AREF-Pad3),Explicit NC (schematic)
+J3,4,GND_4,GND,Connected
+J3,5,A0_5,unconnected-(J3-A0-Pad5),Explicit NC (schematic)
+J3,6,A1_6,unconnected-(J3-A1-Pad6),Explicit NC (schematic)
+J3,7,A2_7,unconnected-(J3-A2-Pad7),Explicit NC (schematic)
+J3,8,A3_8,unconnected-(J3-A3-Pad8),Explicit NC (schematic)
+J3,9,A4_9,unconnected-(J3-A4-Pad9),Explicit NC (schematic)
+J3,10,A5_10,unconnected-(J3-A5-Pad10),Explicit NC (schematic)
+J3,11,SCK_11,SPI_SCK,Connected
+J3,12,MOSI_12,SPI_MOSI,Connected
+J3,13,MISO_13,SPI_MISO,Connected
+J3,14,RX_14,unconnected-(J3-RX-Pad14),Explicit NC (schematic)
+J3,15,TX_15,unconnected-(J3-TX-Pad15),Explicit NC (schematic)
+J3,16,GPIO_16,unconnected-(J3-GPIO-Pad16),Explicit NC (schematic)
+J3,17,SDA_17,unconnected-(J3-SDA-Pad17),Explicit NC (schematic)
+J3,18,SCL_18,unconnected-(J3-SCL-Pad18),Explicit NC (schematic)
+J3,19,SDCS_D5_19,SD_CS_N,Connected
+J3,20,SRAMCS_D6_20,SRAM_CS,Connected
+J3,21,ECS_D9_21,EPD_CS,Connected
+J3,22,DC_D10_22,EPD_DC,Connected
+J3,23,D11_23,unconnected-(J3-D11-Pad23),Explicit NC (schematic)
+J3,24,D12_24,unconnected-(J3-D12-Pad24),Explicit NC (schematic)
+J3,25,D13_25,unconnected-(J3-D13-Pad25),Explicit NC (schematic)
+J3,26,USB_NC_26,unconnected-(J3-USB_NC-Pad26),Explicit NC (schematic)
+J3,27,EN_NC_27,unconnected-(J3-EN_NC-Pad27),Explicit NC (schematic)
+J3,28,VBAT_NC_28,unconnected-(J3-VBAT_NC-Pad28),Explicit NC (schematic)
+JP201,1,ON_SOLAR_5V_1,SOLAR_5V,Connected
+JP201,2,COM_SOLAR_EN_2,SOLAR_EN,Connected
+JP201,3,OFF_GND_3,GND,Connected
+K1,1,COIL+_1,MODULE_VBUS,Connected
+K1,2,NC_A_2,HARV_P,Connected
+K1,3,COM_A_3,DUT_P,Connected
+K1,4,NO_A_4,LOAD_P,Connected
+K1,5,NO_B_5,SENSE_P,Connected
+K1,6,COM_B_6,DUT_P,Connected
+K1,7,NC_B_7,unconnected-(K1-NC_B-Pad7),Explicit NC (schematic)
+K1,8,COIL-_8,RELAY_COIL_LOW,Connected
+L201,1,1_1,PM_BUFSRC,Connected
+L201,2,2_2,PM_SWBOOST,Connected
+L202,1,1_1,PM_SWBUCK,Connected
+L202,2,2_2,PM_BUCK,Connected
+L203,1,1_1,VSTORE,Connected
+L203,2,2_2,P5_SW,Connected
+Q217,1,G_1,SCAN_GATE,Connected
+Q217,2,S_2,GND,Connected
+Q217,3,D_3,RELAY_COIL_LOW,Connected
+Q218,1,G_1,PM_WARN,Connected
+Q218,2,S_2,GND,Connected
+Q218,3,D_3,POWER_WARN_N,Connected
+R1,1,,LOAD_P,Connected
+R1,2,,LOAD_00,Connected
+R2,1,,LOAD_P,Connected
+R2,2,,LOAD_01,Connected
+R3,1,,LOAD_P,Connected
+R3,2,,LOAD_02,Connected
+R4,1,,LOAD_P,Connected
+R4,2,,LOAD_03,Connected
+R5,1,,LOAD_P,Connected
+R5,2,,LOAD_04,Connected
+R6,1,,LOAD_P,Connected
+R6,2,,LOAD_05,Connected
+R7,1,,LOAD_P,Connected
+R7,2,,LOAD_06,Connected
+R8,1,,LOAD_P,Connected
+R8,2,,LOAD_07,Connected
+R9,1,,LOAD_P,Connected
+R9,2,,LOAD_08,Connected
+R10,1,,LOAD_P,Connected
+R10,2,,LOAD_09,Connected
+R11,1,,LOAD_P,Connected
+R11,2,,LOAD_10,Connected
+R12,1,,LOAD_P,Connected
+R12,2,,LOAD_11,Connected
+R13,1,,LOAD_P,Connected
+R13,2,,LOAD_12,Connected
+R14,1,,LOAD_P,Connected
+R14,2,,LOAD_13,Connected
+R15,1,,LOAD_P,Connected
+R15,2,,LOAD_14,Connected
+R16,1,,LOAD_P,Connected
+R16,2,,LOAD_15,Connected
+R17,1,,SENSE_P,Connected
+R17,2,,ADC_IN,Connected
+R18,1,,MCU_3V3,Connected
+R18,2,,I2C_SDA,Connected
+R19,1,,MCU_3V3,Connected
+R19,2,,I2C_SCL,Connected
+R20,1,,MUX_EN,Connected
+R20,2,,GND,Connected
+R21,1,,MCU_3V3,Connected
+R21,2,,BUTTON_N,Connected
+R22,1,,MCU_3V3,Connected
+R22,2,,SD_CS_N,Connected
+R23,1,,MCU_3V3,Connected
+R23,2,,EPD_CS,Connected
+R24,1,,MCU_3V3,Connected
+R24,2,,SRAM_CS,Connected
+R280,1,1_1,SET_OVCH,Connected
+R280,2,2_2,GND,Connected
+R281,1,1_1,SET_CHRDY,Connected
+R281,2,2_2,SET_OVCH,Connected
+R282,1,1_1,SET_OVDIS,Connected
+R282,2,2_2,SET_CHRDY,Connected
+R283,1,1_1,PM_BOOST,Connected
+R283,2,2_2,SET_OVDIS,Connected
+R284,1,1_1,SOLAR_5V,Connected
+R284,2,2_2,P5_FB,Connected
+R285,1,1_1,P5_FB,Connected
+R285,2,2_2,GND,Connected
+R286,1,1_1,PM_READY,Connected
+R286,2,2_2,GND,Connected
+R290,1,1_1,SCAN_MODE,Connected
+R290,2,2_2,SCAN_GATE,Connected
+R291,1,1_1,SCAN_GATE,Connected
+R291,2,2_2,GND,Connected
+R310,1,1_1,POWER_WARN_N,Connected
+R310,2,2_2,MCU_3V3,Connected
+R311,1,1_1,PM_WARN,Connected
+R311,2,2_2,GND,Connected
+R318,1,1_1,TIMER_DELAY,Connected
+R318,2,2_2,GND,Connected
+R319,1,1_1,TIMER_DELAY,Connected
+R319,2,2_2,GND,Connected
+R320,1,1_1,MCU_DONE,Connected
+R320,2,2_2,GND,Connected
+R321,1,1_1,TIMER_DONE,Connected
+R321,2,2_2,GND,Connected
+R322,1,1_1,BOOST_EN,Connected
+R322,2,2_2,GND,Connected
+R323,1,1_1,SOLAR_5V,Connected
+R323,2,2_2,GND,Connected
+SW1,1,,BUTTON_N,Connected
+SW1,1,,BUTTON_N,Connected
+SW1,2,,GND,Connected
+SW1,2,,GND,Connected
+U1,1,VDD_1,MCU_3V3,Connected
+U1,2,NC_2,unconnected-(U1-NC-Pad2),Explicit NC (schematic)
+U1,3,NC_3,unconnected-(U1-NC-Pad3),Explicit NC (schematic)
+U1,4,S16_4,LOAD_15,Connected
+U1,5,S15_5,LOAD_14,Connected
+U1,6,S14_6,LOAD_13,Connected
+U1,7,S13_7,LOAD_12,Connected
+U1,8,S12_8,LOAD_11,Connected
+U1,9,S11_9,LOAD_10,Connected
+U1,10,S10_10,LOAD_09,Connected
+U1,11,S9_11,LOAD_08,Connected
+U1,12,GND_12,GND,Connected
+U1,13,NC_13,unconnected-(U1-NC-Pad13),Explicit NC (schematic)
+U1,14,A3_14,MUX_A3,Connected
+U1,15,A2_15,MUX_A2,Connected
+U1,16,A1_16,MUX_A1,Connected
+U1,17,A0_17,MUX_A0,Connected
+U1,18,EN_18,MUX_EN,Connected
+U1,19,S1_19,LOAD_00,Connected
+U1,20,S2_20,LOAD_01,Connected
+U1,21,S3_21,LOAD_02,Connected
+U1,22,S4_22,LOAD_03,Connected
+U1,23,S5_23,LOAD_04,Connected
+U1,24,S6_24,LOAD_05,Connected
+U1,25,S7_25,LOAD_06,Connected
+U1,26,S8_26,LOAD_07,Connected
+U1,27,VSS_27,GND,Connected
+U1,28,D_28,GND,Connected
+U2,1,ADDR_1,GND,Connected
+U2,2,ALERT_RDY_2,unconnected-(U2-ALERT_RDY-Pad2),Explicit NC (schematic)
+U2,3,GND_3,GND,Connected
+U2,4,AIN0_4,ADC_IN,Connected
+U2,5,AIN1_5,GND,Connected
+U2,6,AIN2_6,GND,Connected
+U2,7,AIN3_7,GND,Connected
+U2,8,VDD_8,MCU_3V3,Connected
+U2,9,SDA_9,I2C_SDA,Connected
+U2,10,SCL_10,I2C_SCL,Connected
+U207,1,BOOST_1,PM_BOOST,Connected
+U207,2,SWBUCK_2,PM_SWBUCK,Connected
+U207,3,BUCK_3,PM_BUCK,Connected
+U207,4,CFG2_4,GND,Connected
+U207,5,CFG1_5,GND,Connected
+U207,6,CFG0_6,GND,Connected
+U207,7,SELMPP1_7,GND,Connected
+U207,8,SELMPP0_8,GND,Connected
+U207,9,FB_PRIM_D_9,GND,Connected
+U207,10,FB_PRIM_U_10,GND,Connected
+U207,11,LVOUT_11,PM_LVOUT,Connected
+U207,12,ENHV_12,GND,Connected
+U207,13,FB_HV_13,unconnected-(U207-FB_HV-Pad13),Explicit NC (schematic)
+U207,14,HVOUT_14,PM_HVOUT,Connected
+U207,15,BAL_15,GND,Connected
+U207,16,BATT_16,VSTORE,Connected
+U207,17,PRIM_17,GND,Connected
+U207,18,ENLV_18,GND,Connected
+U207,19,STATUS2_19,unconnected-(U207-STATUS2-Pad19),Explicit NC (schematic)
+U207,20,STATUS1_20,PM_WARN,Connected
+U207,21,STATUS0_21,PM_READY,Connected
+U207,22,SET_OVCH_22,SET_OVCH,Connected
+U207,23,SET_CHRDY_23,SET_CHRDY,Connected
+U207,24,SET_OVDIS_24,SET_OVDIS,Connected
+U207,25,SRC1_25,HARV_P,Connected
+U207,26,SRC2_26,HARV_P,Connected
+U207,27,BUFSRC_27,PM_BUFSRC,Connected
+U207,28,SWBOOST_28,PM_SWBOOST,Connected
+U207,29,EP_GND_29,GND,Connected
+U208,1,FB_1,P5_FB,Connected
+U208,2,EN_2,BOOST_EN,Connected
+U208,3,VIN_3,VSTORE,Connected
+U208,4,GND_4,GND,Connected
+U208,5,SW_5,P5_SW,Connected
+U208,6,VOUT_6,SOLAR_5V,Connected
+U210,1,IN_1,VSTORE,Connected
+U210,2,GND_2,GND,Connected
+U210,3,EN_3,VSTORE,Connected
+U210,4,NC_4,unconnected-(U210-NC-Pad4),Explicit NC (schematic)
+U210,5,OUT_5,AON_3V3,Connected
+U211,1,VDD_1,AON_3V3,Connected
+U211,2,GND_2,GND,Connected
+U211,3,DELAY_M_DRV_3,TIMER_DELAY,Connected
+U211,4,DONE_4,TIMER_DONE,Connected
+U211,5,DRVn_ACTIVE_HIGH_5,TIMER_REQUEST,Connected
+U211,6,EN_ONE_SHOT_6,AON_3V3,Connected
+U212,1,In1_1,GND,Connected
+U212,2,GND_2,GND,Connected
+U212,3,In0_3,PM_READY,Connected
+U212,4,Y_4,BOOST_EN,Connected
+U212,5,VCC_5,AON_3V3,Connected
+U212,6,In2_6,TIMER_REQUEST,Connected
+U213,1,NC_1,unconnected-(U213-NC-Pad1),Explicit NC (schematic)
+U213,2,A_2,MCU_DONE,Connected
+U213,3,GND_3,GND,Connected
+U213,4,Y_4,TIMER_DONE,Connected
+U213,5,VCC_5,AON_3V3,Connected
+U214,1,VIN_1,SOLAR_5V,Connected
+U214,2,GND_2,GND,Connected
+U214,3,ON_3,SOLAR_EN,Connected
+U214,4,CT_4,unconnected-(U214-CT-Pad4),Explicit NC (schematic)
+U214,5,QOD_5,unconnected-(U214-QOD-Pad5),Explicit NC (schematic)
+U214,6,VOUT_6,MODULE_VBUS,Connected

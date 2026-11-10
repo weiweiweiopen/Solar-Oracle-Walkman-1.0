@@ -1,0 +1,38 @@
+[
+  {
+    "file": "enclosure/R19_RAW/R19_RAW.FCStd",
+    "objects": 76,
+    "shells": [
+      {
+        "name": "Lower_shell",
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 34419.20000829146
+      },
+      {
+        "name": "Upper_cover",
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 32071.476835707297
+      }
+    ]
+  },
+  {
+    "file": "enclosure/R19_CHARGE_SUPERCAP/R19_CHARGE_SUPERCAP.FCStd",
+    "objects": 129,
+    "shells": [
+      {
+        "name": "Lower_shell",
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 38474.40721930399
+      },
+      {
+        "name": "Upper_cover",
+        "valid": true,
+        "solids": 1,
+        "volume_mm3": 33509.40628877031
+      }
+    ]
+  }
+]

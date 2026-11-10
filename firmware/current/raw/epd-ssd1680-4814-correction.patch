@@ -1,0 +1,18 @@
+--- before-4814-correction/Adafruit_SSD1680.cpp
++++ current/Adafruit_SSD1680.cpp
+@@ -154,8 +154,14 @@
+ */
+ /**************************************************************************/
+ void Adafruit_SSD1680::busy_wait(void) {
++  if (ioFailed()) return;
+   if (_busy_pin >= 0) {
+-    while (digitalRead(_busy_pin)) { // wait for busy low
++    const uint32_t start = millis();
++    while (digitalRead(_busy_pin)) { // SSD1680 busy HIGH, unlike JD79661
++      if (uint32_t(millis() - start) >= 20000) {
++        io_failed = true;
++        return;
++      }
+       delay(10);
+     }
+   } else {

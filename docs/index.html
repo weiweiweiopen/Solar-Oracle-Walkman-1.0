@@ -1,71 +1,19 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="A single DSSC harvests energy into supercapacitors, then powers its own I–V measurement. Circuit overview and honest energy estimates.">
-  <title>Self-Powered IV Curve Tester with Single DSSC</title>
-  <style>
-    :root{color-scheme:light;--ink:#17322d;--muted:#4e6660;--green:#176b4e;--line:#d5e4db}
-    *{box-sizing:border-box}body{margin:0;background:#f4f7f2;color:var(--ink);font:17px/1.6 system-ui,sans-serif}
-    main{max-width:900px;margin:auto;padding:48px 24px}header{padding:0 0 24px;border-bottom:1px solid var(--line)}
-    .eyebrow{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--green);font-weight:750}
-    h1{font-size:clamp(30px,5vw,46px);line-height:1.15;letter-spacing:-.035em;margin:12px 0 20px}h2{font-size:22px;margin:0 0 12px}
-    p{margin:10px 0}a{color:var(--green);text-underline-offset:3px}nav{display:flex;flex-wrap:wrap;gap:12px 22px;margin-top:18px}
-    .grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin:24px 0}.card{padding:24px;background:white;border:1px solid var(--line);border-radius:14px}
-    .wide{grid-column:1/-1}table{width:100%;border-collapse:collapse}th,td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--line);vertical-align:top}th{font-weight:600;width:45%}
-    .flow{background:#e9f1e7;padding:14px 18px;border-radius:9px;font-size:15px}.note,footer{font-size:14px;color:var(--muted)}strong{font-weight:750}
-    footer{border-top:1px solid var(--line);padding-top:20px}ul{padding-left:22px}a:focus-visible{outline:3px solid #ae7600;outline-offset:4px}
-    @media(max-width:640px){main{padding:30px 18px}.grid{grid-template-columns:1fr}.card{padding:20px}th{width:43%}}
-  </style>
-</head>
-<body>
-<main>
-  <header>
-    <div class="eyebrow">Energy harvesting · Open hardware prototype</div>
-    <h1>Self-Powered IV Curve Tester<br>with Single DSSC</h1>
-    <p>Designed to harvest energy from <strong>one dye-sensitized solar cell</strong>, store it, then measure that same cell using a 16-step load bank, ADS122C04 and ESP32-S3. E-paper retains the result without continuous refresh.</p>
-    <nav aria-label="Project links">
-      <a href="https://github.com/weiweiweiopen/self-powered-iv-curve-tester-with-single-dssc">Source &amp; KiCad files</a>
-      <a href="https://github.com/weiweiweiopen/self-powered-iv-curve-tester-with-single-dssc/releases/latest">Download</a>
-      <a href="schematic.pdf">Schematic PDF</a>
-    </nav>
-  </header>
-  <div class="grid">
-    <section class="card wide">
-      <h2>How can 0.7 V charge it?</h2>
-      <p><strong>U7, AEM10941, boosts the voltage</strong> into three parallel 1.5 F supercapacitors: <strong>4.5 F total</strong>. Its specified cold-start point is about <strong>0.38 V / 3 µW</strong>. This board targets 70% of open-circuit voltage for MPPT.</p>
-      <p>At a simultaneous loaded operating point, <strong>0.7 V × 30 mA = 21 mW</strong>. Energy accumulates with the main electronics off; U8, TPS61023, then supplies 5 V for short operating bursts.</p>
-      <div class="flow">DSSC → K1 → energy harvester → supercapacitors → 5 V boost → controller / relay</div>
-    </section>
-    <section class="card wide">
-      <h2>How long, and how many measurements?</h2>
-      <table aria-label="Planning estimates">
-        <tbody>
-          <tr><th scope="row">Storage thresholds</th><td>Ready 4.37 V · full 4.45 V · cutoff 3.48 V</td></tr>
-          <tr><th scope="row">Empty to full</th><td><strong>About 45–60 minutes</strong></td></tr>
-          <tr><th scope="row">Cutoff to full</th><td><strong>About 17–23 minutes</strong></td></tr>
-          <tr><th scope="row">Measurements per charge</th><td><strong>Roughly 2–5 complete cycles</strong>, assuming 2–5 J per cycle and an ≈11 J conservative usable budget</td></tr>
-        </tbody>
-      </table>
-      <p class="note">Estimates, not measurements. Charge times assume continuous 21 mW under load, 60–80% net charging efficiency and no measurement/display activity. If 0.7 V and 30 mA are Voc and Isc, they cannot be multiplied as usable power: an assumed 0.5–0.7 fill factor gives roughly 1–2 hours from empty. <a href="https://github.com/weiweiweiopen/self-powered-iv-curve-tester-with-single-dssc/blob/main/docs/energy-budget.md">Calculations and assumptions</a>.</p>
-    </section>
-    <section class="card">
-      <h2>What does K1 do?</h2>
-      <ul>
-        <li><strong>Coil off:</strong> connects the cell to the harvester, with no coil holding power.</li>
-        <li><strong>Coil on:</strong> connects the cell to the test loads, separating it from the harvester input during the sweep.</li>
-      </ul>
-      <p>The non-latching 5 V relay draws about <strong>21 mA / 0.105 W</strong> while measuring, from stored energy. Ground remains shared.</p>
-    </section>
-    <section class="card">
-      <h2>Current status</h2>
-      <p><strong>0 unrouted · 0 DRC errors</strong><br>6 existing silkscreen warnings.</p>
-      <p>One current KiCad 10 project with libraries, models, BOM and GPIO definitions.</p>
-      <p class="note">Hardware performance is not yet measured. Firmware is the GPIO/startup layer; the complete measurement application is still pending.</p>
-    </section>
-  </div>
-  <footer>Based on <a href="https://github.com/weiweiweiopen/IVcurve_tester">IVcurve_tester</a>, originally by Marc Dusseiller. <a href="https://github.com/weiweiweiopen/self-powered-iv-curve-tester-with-single-dssc/blob/main/LICENSE">MIT license</a>.</footer>
-</main>
-</body>
-</html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Solar Oracle Walkman 1.0</title><meta name="description" content="Open-source DSSC measurement hardware: KiCad, SLA enclosure CAD, printable parts, firmware and assembly documentation."><style>body{margin:0;background:#f6f5f0;color:#172c27;font:17px/1.65 system-ui,sans-serif}main{max-width:1000px;margin:auto;padding:36px 24px 70px}h1{font-size:clamp(32px,6vw,58px);line-height:1.1}h2{margin-top:2em}a{color:#176b4e}img{max-width:100%;height:auto;border-radius:8px}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}.note{padding:16px 20px;background:#e9ede5;border-left:4px solid #176b4e}li{margin:10px 0}nav a{display:inline-block;margin:0 18px 8px 0}.caption{font-size:14px;color:#50615b}footer{margin-top:50px;border-top:1px solid #bac7bf;padding-top:16px}@media(max-width:600px){main{padding:22px 16px}.pair{gap:8px}}</style></head><body><main>
+<h1>Solar Oracle Walkman 1.0</h1>
+<p>A portable instrument for exploring the electrical identity of handmade dye-sensitized solar cells.</p>
+<img src="images/prototype.jpg" alt="Solar Oracle Walkman physical prototype in the studio">
+<p class="caption">Physical prototype. The photograph does not establish autonomous operation or calibration.</p>
+<nav><a href="https://github.com/weiweiweiopen/self-powered-iv-curve-tester-with-single-dssc">Repository &amp; downloads</a><a href="https://github.com/weiweiweiopen/self-powered-iv-curve-tester-with-single-dssc/blob/main/docs/build-guide.md">Build guide</a><a href="https://github.com/weiweiweiopen/self-powered-iv-curve-tester-with-single-dssc/blob/main/docs/assembly.md">SLA assembly</a></nav>
+<h2>Build from editable sources</h2>
+<p>KiCad schematics and PCB layouts, local libraries, Gerber/drill files, BOM references, FreeCAD and STEP assemblies, two-part SLA print packs, Blender scenes, and board-specific firmware sources.</p>
+<ul><li><strong>CHARGE / ADG706:</strong> current two-capacitor charging hardware paired with R19_CHARGE_SUPERCAP. Complete charging firmware and physical qualification remain open.</li><li><strong>RAW / USB:</strong> the independent USB measurement board paired with R19_RAW. Its firmware has been compiled and checked against the current board; physical validation and calibration remain necessary.</li></ul>
+<p class="note">Open development release, not a production-qualified kit. Both boards have zero unrouted connections and zero schematic/PCB parity differences, but retain ten courtyard-overlap DRC errors. Review the <a href="https://github.com/weiweiweiopen/self-powered-iv-curve-tester-with-single-dssc/blob/main/docs/reproducibility.md">verification results and remaining engineering work</a> before manufacture.</p>
+<h2>Charging concept — front and rear</h2>
+<div class="pair"><img src="images/render-front-charge.png" alt="Charging concept front"><img src="images/render-rear-charge.png" alt="Charging concept rear with two supercapacitors"></div>
+<p class="caption">Murata presentation renders, October 2026. The current manufacturing geometry is defined by the KiCad and R19 source files, not these illustrations.</p>
+<h2>Earlier three-capacitor concept</h2>
+<div class="pair"><img src="images/render-front-3cap.png" alt="Earlier front concept"><img src="images/render-rear-3cap.png" alt="Earlier rear concept with three blue supercapacitors"></div>
+<p class="caption">September 2026 design visualization. Distinct from the current two-capacitor revision.</p>
+<footer>Shih Wei Chieh / Wise Mouse Culture · Based on Marc Dusseiller's I–V tester lineage.<br><a href="https://github.com/weiweiweiopen/self-powered-iv-curve-tester-with-single-dssc/blob/main/THIRD_PARTY_NOTICES.md">License and credits</a> · <a href="legacy-overview.html">Earlier ADS122C04 design overview</a> · <a href="https://weiweiweiopen.github.io/solar-oracle-walkman/">DSSC enrollment / verification library</a></footer>
+</main></body></html>

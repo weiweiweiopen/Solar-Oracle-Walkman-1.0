@@ -1,0 +1,32 @@
+[
+  {
+    "file": "docs/images/prototype.jpg",
+    "source_filename": "input-9a16e7be-596b-4af9-9fe4-0efb15279306.jpg",
+    "provenance": "User-supplied physical prototype photograph, 2026-11-10",
+    "sha256": "c258e68cabe06138a8abc4be16def405bdba635b3ab785571e044d3fe2771650"
+  },
+  {
+    "file": "docs/images/render-front-3cap.png",
+    "source_filename": "hero_sunlight_v2_final.png",
+    "provenance": "Murata presentation assets, 2026-09-30; earlier three-capacitor concept",
+    "sha256": "a89b2b706a067d2334800b7895c32e564cb269ec710ff2c7afc5026336d04407"
+  },
+  {
+    "file": "docs/images/render-rear-3cap.png",
+    "source_filename": "back_final.png",
+    "provenance": "Murata presentation assets, 2026-09-30; earlier three-capacitor concept",
+    "sha256": "8d656aa7ee433d4d389cad0a6fc5f5efcce06e62327663208cf95f733f3fde6b"
+  },
+  {
+    "file": "docs/images/render-front-charge.png",
+    "source_filename": "upright_front.png",
+    "provenance": "Murata glass-RFID presentation, 2026-10-30; two-capacitor charging concept",
+    "sha256": "36ffb24726cd9918d9fceeaf4589f878a67e9a2c62fd92c445fae19755ca67e5"
+  },
+  {
+    "file": "docs/images/render-rear-charge.png",
+    "source_filename": "upright_back.png",
+    "provenance": "Murata glass-RFID presentation, 2026-10-30; two-capacitor charging concept",
+    "sha256": "41f51dc9fcb26e9890d33bf766daa4b1c07e77fea311db67e662f02c85db9234"
+  }
+]

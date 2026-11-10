@@ -1,0 +1,17 @@
+Ref,阻值_維持原設計,MPN,封裝_英制,尺寸_mm,額定功率,精度,原廠規格,通路庫存
+R1,1M CANDIDATE,RC1206FR-071ML,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-071ML,NOT_CHECKED
+R2,20k CANDIDATE,RC1206FR-0720KL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0720KL,NOT_CHECKED
+R3,8.2k CANDIDATE,RC1206FR-078K2L,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-078K2L,NOT_CHECKED
+R4,4.3k CANDIDATE,RC1206FR-074K3L,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-074K3L,NOT_CHECKED
+R5,2.2k CANDIDATE,RC1206FR-072K2L,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-072K2L,NOT_CHECKED
+R6,1k CANDIDATE,RC1206FR-071KL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-071KL,NOT_CHECKED
+R7,750 CANDIDATE,RC1206FR-07750RL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07750RL,NOT_CHECKED
+R8,470 CANDIDATE,RC1206FR-07470RL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07470RL,NOT_CHECKED
+R9,330 CANDIDATE,RC1206FR-07330RL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07330RL,NOT_CHECKED
+R10,220 CANDIDATE,RC1206FR-07220RL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07220RL,NOT_CHECKED
+R11,150 CANDIDATE,RC1206FR-07150RL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07150RL,NOT_CHECKED
+R12,100 CANDIDATE,RC1206FR-07100RL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-07100RL,NOT_CHECKED
+R13,75 CANDIDATE,RC1206FR-0775RL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0775RL,NOT_CHECKED
+R14,68 CANDIDATE,RC1206FR-0768RL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0768RL,NOT_CHECKED
+R15,62 CANDIDATE,RC1206FR-0762RL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0762RL,NOT_CHECKED
+R16,56 CANDIDATE,RC1206FR-0756RL,1206,3.1 x 1.6 (nominal 3216),0.25W @70C,1%,https://www.yageogroup.com/component-documentation/download/specsheet/RC1206FR-0756RL,NOT_CHECKED

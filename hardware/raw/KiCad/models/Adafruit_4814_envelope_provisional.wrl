@@ -1,0 +1,18 @@
+#VRML V2.0 utf8
+# Adafruit 4814 VISUAL ENVELOPE, not an official 3D model or fabrication datum.
+# XY 61.5 x 40.66 mm follows the current KiCad footprint F.Fab outer outline.
+# The Adafruit published dimension excluding mounting holes is 61.5 x 31.4 x 6.6 mm.
+# Z stack and screen region are schematic approximations; verify real module/headers.
+# KiCad model scale is 1/2.54, coordinates below are in mm; origin matches J3 footprint.
+Transform { translation 30.75 -20.33 9.31 children [
+  Shape { appearance Appearance { material Material { diffuseColor 0.08 0.30 0.18 } }
+    geometry Box { size 61.5 40.66 1.6 } } ] }
+Transform { translation 30.75 -20.33 10.71 children [
+  Shape { appearance Appearance { material Material { diffuseColor 0.89 0.88 0.79 } }
+    geometry Box { size 49 26 1.2 } } ] }
+Transform { translation 25.40 -9.6525 4.255 children [
+  Shape { appearance Appearance { material Material { diffuseColor 0.05 0.05 0.055 } }
+    geometry Box { size 38.1 3.54 8.51 } } ] }
+Transform { translation 25.40 -29.9725 4.255 children [
+  Shape { appearance Appearance { material Material { diffuseColor 0.05 0.05 0.055 } }
+    geometry Box { size 38.1 3.54 8.51 } } ] }

@@ -1,0 +1,81 @@
+{
+  "revision": "R19_CHARGE_SUPERCAP",
+  "variant": "charge-adg706",
+  "fit_per_side": 0.2,
+  "PCB_thickness": 1.6,
+  "glass_centre_x": 37.9,
+  "glass_centre_y": -33,
+  "upper_glass_widths": [
+    66,
+    70
+  ],
+  "glass_length": 60,
+  "glass_thickness_each": 1.6,
+  "zebra_free": 3.0,
+  "zebra_loaded": 2.7,
+  "pressure_bottom": 4.3,
+  "pressure_width": 3.2,
+  "pressure_length": 50,
+  "outer_main_xy": [
+    -3,
+    -134,
+    84,
+    142.4
+  ],
+  "corner_radius": 4,
+  "roof_z": 15,
+  "roof_thickness": 2,
+  "main_floor_z": -9.6,
+  "floor_thickness": 2,
+  "wall": 2.8,
+  "split_z": 3.6,
+  "design_revision": "R19_WINDOW_END_ROWS_FREE_GLASS_SEAT",
+  "magnet_centres": [
+    [
+      11.9,
+      1.1
+    ],
+    [
+      29.2,
+      1.1
+    ],
+    [
+      46.6,
+      1.1
+    ],
+    [
+      63.9,
+      1.1
+    ],
+    [
+      11.9,
+      -67.1
+    ],
+    [
+      29.2,
+      -67.1
+    ],
+    [
+      46.6,
+      -67.1
+    ],
+    [
+      63.9,
+      -67.1
+    ]
+  ],
+  "magnet_diameter": 5,
+  "magnet_thickness": 2.7,
+  "magnet_pocket_diameter": 5.4,
+  "magnet_boss_radius": 3.9,
+  "magnet_stop_z": 8,
+  "magnet_face_gap": 2.05,
+  "front_moving_y": 0.6,
+  "rear_moving_y": -66.6,
+  "PCB_install_angle_deg": 0,
+  "PCB_install_rear_offset": 71.2,
+  "PCB_install_lift_mm": 1.0,
+  "rear_frame_under_PCB_clearance": 0.25,
+  "rear_moving_magnet_to_PCB_clearance": 0.2,
+  "note": "Two printed parts. Nominal 10% compression is geometrical; magnet force, print flatness and electrical resistance require a physical trial."
+}
