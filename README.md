@@ -4,7 +4,7 @@
 
 **A portable, open-source instrument for exploring the electrical identity of handmade dye-sensitized solar cells (DSSCs).** Solar Oracle Walkman brings together I–V measurement, an e-paper display, interchangeable glass cells and a transparent SLA enclosure. A charging variant investigates harvesting energy from the same cell that is measured.
 
-[Build guide](docs/build-guide.md) · [SLA assembly](docs/assembly.md) · [Verification and limitations](docs/reproducibility.md) · [Image gallery](docs/gallery.md) · [DSSC enrollment / verification library](https://github.com/weiweiweiopen/solar-oracle-walkman)
+[Build guide](docs/build-guide.md) · [SLA assembly](docs/assembly.md) · [Verification and limitations](docs/reproducibility.md) · [Image gallery](docs/gallery.md) · [DSSC enrollment / verification library](https://github.com/weiweiweiopen/Solar-Oracle-Walkman-DSSC-Enrollment-and-Verification-Library)
 
 The photograph shows a physical prototype. The source packages below distinguish the USB measurement board, the charging-board development revision and the earlier three-capacitor design. **This is an open development release, not a certified or fully validated production kit.**
 
@@ -73,4 +73,4 @@ Geometry checks and software compilation do not establish printed fit, electrica
 
 Developed by Shih Wei Chieh / Wise Mouse Culture, building on [Marc Dusseiller's I–V tester lineage](https://github.com/weiweiweiopen/IVcurve_tester). Existing MIT attribution is preserved in [LICENSE](LICENSE). Third-party libraries and model assets retain their own terms; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
-The separate [Solar Oracle Walkman data library](https://weiweiweiopen.github.io/solar-oracle-walkman/) provides the measurement-library context; it is not the hardware manufacturing package.
+The separate [Solar Oracle Walkman data library](https://weiweiweiopen.github.io/Solar-Oracle-Walkman-DSSC-Enrollment-and-Verification-Library/) provides the measurement-library context; it is not the hardware manufacturing package.
